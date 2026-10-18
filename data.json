@@ -1,0 +1,2532 @@
+{
+ "updated": "2026-10-18",
+ "flint": {
+  "name": "Flint Academy",
+  "addr": "801 E I-20, Grand Prairie, TX 75052",
+  "lat": 32.6718878,
+  "lng": -96.9959732
+ },
+ "criteria": "$500K max \u00b7 3+ bd \u00b7 2+ ba \u00b7 2,250+ sq ft \u00b7 0.30+ acre lot \u00b7 within ~15\u201320 min of Flint Academy",
+ "texasAvg": {
+  "violent": 348,
+  "property": 1809
+ },
+ "crimeSource": "FBI Crime Data Explorer, agency summarized rates per 100K",
+ "crimeYear": 2025,
+ "homes": [
+  {
+   "id": "58525051",
+   "street": "607 Biscayne Dr",
+   "city": "Mansfield",
+   "zip": "76063",
+   "price": 449900,
+   "beds": 5,
+   "baths": 2,
+   "sqft": 2729,
+   "lot": 0.34,
+   "story": "Multi",
+   "miles": 10.9,
+   "drive": 25,
+   "openHouse": "",
+   "dom": 22,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
+   "lat": 32.572098,
+   "lng": -97.14076,
+   "schools": [
+    {
+     "name": "Alice Ponder Elementary School",
+     "grades": "PK-4",
+     "rating": 7
+    },
+    {
+     "name": "Rogene Worley Middle School",
+     "grades": "7-8",
+     "rating": 7
+    },
+    {
+     "name": "Mansfield Legacy High School",
+     "grades": "9-12",
+     "rating": 5
+    }
+   ],
+   "schoolAvg": 6.3,
+   "financing": "assumable",
+   "financingNote": "Qualifying veterans have the opportunity to assume the existing low-interest VA loan, subject to lender approval. Also: Preferred interest rate available if buyer uses the preferred lender.",
+   "note": "",
+   "crime": {
+    "violent": 106,
+    "property": 1191
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "27211523",
+   "street": "510 N Clark Rd",
+   "city": "Duncanville",
+   "zip": "75116",
+   "price": 475000,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 2343,
+   "lot": 0.51,
+   "story": "Single",
+   "miles": 3.2,
+   "drive": 10,
+   "openHouse": "",
+   "dom": 113,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/510-N-Clark-Rd-Duncanville-TX-75116/27211523_zpid/",
+   "lat": 32.658733,
+   "lng": -96.94259,
+   "schools": [
+    {
+     "name": "Cj & Anne Hyman Elementary School",
+     "grades": "PK-4",
+     "rating": 4
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "incentive",
+   "financingNote": "Special Financing Available! Qualified buyers may be eligible for 5.85% financing, FHA, VA & USDA loans, plus 3.5% down payment and closing cost assistance (non-repayable grant).",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26989621",
+   "street": "910 Kings Ct",
+   "city": "Duncanville",
+   "zip": "75137",
+   "price": 447000,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 3359,
+   "lot": 0.35,
+   "story": "Multi",
+   "miles": 4.3,
+   "drive": 12,
+   "openHouse": "",
+   "dom": 214,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/910-Kings-Ct-Duncanville-TX-75137/26989621_zpid/",
+   "lat": 32.642864,
+   "lng": -96.930855,
+   "schools": [
+    {
+     "name": "H Bob Daniel Sr Intermediate School",
+     "grades": "5-6",
+     "rating": 2
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.3,
+   "financing": "incentive",
+   "financingNote": "Seller concession could be availabe with asking price.",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "465746404",
+   "street": "2836 S Lakeview Dr",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 460000,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 2674,
+   "lot": 1.05,
+   "story": "Single",
+   "miles": 7.0,
+   "drive": 17,
+   "openHouse": "Daily Sun, 10/18\u2013Thu, 10/22, 9 AM\u20137 PM",
+   "dom": 16,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/2836-S-Lakeview-Dr-Cedar-Hill-TX-75104/465746404_zpid/",
+   "lat": 32.57103,
+   "lng": -97.0083,
+   "schools": [
+    {
+     "name": "Lakeridge Elementary School",
+     "grades": "PK-5",
+     "rating": 4
+    },
+    {
+     "name": "W S Permenter Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.3,
+   "financing": "incentive",
+   "financingNote": "INCREDIBLE BUYER INCENTIVES: $7,000 MORTGAGE CONCESSION. Opendoor Home Loans will contribute up to $7,000 towards a permanent interest rate buy-down if you finance with Opendoor Home Loans LLC.",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "61870178",
+   "street": "1720 Cattail Creek Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 360000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2744,
+   "lot": 0.34,
+   "story": "Multi",
+   "miles": 8.2,
+   "drive": 20,
+   "openHouse": "",
+   "dom": 44,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1720-Cattail-Creek-Dr-Desoto-TX-75115/61870178_zpid/",
+   "lat": 32.58343,
+   "lng": -96.90229,
+   "schools": [
+    {
+     "name": "Curtistene S McCowan Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.5,
+   "financing": "incentive",
+   "financingNote": "Take advantage of closing cost assistance and lender credits through our preferred lender to help lower your upfront costs and bring less money to closing!",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "248829998",
+   "street": "908 Heath Creek Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 480000,
+   "beds": 5,
+   "baths": 4,
+   "sqft": 3948,
+   "lot": 0.35,
+   "story": "Multi",
+   "miles": 8.6,
+   "drive": 21,
+   "openHouse": "Daily Sun, 10/18\u2013Thu, 10/22, 9 AM\u20137 PM",
+   "dom": 9,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/908-Heath-Creek-Dr-Desoto-TX-75115/248829998_zpid/",
+   "lat": 32.595016,
+   "lng": -96.87894,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "incentive",
+   "financingNote": "INCREDIBLE BUYER INCENTIVES: $7,000 MORTGAGE CONCESSION. Opendoor Home Loans will contribute up to $7,000 towards a permanent interest rate buy-down if you finance with Opendoor Home Loans LLC.",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26978225",
+   "street": "210 Squirebrook Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 395000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2725,
+   "lot": 0.54,
+   "story": "Single",
+   "miles": 8.9,
+   "drive": 21,
+   "openHouse": "",
+   "dom": 120,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/210-Squirebrook-Dr-Desoto-TX-75115/26978225_zpid/",
+   "lat": 32.610928,
+   "lng": -96.8606,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "incentive",
+   "financingNote": "Now offered at $395,000, with a $3,900 lender credit available when financing through New American Funding, subject to lender approval and applicable program terms.",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "67953338",
+   "street": "106 S Clark Rd",
+   "city": "Duncanville",
+   "zip": "75116",
+   "price": 330000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2349,
+   "lot": 0.3,
+   "story": "Multi",
+   "miles": 3.5,
+   "drive": 10,
+   "openHouse": "",
+   "dom": 175,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/106-S-Clark-Rd-Duncanville-TX-75116/67953338_zpid/",
+   "lat": 32.649986,
+   "lng": -96.942535,
+   "schools": [
+    {
+     "name": "H Bob Daniel Sr Intermediate School",
+     "grades": "5-6",
+     "rating": 2
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "27211488",
+   "street": "1216 Los Altos Ln",
+   "city": "Duncanville",
+   "zip": "75116",
+   "price": 479000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 3454,
+   "lot": 1.32,
+   "story": "Single",
+   "miles": 3.6,
+   "drive": 10,
+   "openHouse": "",
+   "dom": 46,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1216-Los-Altos-Ln-Duncanville-TX-75116/27211488_zpid/",
+   "lat": 32.65745,
+   "lng": -96.937126,
+   "schools": [
+    {
+     "name": "Cj & Anne Hyman Elementary School",
+     "grades": "PK-4",
+     "rating": 4
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "465227323",
+   "street": "1606 Avenue C",
+   "city": "Grand Prairie",
+   "zip": "75051",
+   "price": 475000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2302,
+   "lot": 0.34,
+   "story": "Single",
+   "miles": 3.7,
+   "drive": 11,
+   "openHouse": "",
+   "dom": 36,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1606-Avenue-C-Grand-Prairie-TX-75051/465227323_zpid/",
+   "lat": 32.724247,
+   "lng": -96.97938,
+   "schools": [
+    {
+     "name": "Hobbs Williams Elementary School",
+     "grades": "PK-5",
+     "rating": 3
+    },
+    {
+     "name": "BILL ARNOLD MIDDLE",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Young Women's Leadership Academy at Bill Arnold",
+     "grades": "11-12",
+     "rating": 10
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26989409",
+   "street": "919 Green Hills Rd",
+   "city": "Duncanville",
+   "zip": "75137",
+   "price": 419900,
+   "beds": 5,
+   "baths": 5,
+   "sqft": 3141,
+   "lot": 0.37,
+   "story": "Multi",
+   "miles": 3.9,
+   "drive": 11,
+   "openHouse": "",
+   "dom": 37,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/919-Green-Hills-Rd-Duncanville-TX-75137/26989409_zpid/",
+   "lat": 32.642345,
+   "lng": -96.93852,
+   "schools": [
+    {
+     "name": "H Bob Daniel Sr Intermediate School",
+     "grades": "5-6",
+     "rating": 2
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26915432",
+   "street": "5210 Cliff Haven Dr",
+   "city": "Dallas",
+   "zip": "75236",
+   "price": 490000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2964,
+   "lot": 0.64,
+   "story": "Multi",
+   "miles": 3.9,
+   "drive": 11,
+   "openHouse": "Sun, 10/18 1 PM\u20134 PM",
+   "dom": 142,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/5210-Cliff-Haven-Dr-Dallas-TX-75236/26915432_zpid/",
+   "lat": 32.68334,
+   "lng": -96.93062,
+   "schools": [
+    {
+     "name": "James R Bilhartz Jr Elementary School",
+     "grades": "PK-4",
+     "rating": 2
+    },
+    {
+     "name": "G W Kennemer Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26885145",
+   "street": "5731 Mona Ln",
+   "city": "Dallas",
+   "zip": "75236",
+   "price": 499000,
+   "beds": 4,
+   "baths": 5,
+   "sqft": 3905,
+   "lot": 0.58,
+   "story": "Multi",
+   "miles": 4.3,
+   "drive": 12,
+   "openHouse": "",
+   "dom": 238,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/5731-Mona-Ln-Dallas-TX-75236/26885145_zpid/",
+   "lat": 32.67677,
+   "lng": -96.92184,
+   "schools": [
+    {
+     "name": "James R Bilhartz Jr Elementary School",
+     "grades": "PK-4",
+     "rating": 2
+    },
+    {
+     "name": "G W Kennemer Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "27204014",
+   "street": "406 Dula Cir",
+   "city": "Duncanville",
+   "zip": "75116",
+   "price": 265000,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 2454,
+   "lot": 0.43,
+   "story": "Multi",
+   "miles": 4.7,
+   "drive": 13,
+   "openHouse": "",
+   "dom": 94,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/406-Dula-Cir-Duncanville-TX-75116/27204014_zpid/",
+   "lat": 32.67055,
+   "lng": -96.91457,
+   "schools": [
+    {
+     "name": "James R Bilhartz Jr Elementary School",
+     "grades": "PK-4",
+     "rating": 2
+    },
+    {
+     "name": "G W Kennemer Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26988646",
+   "street": "1116 Spring Lake Dr",
+   "city": "Duncanville",
+   "zip": "75137",
+   "price": 450000,
+   "beds": 6,
+   "baths": 4,
+   "sqft": 3695,
+   "lot": 0.82,
+   "story": "Multi",
+   "miles": 4.7,
+   "drive": 13,
+   "openHouse": "",
+   "dom": 103,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1116-Spring-Lake-Dr-Duncanville-TX-75137/26988646_zpid/",
+   "lat": 32.6393,
+   "lng": -96.926,
+   "schools": [
+    {
+     "name": "H Bob Daniel Sr Intermediate School",
+     "grades": "5-6",
+     "rating": 2
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "338046024",
+   "street": "1119 Dula Cir",
+   "city": "Duncanville",
+   "zip": "75116",
+   "price": 399999,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2735,
+   "lot": 1.15,
+   "story": "Single",
+   "miles": 4.8,
+   "drive": 13,
+   "openHouse": "",
+   "dom": 33,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1119-Dula-Cir-Duncanville-TX-75116/338046024_zpid/",
+   "lat": 32.66966,
+   "lng": -96.91396,
+   "schools": [
+    {
+     "name": "James R Bilhartz Jr Elementary School",
+     "grades": "PK-4",
+     "rating": 2
+    },
+    {
+     "name": "G W Kennemer Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26987917",
+   "street": "1011 Briar Hill Cir",
+   "city": "Duncanville",
+   "zip": "75137",
+   "price": 435000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2789,
+   "lot": 0.3,
+   "story": "Single",
+   "miles": 4.9,
+   "drive": 13,
+   "openHouse": "",
+   "dom": 199,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1011-Briar-Hill-Cir-Duncanville-TX-75137/26987917_zpid/",
+   "lat": 32.62494,
+   "lng": -96.93324,
+   "schools": [
+    {
+     "name": "H Bob Daniel Sr Intermediate School",
+     "grades": "5-6",
+     "rating": 2
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "67966318",
+   "street": "123 Crestridge Dr #11",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 355000,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 2411,
+   "lot": 10.86,
+   "story": "Single",
+   "miles": 5.4,
+   "drive": 14,
+   "openHouse": "",
+   "dom": 8,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/123-Crestridge-Dr-11-Cedar-Hill-TX-75104/67966318_zpid/",
+   "lat": 32.606716,
+   "lng": -96.9453,
+   "schools": [
+    {
+     "name": "High Pointe Elementary School",
+     "grades": "PK-5",
+     "rating": 3
+    },
+    {
+     "name": "Bessie Coleman Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26991587",
+   "street": "523 Softwood Dr",
+   "city": "Duncanville",
+   "zip": "75137",
+   "price": 429300,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2968,
+   "lot": 0.76,
+   "story": "Multi",
+   "miles": 5.5,
+   "drive": 14,
+   "openHouse": "",
+   "dom": 338,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/523-Softwood-Dr-Duncanville-TX-75137/26991587_zpid/",
+   "lat": 32.623398,
+   "lng": -96.92189,
+   "schools": [
+    {
+     "name": "S Gus Alexander Jr Elementary School",
+     "grades": "PK-4",
+     "rating": 3
+    },
+    {
+     "name": "William High Byrd Middle School",
+     "grades": "7-8",
+     "rating": 2
+    },
+    {
+     "name": "Duncanville High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.7,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 260,
+    "property": 2041
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "27220217",
+   "street": "175 E Pleasant Run Rd",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 490000,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 2554,
+   "lot": 1.18,
+   "story": "Single",
+   "miles": 5.6,
+   "drive": 14,
+   "openHouse": "",
+   "dom": 66,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/175-E-Pleasant-Run-Rd-Cedar-Hill-TX-75104/27220217_zpid/",
+   "lat": 32.604847,
+   "lng": -96.9423,
+   "schools": [
+    {
+     "name": "Bessie Coleman Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26953079",
+   "street": "314 Houston St",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 447500,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2646,
+   "lot": 0.47,
+   "story": "Multi",
+   "miles": 6.3,
+   "drive": 16,
+   "openHouse": "",
+   "dom": 57,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/314-Houston-St-Cedar-Hill-TX-75104/26953079_zpid/",
+   "lat": 32.587086,
+   "lng": -96.95673,
+   "schools": [
+    {
+     "name": "Lakeridge Elementary School",
+     "grades": "PK-5",
+     "rating": 4
+    },
+    {
+     "name": "W S Permenter Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "79930425",
+   "street": "951 Zachary Dr",
+   "city": "Arlington",
+   "zip": "76002",
+   "price": 359990,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2360,
+   "lot": 0.33,
+   "story": "Multi",
+   "miles": 6.9,
+   "drive": 17,
+   "openHouse": "",
+   "dom": 21,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/951-Zachary-Dr-Arlington-TX-76002/79930425_zpid/",
+   "lat": 32.611645,
+   "lng": -97.09086,
+   "schools": [
+    {
+     "name": "Della Icenhower Intermediate School",
+     "grades": "5-6",
+     "rating": 6
+    },
+    {
+     "name": "James Coble Middle School",
+     "grades": "7-8",
+     "rating": 7
+    },
+    {
+     "name": "Mansfield Timberview High School",
+     "grades": "9-12",
+     "rating": 6
+    }
+   ],
+   "schoolAvg": 6.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "448062812",
+   "street": "2828 S Lakeview Dr",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 499900,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 2554,
+   "lot": 1.05,
+   "story": "Multi",
+   "miles": 7.0,
+   "drive": 17,
+   "openHouse": "",
+   "dom": 105,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/2828-S-Lakeview-Dr-Cedar-Hill-TX-75104/448062812_zpid/",
+   "lat": 32.571114,
+   "lng": -97.00778,
+   "schools": [
+    {
+     "name": "Lakeridge Elementary School",
+     "grades": "PK-5",
+     "rating": 4
+    },
+    {
+     "name": "W S Permenter Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "2070094007",
+   "street": "2853 S Lakeview Dr",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": null,
+   "beds": 4,
+   "baths": 5,
+   "sqft": 4308,
+   "lot": 1.1,
+   "story": "Multi",
+   "miles": 7.0,
+   "drive": 17,
+   "openHouse": "",
+   "dom": 5,
+   "status": "Auction",
+   "url": "https://www.zillow.com/homedetails/2853-S-Lakeview-Dr-Cedar-Hill-TX-75104/2070094007_zpid/",
+   "lat": 32.571777,
+   "lng": -97.00952,
+   "schools": [
+    {
+     "name": "Lakeridge Elementary School",
+     "grades": "PK-5",
+     "rating": 4
+    },
+    {
+     "name": "W S Permenter Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "Auction \u2014 sold as-is",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26957103",
+   "street": "1018 Randy Rd",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 399900,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 2319,
+   "lot": 0.63,
+   "story": "Single",
+   "miles": 7.1,
+   "drive": 18,
+   "openHouse": "",
+   "dom": 38,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1018-Randy-Rd-Cedar-Hill-TX-75104/26957103_zpid/",
+   "lat": 32.570908,
+   "lng": -96.97064,
+   "schools": [
+    {
+     "name": "Lakeridge Elementary School",
+     "grades": "PK-5",
+     "rating": 4
+    },
+    {
+     "name": "W S Permenter Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29084661",
+   "street": "714 S Deerfield Cir",
+   "city": "Arlington",
+   "zip": "76015",
+   "price": 369900,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 2281,
+   "lot": 0.57,
+   "story": "Single",
+   "miles": 7.1,
+   "drive": 18,
+   "openHouse": "",
+   "dom": 149,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/714-S-Deerfield-Cir-Arlington-TX-76015/29084661_zpid/",
+   "lat": 32.68566,
+   "lng": -97.11674,
+   "schools": [
+    {
+     "name": "Foster Elementary School",
+     "grades": "PK-6",
+     "rating": 5
+    },
+    {
+     "name": "Gunn Junior High School",
+     "grades": "6-8",
+     "rating": 7
+    },
+    {
+     "name": "Bowie High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "80502509",
+   "street": "1125 Wishing Well Ct",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 450000,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 2941,
+   "lot": 0.35,
+   "story": "Multi",
+   "miles": 7.2,
+   "drive": 18,
+   "openHouse": "",
+   "dom": 252,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1125-Wishing-Well-Ct-Cedar-Hill-TX-75104/80502509_zpid/",
+   "lat": 32.567913,
+   "lng": -97.010315,
+   "schools": [
+    {
+     "name": "Lakeridge Elementary School",
+     "grades": "PK-5",
+     "rating": 4
+    },
+    {
+     "name": "W S Permenter Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26983750",
+   "street": "1528 Registry Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 369000,
+   "beds": 5,
+   "baths": 5,
+   "sqft": 3789,
+   "lot": 0.3,
+   "story": "Multi",
+   "miles": 7.5,
+   "drive": 18,
+   "openHouse": "",
+   "dom": 62,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1528-Registry-Dr-Desoto-TX-75115/26983750_zpid/",
+   "lat": 32.601288,
+   "lng": -96.897194,
+   "schools": [
+    {
+     "name": "Curtistene S McCowan Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26780272",
+   "street": "3014 Gladiolus Ln",
+   "city": "Dallas",
+   "zip": "75233",
+   "price": 365000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 3010,
+   "lot": 1.05,
+   "story": "Single",
+   "miles": 7.5,
+   "drive": 18,
+   "openHouse": "",
+   "dom": 288,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/3014-Gladiolus-Ln-Dallas-TX-75233/26780272_zpid/",
+   "lat": 32.693794,
+   "lng": -96.86992,
+   "schools": [
+    {
+     "name": "Daniel Webster Elementary School",
+     "grades": "PK-5",
+     "rating": 4
+    },
+    {
+     "name": "T W Browne Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Justin F Kimball High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26980988",
+   "street": "636 Bent Creek Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 459000,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 3567,
+   "lot": 0.31,
+   "story": "Multi",
+   "miles": 7.8,
+   "drive": 19,
+   "openHouse": "Sun, 10/18 2 PM\u20134 PM",
+   "dom": 136,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/636-Bent-Creek-Dr-Desoto-TX-75115/26980988_zpid/",
+   "lat": 32.59883,
+   "lng": -96.89283,
+   "schools": [
+    {
+     "name": "Curtistene S McCowan Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29022061",
+   "street": "12008 Saddlehorn Ln",
+   "city": "Mansfield",
+   "zip": "76063",
+   "price": 415999,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 2455,
+   "lot": 0.61,
+   "story": "Single",
+   "miles": 7.9,
+   "drive": 19,
+   "openHouse": "",
+   "dom": 144,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/12008-Saddlehorn-Ln-Mansfield-TX-76063/29022061_zpid/",
+   "lat": 32.588932,
+   "lng": -97.08959,
+   "schools": [
+    {
+     "name": "Mary Orr Intermediate School",
+     "grades": "5-6",
+     "rating": 7
+    },
+    {
+     "name": "Rogene Worley Middle School",
+     "grades": "7-8",
+     "rating": 7
+    },
+    {
+     "name": "Mansfield High School",
+     "grades": "9-12",
+     "rating": 7
+    }
+   ],
+   "schoolAvg": 7.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 106,
+    "property": 1191
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29013850",
+   "street": "1110 Western Blvd",
+   "city": "Arlington",
+   "zip": "76013",
+   "price": 365000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2434,
+   "lot": 0.33,
+   "story": "Single",
+   "miles": 7.9,
+   "drive": 19,
+   "openHouse": "",
+   "dom": 101,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1110-Western-Blvd-Arlington-TX-76013/29013850_zpid/",
+   "lat": 32.716427,
+   "lng": -97.12078,
+   "schools": [
+    {
+     "name": "South Davis Elementary School",
+     "grades": "PK-6",
+     "rating": 4
+    },
+    {
+     "name": "Bailey Junior High School",
+     "grades": "7-8",
+     "rating": 5
+    },
+    {
+     "name": "Arlington High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 4.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26980879",
+   "street": "1112 W Pleasant Run Rd",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 430000,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 2495,
+   "lot": 0.93,
+   "story": "Single",
+   "miles": 8.0,
+   "drive": 19,
+   "openHouse": "",
+   "dom": 113,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1112-W-Pleasant-Run-Rd-Desoto-TX-75115/26980879_zpid/",
+   "lat": 32.603596,
+   "lng": -96.8852,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26976747",
+   "street": "822 Longmeadow Ct",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 429900,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2520,
+   "lot": 0.46,
+   "story": "Single",
+   "miles": 8.3,
+   "drive": 20,
+   "openHouse": "",
+   "dom": 215,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/822-Longmeadow-Ct-Desoto-TX-75115/26976747_zpid/",
+   "lat": 32.60545,
+   "lng": -96.876144,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "67953785",
+   "street": "1105 Marisa Ln",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 449900,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 4434,
+   "lot": 0.31,
+   "story": "Multi",
+   "miles": 8.4,
+   "drive": 20,
+   "openHouse": "",
+   "dom": 41,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1105-Marisa-Ln-Desoto-TX-75115/67953785_zpid/",
+   "lat": 32.60931,
+   "lng": -96.872246,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26978407",
+   "street": "1430 Marlene Pl",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 354900,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 2547,
+   "lot": 0.39,
+   "story": "Single",
+   "miles": 8.5,
+   "drive": 21,
+   "openHouse": "",
+   "dom": 47,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1430-Marlene-Pl-Desoto-TX-75115/26978407_zpid/",
+   "lat": 32.617107,
+   "lng": -96.86434,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26978459",
+   "street": "1340 Marble Canyon Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 389900,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 2800,
+   "lot": 0.35,
+   "story": "Single",
+   "miles": 8.6,
+   "drive": 21,
+   "openHouse": "",
+   "dom": 16,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1340-Marble-Canyon-Dr-Desoto-TX-75115/26978459_zpid/",
+   "lat": 32.61419,
+   "lng": -96.86589,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26980366",
+   "street": "620 Spinner Rd",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 405000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2568,
+   "lot": 1,
+   "story": "Single",
+   "miles": 9.0,
+   "drive": 21,
+   "openHouse": "",
+   "dom": 12,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/620-Spinner-Rd-Desoto-TX-75115/26980366_zpid/",
+   "lat": 32.59682,
+   "lng": -96.87053,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "28936622",
+   "street": "800 Briarwood Blvd",
+   "city": "Arlington",
+   "zip": "76013",
+   "price": 369900,
+   "beds": 5,
+   "baths": 3,
+   "sqft": 2283,
+   "lot": 0.31,
+   "story": "Single",
+   "miles": 9.0,
+   "drive": 22,
+   "openHouse": "",
+   "dom": 35,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/800-Briarwood-Blvd-Arlington-TX-76013/28936622_zpid/",
+   "lat": 32.72732,
+   "lng": -97.13652,
+   "schools": [
+    {
+     "name": "Swift Elementary School",
+     "grades": "PK-6",
+     "rating": 4
+    },
+    {
+     "name": "Bailey Junior High School",
+     "grades": "7-8",
+     "rating": 5
+    },
+    {
+     "name": "Arlington High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 4.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "27215749",
+   "street": "500 Spinner Rd",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 439900,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2846,
+   "lot": 1.04,
+   "story": "Single",
+   "miles": 9.1,
+   "drive": 22,
+   "openHouse": "",
+   "dom": 5,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/500-Spinner-Rd-Desoto-TX-75115/27215749_zpid/",
+   "lat": 32.597576,
+   "lng": -96.86587,
+   "schools": [
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.5,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "26825051",
+   "street": "809 Wood River Rd",
+   "city": "Dallas",
+   "zip": "75232",
+   "price": 347500,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2357,
+   "lot": 0.32,
+   "story": "Multi",
+   "miles": 9.3,
+   "drive": 22,
+   "openHouse": "",
+   "dom": 56,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/809-Wood-River-Rd-Dallas-TX-75232/26825051_zpid/",
+   "lat": 32.676613,
+   "lng": -96.83612,
+   "schools": [
+    {
+     "name": "Adelle Turner Elementary School",
+     "grades": "PK-5",
+     "rating": 5
+    },
+    {
+     "name": "Judge Louis A Bedford Jr Law Academy",
+     "grades": "6-8",
+     "rating": 3
+    },
+    {
+     "name": "David W Carter High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.7,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29022319",
+   "street": "2408 Winewood Ln",
+   "city": "Arlington",
+   "zip": "76013",
+   "price": 439999,
+   "beds": 5,
+   "baths": 3,
+   "sqft": 2602,
+   "lot": 0.3,
+   "story": "Single",
+   "miles": 9.3,
+   "drive": 22,
+   "openHouse": "",
+   "dom": 66,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/2408-Winewood-Ln-Arlington-TX-76013/29022319_zpid/",
+   "lat": 32.71716,
+   "lng": -97.1475,
+   "schools": [
+    {
+     "name": "Hill Elementary School",
+     "grades": "PK-6",
+     "rating": 7
+    },
+    {
+     "name": "Bailey Junior High School",
+     "grades": "7-8",
+     "rating": 5
+    },
+    {
+     "name": "Arlington High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "69675471",
+   "street": "1607 Willow Ln",
+   "city": "Cedar Hill",
+   "zip": "75104",
+   "price": 410000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 3277,
+   "lot": 0.34,
+   "story": "Multi",
+   "miles": 9.4,
+   "drive": 22,
+   "openHouse": "",
+   "dom": 138,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1607-Willow-Ln-Cedar-Hill-TX-75104/69675471_zpid/",
+   "lat": 32.557426,
+   "lng": -96.907646,
+   "schools": [
+    {
+     "name": "Plummer Elementary School",
+     "grades": "PK-5",
+     "rating": 3
+    },
+    {
+     "name": "W S Permenter Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Cedar Hill High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 155,
+    "property": 1718
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "461753359",
+   "street": "1903 Spirit Walk",
+   "city": "Mansfield",
+   "zip": "76063",
+   "price": 434999,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2976,
+   "lot": 0.49,
+   "story": "Multi",
+   "miles": 9.6,
+   "drive": 23,
+   "openHouse": "",
+   "dom": 1,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/1903-Spirit-Walk-Mansfield-TX-76063/461753359_zpid/",
+   "lat": 32.6048,
+   "lng": -97.140396,
+   "schools": [
+    {
+     "name": "Roberta Tipps Elementary School",
+     "grades": "PK-4",
+     "rating": 9
+    },
+    {
+     "name": "Brooks Wester Middle School",
+     "grades": "6-8",
+     "rating": 9
+    },
+    {
+     "name": "Summit High School",
+     "grades": "9-12",
+     "rating": 5
+    }
+   ],
+   "schoolAvg": 7.7,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 106,
+    "property": 1191
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "336890564",
+   "street": "736 Candace Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 424990,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 2251,
+   "lot": 0.3,
+   "story": "Single",
+   "miles": 9.9,
+   "drive": 23,
+   "openHouse": "",
+   "dom": 143,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/736-Candace-Dr-Desoto-TX-75115/336890564_zpid/",
+   "lat": 32.57263,
+   "lng": -96.87369,
+   "schools": [
+    {
+     "name": "Frank D Moates Elementary School",
+     "grades": "3-5",
+     "rating": 2
+    },
+    {
+     "name": "Curtistene S McCowan Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29257518",
+   "street": "211 Alston Ct",
+   "city": "Mansfield",
+   "zip": "76063",
+   "price": 450000,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 2411,
+   "lot": 0.53,
+   "story": "Single",
+   "miles": 10.2,
+   "drive": 24,
+   "openHouse": "",
+   "dom": 19,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/211-Alston-Ct-Mansfield-TX-76063/29257518_zpid/",
+   "lat": 32.56958,
+   "lng": -97.12278,
+   "schools": [
+    {
+     "name": "Erma Nash Elementary School",
+     "grades": "PK-4",
+     "rating": 5
+    },
+    {
+     "name": "Rogene Worley Middle School",
+     "grades": "7-8",
+     "rating": 7
+    },
+    {
+     "name": "Mansfield High School",
+     "grades": "9-12",
+     "rating": 7
+    }
+   ],
+   "schoolAvg": 6.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 106,
+    "property": 1191
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "27252218",
+   "street": "205 Split Rock Ter",
+   "city": "Ovilla",
+   "zip": "75154",
+   "price": 479000,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 3065,
+   "lot": 1,
+   "story": "Single",
+   "miles": 10.2,
+   "drive": 24,
+   "openHouse": "",
+   "dom": 47,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/205-Split-Rock-Ter-Ovilla-TX-75154/27252218_zpid/",
+   "lat": 32.555004,
+   "lng": -96.88978,
+   "schools": [
+    {
+     "name": "Frank D Moates Elementary School",
+     "grades": "3-5",
+     "rating": 2
+    },
+    {
+     "name": "Curtistene S McCowan Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29127002",
+   "street": "2811 Crowley Ct",
+   "city": "Arlington",
+   "zip": "76012",
+   "price": 498000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2856,
+   "lot": 0.34,
+   "story": "Multi",
+   "miles": 10.4,
+   "drive": 24,
+   "openHouse": "Sun, 10/18 3 PM\u20134:30 PM",
+   "dom": 64,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/2811-Crowley-Ct-Arlington-TX-76012/29127002_zpid/",
+   "lat": 32.744026,
+   "lng": -97.153824,
+   "schools": [
+    {
+     "name": "Pope Elementary School",
+     "grades": "PK-6",
+     "rating": 3
+    },
+    {
+     "name": "Shackelford Junior High School",
+     "grades": "7-8",
+     "rating": 4
+    },
+    {
+     "name": "Lamar High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29127187",
+   "street": "2604 Oak Cliff Ln",
+   "city": "Arlington",
+   "zip": "76012",
+   "price": null,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 2557,
+   "lot": 0.57,
+   "story": "Multi",
+   "miles": 10.5,
+   "drive": 24,
+   "openHouse": "",
+   "dom": 46,
+   "status": "Auction",
+   "url": "https://www.zillow.com/homedetails/2604-Oak-Cliff-Ln-Arlington-TX-76012/29127187_zpid/",
+   "lat": 32.747852,
+   "lng": -97.15185,
+   "schools": [
+    {
+     "name": "Pope Elementary School",
+     "grades": "PK-6",
+     "rating": 3
+    },
+    {
+     "name": "Shackelford Junior High School",
+     "grades": "7-8",
+     "rating": 4
+    },
+    {
+     "name": "Lamar High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "Auction \u2014 sold as-is",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29100065",
+   "street": "3904 Shady Valley Dr",
+   "city": "Arlington",
+   "zip": "76013",
+   "price": 409000,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 2794,
+   "lot": 0.32,
+   "story": "Single",
+   "miles": 10.6,
+   "drive": 25,
+   "openHouse": "",
+   "dom": 37,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/3904-Shady-Valley-Dr-Arlington-TX-76013/29100065_zpid/",
+   "lat": 32.719913,
+   "lng": -97.16855,
+   "schools": [
+    {
+     "name": "Hill Elementary School",
+     "grades": "PK-6",
+     "rating": 7
+    },
+    {
+     "name": "Bailey Junior High School",
+     "grades": "7-8",
+     "rating": 5
+    },
+    {
+     "name": "Arlington High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "29127204",
+   "street": "2703 Chinquapin Oak Ln",
+   "city": "Arlington",
+   "zip": "76012",
+   "price": 499900,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 3191,
+   "lot": 0.3,
+   "story": "Multi",
+   "miles": 10.6,
+   "drive": 25,
+   "openHouse": "",
+   "dom": 108,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/2703-Chinquapin-Oak-Ln-Arlington-TX-76012/29127204_zpid/",
+   "lat": 32.747845,
+   "lng": -97.15384,
+   "schools": [
+    {
+     "name": "Pope Elementary School",
+     "grades": "PK-6",
+     "rating": 3
+    },
+    {
+     "name": "Shackelford Junior High School",
+     "grades": "7-8",
+     "rating": 4
+    },
+    {
+     "name": "Lamar High School",
+     "grades": "9-12",
+     "rating": 2
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "69669083",
+   "street": "625 Belclaire Ter",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 325000,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 2387,
+   "lot": 0.42,
+   "story": "Single",
+   "miles": 10.8,
+   "drive": 25,
+   "openHouse": "",
+   "dom": 96,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/625-Belclaire-Ter-Desoto-TX-75115/69669083_zpid/",
+   "lat": 32.601322,
+   "lng": -96.830666,
+   "schools": [
+    {
+     "name": "The Meadows Elementary School",
+     "grades": "K-5",
+     "rating": 2
+    },
+    {
+     "name": "Desoto West Middle School",
+     "grades": "6-8",
+     "rating": 2
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 2.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "248830425",
+   "street": "717 Milas Ln",
+   "city": "Glenn Heights",
+   "zip": "75154",
+   "price": 369000,
+   "beds": 4,
+   "baths": 4,
+   "sqft": 2543,
+   "lot": 0.33,
+   "story": "Multi",
+   "miles": 10.9,
+   "drive": 25,
+   "openHouse": "",
+   "dom": 26,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/717-Milas-Ln-Glenn-Heights-TX-75154/248830425_zpid/",
+   "lat": 32.553375,
+   "lng": -96.87335,
+   "schools": [
+    {
+     "name": "Frank D Moates Elementary School",
+     "grades": "3-5",
+     "rating": 2
+    },
+    {
+     "name": "Curtistene S McCowan Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 3.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "67634034",
+   "street": "103 Meadow Glen Ln",
+   "city": "Red Oak",
+   "zip": "75154",
+   "price": 409000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2397,
+   "lot": 0.4,
+   "story": "Single",
+   "miles": 10.9,
+   "drive": 25,
+   "openHouse": "",
+   "dom": 85,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/103-Meadow-Glen-Ln-Red-Oak-TX-75154/67634034_zpid/",
+   "lat": 32.54218,
+   "lng": -96.8902,
+   "schools": [
+    {
+     "name": "Shields Elementary School",
+     "grades": "PK-5",
+     "rating": 7
+    },
+    {
+     "name": "Red Oak Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Red Oak High School",
+     "grades": "9-12",
+     "rating": 4
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "27362578",
+   "street": "106 Hummingbird Ln",
+   "city": "Red Oak",
+   "zip": "75154",
+   "price": 489999,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 2427,
+   "lot": 0.35,
+   "story": "Single",
+   "miles": 11.2,
+   "drive": 26,
+   "openHouse": "",
+   "dom": 37,
+   "status": "House for sale",
+   "url": "https://www.zillow.com/homedetails/106-Hummingbird-Ln-Red-Oak-TX-75154/27362578_zpid/",
+   "lat": 32.536373,
+   "lng": -96.888954,
+   "schools": [
+    {
+     "name": "Shields Elementary School",
+     "grades": "PK-5",
+     "rating": 7
+    },
+    {
+     "name": "Red Oak Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Red Oak High School",
+     "grades": "9-12",
+     "rating": 4
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": null,
+   "isNew": false,
+   "prevPrice": null
+  },
+  {
+   "id": "442935931",
+   "street": "712 S Hidden Lakes Dr",
+   "city": "DeSoto",
+   "zip": "75115",
+   "price": 494950,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 2508,
+   "lot": 0.5,
+   "story": "Single",
+   "miles": 11.4,
+   "drive": 26,
+   "openHouse": "Daily Sun, 10/18\u2013Sat, 10/24, 1 PM\u20136:45 PM",
+   "dom": 206,
+   "status": "New construction",
+   "url": "https://www.zillow.com/homedetails/712-S-Hidden-Lakes-Dr-Desoto-TX-75115/442935931_zpid/",
+   "lat": 32.577656,
+   "lng": -96.83446,
+   "schools": [
+    {
+     "name": "Woodridge Elementary School",
+     "grades": "K-4",
+     "rating": 5
+    },
+    {
+     "name": "Curtistene S McCowan Middle School",
+     "grades": "6-8",
+     "rating": 4
+    },
+    {
+     "name": "Desoto High School",
+     "grades": "9-12",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 4.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 285,
+    "property": 1581
+   },
+   "isNew": false,
+   "prevPrice": null
+  }
+ ],
+ "removed": []
+}

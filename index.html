@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>House Search · Flint Academy</title>
+<meta name="description" content="Homes for sale within ~15–20 minutes of Flint Academy (Grand Prairie, TX) — mapped with schools, crime, financing incentives and open houses.">
+<meta name="robots" content="noindex">
+<script>(function(){var h=new Date().getHours(),t=(h>=7&&h<19)?'light':'dark';try{var s=localStorage.getItem('hs-theme');if(s)t=s}catch(e){}document.documentElement.setAttribute('data-theme',t)})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{
+  --bg:#f7f8fb;--surface:#fff;--surface-2:#f1f4f9;--ink:#0f172a;--ink-2:#334155;--muted:#64748b;--line:#e2e8f0;
+  --accent:#2563eb;--accent-2:#06b6d4;--accent-3:#8b5cf6;--accent-soft:rgba(37,99,235,.09);
+  --green:#059669;--green-soft:rgba(5,150,105,.1);--amber:#d97706;--amber-soft:rgba(217,119,6,.12);
+  --red:#dc2626;--red-soft:rgba(220,38,38,.1);--violet:#7c3aed;--violet-soft:rgba(124,58,237,.1);
+  --grad:linear-gradient(120deg,var(--accent) 0%,var(--accent-2) 50%,var(--accent-3) 100%);
+  --shadow:0 1px 2px rgba(15,23,42,.04),0 8px 24px rgba(15,23,42,.06);
+  --shadow-lg:0 2px 4px rgba(15,23,42,.05),0 18px 40px rgba(15,23,42,.12);
+  --radius:16px;--glass:rgba(255,255,255,.8);
+}
+:root[data-theme="dark"]{
+  --bg:#0b1220;--surface:#111a2e;--surface-2:#16213a;--ink:#e6edf7;--ink-2:#c3cee0;--muted:#8b9ab3;--line:#1f2b45;
+  --accent:#60a5fa;--accent-2:#22d3ee;--accent-3:#a78bfa;--accent-soft:rgba(96,165,250,.12);
+  --green:#34d399;--green-soft:rgba(52,211,153,.12);--amber:#fbbf24;--amber-soft:rgba(251,191,36,.14);
+  --red:#f87171;--red-soft:rgba(248,113,113,.12);--violet:#c4b5fd;--violet-soft:rgba(167,139,250,.14);
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);--shadow-lg:0 2px 4px rgba(0,0,0,.3),0 18px 40px rgba(0,0,0,.4);
+  --glass:rgba(11,18,32,.82);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0b1220;--surface:#111a2e;--surface-2:#16213a;--ink:#e6edf7;--ink-2:#c3cee0;--muted:#8b9ab3;--line:#1f2b45;
+  --accent:#60a5fa;--accent-2:#22d3ee;--accent-3:#a78bfa;--accent-soft:rgba(96,165,250,.12);
+  --green:#34d399;--green-soft:rgba(52,211,153,.12);--amber:#fbbf24;--amber-soft:rgba(251,191,36,.14);
+  --red:#f87171;--red-soft:rgba(248,113,113,.12);--violet:#c4b5fd;--violet-soft:rgba(167,139,250,.14);
+  --glass:rgba(11,18,32,.82);}}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:Inter,system-ui,-apple-system,'Segoe UI',Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+a{color:inherit}
+.mono{font-family:'JetBrains Mono',Consolas,Menlo,monospace}
+.app{display:grid;grid-template-rows:auto auto 1fr;height:100vh}
+header{display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--surface)}
+.logo{width:38px;height:38px;border-radius:11px;background:var(--grad);display:grid;place-items:center;color:#fff;flex:none;box-shadow:var(--shadow)}
+.ttl h1{font-size:1.12rem;font-weight:800;letter-spacing:-.01em}
+.ttl h1 span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:.7rem;font-weight:700;color:var(--accent);letter-spacing:.08em;text-transform:uppercase}
+.crit{color:var(--muted);font-size:.8rem}
+.hdr-r{margin-left:auto;display:flex;align-items:center;gap:10px}
+.upd{font-size:.74rem;color:var(--muted);text-align:right}
+.iconbtn{border:1px solid var(--line);background:var(--surface-2);color:var(--ink);width:36px;height:36px;border-radius:10px;cursor:pointer;display:grid;place-items:center;font-size:1rem}
+.iconbtn:hover{border-color:var(--accent)}
+.stats{display:flex;gap:10px;padding:12px 20px;overflow-x:auto;border-bottom:1px solid var(--line);background:var(--bg);scrollbar-width:none}
+.stats::-webkit-scrollbar{display:none}
+.stat{flex:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 14px;cursor:pointer;transition:border-color .2s,transform .2s;text-align:left;color:var(--ink);font:inherit}
+.stat:hover{border-color:var(--accent);transform:translateY(-1px)}
+.stat.on{border-color:var(--accent);background:var(--accent-soft)}
+.stat b{display:block;font-family:'JetBrains Mono',monospace;font-size:1.15rem}
+.stat small{color:var(--muted);font-size:.72rem;font-weight:600}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 440px;min-height:0}
+#map{height:100%;min-height:300px;background:var(--surface-2)}
+aside{display:flex;flex-direction:column;min-height:0;border-left:1px solid var(--line);background:var(--surface)}
+.filters{padding:12px 14px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.chip{border:1px solid var(--line);background:var(--surface-2);color:var(--ink-2);padding:5px 11px;border-radius:999px;font-size:.78rem;font-weight:600;cursor:pointer;font-family:inherit}
+.chip:hover{border-color:var(--accent)}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.lbl{font-size:.7rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;min-width:62px}
+select,input[type=range]{font-family:inherit;font-size:.8rem;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:5px 8px}
+input[type=range]{padding:0;accent-color:var(--accent);flex:1;min-width:120px;border:0;background:transparent}
+.rv{font-family:'JetBrains Mono',monospace;font-size:.78rem;font-weight:700;min-width:58px;text-align:right}
+.count{font-size:.78rem;color:var(--muted);padding:8px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+.list{overflow-y:auto;padding:10px;display:flex;flex-direction:column;gap:10px;min-height:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;cursor:pointer;transition:border-color .2s,box-shadow .2s,transform .15s;position:relative}
+.card:hover{border-color:var(--accent);box-shadow:var(--shadow)}
+.card.sel{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft),var(--shadow)}
+.card.t-assumable{border-left:4px solid var(--amber)}
+.card.t-incentive{border-left:4px solid var(--green)}
+.c-top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.price{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:1.05rem}
+.addr{font-weight:700;font-size:.92rem}
+.city{color:var(--muted);font-size:.8rem}
+.facts{display:flex;gap:10px;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin:6px 0}
+.facts span b{color:var(--ink)}
+.tags{display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--ink-2);border:1px solid var(--line)}
+.tag.amber{background:var(--amber-soft);color:var(--amber);border-color:transparent}
+.tag.green{background:var(--green-soft);color:var(--green);border-color:transparent}
+.tag.blue{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.tag.red{background:var(--red-soft);color:var(--red);border-color:transparent}
+.tag.violet{background:var(--violet-soft);color:var(--violet);border-color:transparent}
+.empty{padding:30px 10px;text-align:center;color:var(--muted)}
+/* detail drawer */
+.detail{display:none;position:absolute;inset:0;background:var(--surface);z-index:5;overflow-y:auto;padding:16px}
+aside{position:relative}
+.detail.open{display:block}
+.back{border:0;background:none;color:var(--accent);font-weight:700;cursor:pointer;font-family:inherit;font-size:.85rem;margin-bottom:10px}
+.d-price{font-family:'JetBrains Mono',monospace;font-size:1.5rem;font-weight:700}
+.d-addr{font-size:1.1rem;font-weight:800;margin-top:2px}
+.sec{margin-top:16px}
+.sec h3{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.kv{background:var(--surface-2);border-radius:10px;padding:8px 10px}
+.kv small{display:block;color:var(--muted);font-size:.7rem;font-weight:600}
+.kv b{font-size:.92rem}
+.school{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)}
+.school:last-child{border-bottom:0}
+.rate{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;font-family:'JetBrains Mono',monospace;font-weight:700;flex:none;color:#fff}
+.school div small{display:block;color:var(--muted);font-size:.74rem}
+.bar{height:8px;border-radius:99px;background:var(--surface-2);overflow:hidden;margin-top:4px}
+.bar i{display:block;height:100%;border-radius:99px}
+.note{background:var(--amber-soft);color:var(--ink);border-radius:10px;padding:10px 12px;font-size:.85rem}
+.note.green{background:var(--green-soft)}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:10px;font-weight:700;font-size:.85rem;text-decoration:none;border:1px solid var(--line);background:var(--surface-2);color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn:hover{filter:brightness(1.05);border-color:var(--accent)}
+.src{font-size:.72rem;color:var(--muted);margin-top:8px}
+/* map markers */
+.pin{display:grid;place-items:center;border-radius:50% 50% 50% 0;transform:rotate(-45deg);width:30px;height:30px;border:2px solid #fff;box-shadow:0 3px 10px rgba(0,0,0,.35)}
+.pin span{transform:rotate(45deg);font-size:12px;font-weight:800;color:#fff;font-family:Inter,sans-serif}
+.pin.oh{outline:3px solid rgba(124,58,237,.6);outline-offset:2px}
+.pin.sel{width:38px;height:38px;outline:3px solid var(--accent);outline-offset:2px}
+.school-pin{width:34px;height:34px;border-radius:10px;background:var(--grad);display:grid;place-items:center;color:#fff;font-size:17px;border:2px solid #fff;box-shadow:0 3px 10px rgba(0,0,0,.35)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--surface);color:var(--ink)}
+.leaflet-popup-content{margin:10px 12px;font-family:Inter,sans-serif}
+.pp b{font-family:'JetBrains Mono',monospace}
+.pp a{color:var(--accent);font-weight:700;text-decoration:none;cursor:pointer}
+.legend{background:var(--glass);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:12px;padding:8px 10px;font-size:.74rem;color:var(--ink);box-shadow:var(--shadow)}
+.legend div{display:flex;align-items:center;gap:6px;margin:2px 0}
+.legend i{width:11px;height:11px;border-radius:50%;display:inline-block}
+:root[data-theme="dark"] .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9)}
+.leaflet-control-attribution{background:var(--glass)!important;color:var(--muted)!important}
+.leaflet-control-attribution a{color:var(--muted)!important}
+.mtoggle{display:none}
+@media (max-width:900px){
+  .app{height:auto;min-height:100vh}
+  .main{grid-template-columns:1fr;grid-template-rows:55vh auto}
+  aside{border-left:0;border-top:1px solid var(--line)}
+  .list{overflow:visible}
+  .detail{position:fixed;inset:0;z-index:2000}
+  header{padding:12px 16px}
+  .stats,.filters{padding-left:16px;padding-right:16px}
+  .crit{display:none}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+    </div>
+    <div class="ttl">
+      <div class="eyebrow">Dallas · Duncanville · Mansfield</div>
+      <h1>House Search <span>near Flint Academy</span></h1>
+      <div class="crit" id="crit"></div>
+    </div>
+    <div class="hdr-r">
+      <div class="upd" id="upd"></div>
+      <button class="iconbtn" id="theme" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+  <div class="stats" id="stats"></div>
+  <div class="main">
+    <div id="map" role="region" aria-label="Map of listings"></div>
+    <aside>
+      <div class="filters">
+        <div class="row"><span class="lbl">Stories</span>
+          <button class="chip on" data-f="story" data-v="all">All</button>
+          <button class="chip" data-f="story" data-v="Single">Single story</button>
+          <button class="chip" data-f="story" data-v="Multi">Multi story</button></div>
+        <div class="row"><span class="lbl">Financing</span>
+          <button class="chip on" data-f="fin" data-v="all">All</button>
+          <button class="chip" data-f="fin" data-v="assumable">Assumable</button>
+          <button class="chip" data-f="fin" data-v="deal">Assumable + incentives</button></div>
+        <div class="row"><span class="lbl">Show</span>
+          <button class="chip" data-t="oh">Open houses</button>
+          <button class="chip" data-t="mans">Mansfield ISD</button>
+          <button class="chip" data-t="noauction">Hide auctions</button></div>
+        <div class="row"><span class="lbl">Max price</span><input type="range" id="maxp" min="250000" max="500000" step="10000" value="500000"><span class="rv" id="maxpv"></span></div>
+        <div class="row"><span class="lbl">Schools</span><input type="range" id="mins" min="0" max="9" step="1" value="0"><span class="rv" id="minsv"></span></div>
+        <div class="row"><span class="lbl">Sort</span>
+          <select id="sort">
+            <option value="deal">Best financing first</option>
+            <option value="miles">Closest to Flint</option>
+            <option value="price">Price: low → high</option>
+            <option value="schools">School rating: high → low</option>
+            <option value="crime">Lowest crime city</option>
+            <option value="lot">Biggest lot</option>
+            <option value="sqft">Most sq ft</option>
+            <option value="dom">Newest listings</option>
+          </select></div>
+      </div>
+      <div class="count"><span id="count"></span><a href="#" id="reset" style="color:var(--accent);font-weight:700;text-decoration:none">Reset</a></div>
+      <div class="list" id="list"></div>
+      <div class="detail" id="detail"></div>
+    </aside>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const $=s=>document.querySelector(s);
+const fmt=n=>n==null?'Auction':'$'+n.toLocaleString();
+const st={story:'all',fin:'all',oh:false,mans:false,noauction:false,maxp:500000,mins:0,sort:'deal',sel:null,quick:null};
+let D,map,markers={},tiles;
+const TIER={assumable:{c:'#d97706',l:'Assumable'},incentive:{c:'#059669',l:'Incentive'},none:{c:'#2563eb',l:''}};
+const rc=r=>r==null?'#94a3b8':r>=7?'#059669':r>=5?'#65a30d':r>=4?'#d97706':'#dc2626';
+const isMans=h=>h.schools.some(s=>/Mansfield|Summit|Timberview|Legacy|Worley|Wester|Coble|Howard|Icenhower|Tipps|Ponder|Nash|Orr|Anderson/.test(s.name));
+function crimeTag(h){if(!h.crime)return null;const v=h.crime.violent/D.texasAvg.violent;return v<.6?['Low crime','green']:v<.9?['Below-avg crime','green']:v<1.1?['Avg crime','amber']:['Higher crime','red'];}
+function load(){
+  fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;init();}).catch(()=>{$('#list').innerHTML='<div class="empty">Could not load data.json</div>';});
+}
+function tileUrl(){return 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';}
+function init(){
+  $('#crit').textContent=D.criteria;
+  $('#upd').innerHTML='Updated<br><b class="mono">'+D.updated+'</b>';
+  map=L.map('map',{zoomControl:true}).setView([D.flint.lat,D.flint.lng],11);
+  tiles=L.tileLayer(tileUrl(),{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+  L.marker([D.flint.lat,D.flint.lng],{icon:L.divIcon({className:'',html:'<div class="school-pin" title="Flint Academy">🎓</div>',iconSize:[34,34],iconAnchor:[17,17]}),zIndexOffset:1000}).addTo(map)
+    .bindPopup('<div class="pp"><b style="font-family:Inter">Flint Academy</b><br>'+D.flint.addr+'</div>');
+  [5,10].forEach(mi=>L.circle([D.flint.lat,D.flint.lng],{radius:mi*1609.34,color:'#8b5cf6',weight:1,dashArray:'4 6',fill:false,interactive:false}).addTo(map));
+  const lg=L.control({position:'bottomleft'});lg.onAdd=()=>{const d=L.DomUtil.create('div','legend');d.innerHTML='<div><i style="background:#d97706"></i>Assumable loan</div><div><i style="background:#059669"></i>Seller / lender incentive</div><div><i style="background:#2563eb"></i>Standard</div><div><i style="background:#fff;outline:2px solid #7c3aed"></i>Open house</div><div>🎓 Flint Academy · rings 5 &amp; 10 mi</div>';return d;};lg.addTo(map);
+  D.homes.forEach(h=>{
+    const m=L.marker([h.lat,h.lng],{icon:icon(h,false),riseOnHover:true}).addTo(map);
+    m.bindPopup(popup(h),{closeButton:true});m.on('click',()=>select(h.id,false));markers[h.id]=m;
+  });
+  bind();render();
+}
+function icon(h,sel){const t=TIER[h.financing];const lbl=h.price?Math.round(h.price/1000):'A';
+  return L.divIcon({className:'',html:`<div class="pin${h.openHouse?' oh':''}${sel?' sel':''}" style="background:${t.c}"><span>${h.story==='Single'?'1':'2'}</span></div>`,iconSize:sel?[38,38]:[30,30],iconAnchor:sel?[19,38]:[15,30],popupAnchor:[0,-30]});}
+function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<br><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Zillow ↗</a></div>`;}
+function filtered(){
+  let a=D.homes.filter(h=>(st.story==='all'||h.story===st.story)&&(st.fin==='all'||(st.fin==='assumable'?h.financing==='assumable':h.financing!=='none'))&&(!st.oh||h.openHouse)&&(!st.mans||isMans(h))&&(!st.noauction||h.price)&&((h.price||0)<=st.maxp)&&((h.schoolAvg||0)>=st.mins));
+  const o={assumable:0,incentive:1,none:2};
+  const s={deal:(x,y)=>o[x.financing]-o[y.financing]||x.miles-y.miles,miles:(x,y)=>x.miles-y.miles,price:(x,y)=>(x.price||9e9)-(y.price||9e9),schools:(x,y)=>(y.schoolAvg||0)-(x.schoolAvg||0),crime:(x,y)=>(x.crime?.violent??9e9)-(y.crime?.violent??9e9),lot:(x,y)=>y.lot-x.lot,sqft:(x,y)=>y.sqft-x.sqft,dom:(x,y)=>(x.dom??9e9)-(y.dom??9e9)}[st.sort];
+  return a.sort(s);
+}
+function tags(h){const t=[];
+  if(h.isNew)t.push(['New','violet']);
+  if(h.prevPrice)t.push([(h.price<h.prevPrice?'↓ ':'↑ ')+'was $'+Math.round(h.prevPrice/1000)+'K',h.price<h.prevPrice?'green':'red']);
+  if(h.financing==='assumable')t.push(['★ Assumable','amber']);if(h.financing==='incentive')t.push(['$ Incentive','green']);
+  t.push([h.story==='Single'?'Single story':'Multi story','blue']);
+  if(h.openHouse)t.push(['Open house','violet']);
+  if(h.schoolAvg!=null)t.push(['Schools '+h.schoolAvg+'/10',h.schoolAvg>=6?'green':h.schoolAvg>=4?'amber':'red']);
+  const c=crimeTag(h);if(c)t.push(c);
+  if(!h.price)t.push(['Auction','red']);
+  return t.map(([l,c])=>`<span class="tag ${c}">${l}</span>`).join('');}
+function render(){
+  const a=filtered();const ids=new Set(a.map(h=>h.id));
+  D.homes.forEach(h=>{const m=markers[h.id];if(ids.has(h.id)){if(!map.hasLayer(m))m.addTo(map);}else if(map.hasLayer(m))m.remove();});
+  $('#count').textContent=a.length+' of '+D.homes.length+' homes';
+  $('#maxpv').textContent='$'+Math.round(st.maxp/1000)+'K';$('#minsv').textContent=st.mins?st.mins+'+ avg':'Any';
+  $('#list').innerHTML=a.length?a.map(h=>`<div class="card t-${h.financing}${st.sel===h.id?' sel':''}" data-id="${h.id}" tabindex="0">
+    <div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
+    <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>
+    <div class="facts"><span><b>${h.beds}</b> bd</span><span><b>${h.baths}</b> ba</span><span><b>${h.sqft.toLocaleString()}</b> sf</span><span><b>${h.lot}</b> ac</span>${h.dom!=null?`<span><b>${h.dom}</b> days</span>`:''}</div>
+    <div class="tags">${tags(h)}</div></div>`).join(''):'<div class="empty">No homes match these filters.</div>';
+  stats();
+}
+function stats(){
+  const H=D.homes;const c=f=>H.filter(f).length;
+  const items=[['all',H.length,'Homes'],['assumable',c(h=>h.financing==='assumable'),'Assumable'],['deal',c(h=>h.financing!=='none'),'Assumable + incentives'],['oh',c(h=>h.openHouse),'Open houses'],['Single',c(h=>h.story==='Single'),'Single story'],['mans',c(isMans),'Mansfield ISD']];
+  $('#stats').innerHTML=items.map(([k,n,l])=>{const on=(k==='all'&&st.fin==='all'&&st.story==='all'&&!st.oh&&!st.mans)||(k==='assumable'&&st.fin==='assumable')||(k==='deal'&&st.fin==='deal')||(k==='oh'&&st.oh)||(k==='Single'&&st.story==='Single')||(k==='mans'&&st.mans);return `<button class="stat${on?' on':''}" data-k="${k}"><b>${n}</b><small>${l}</small></button>`}).join('');
+}
+function syncChips(){document.querySelectorAll('.chip[data-f]').forEach(b=>b.classList.toggle('on',st[b.dataset.f]===b.dataset.v));document.querySelectorAll('.chip[data-t]').forEach(b=>b.classList.toggle('on',st[b.dataset.t]));$('#maxp').value=st.maxp;$('#mins').value=st.mins;$('#sort').value=st.sort;}
+function select(id,fly=true){
+  if(st.sel&&markers[st.sel]){const p=D.homes.find(x=>x.id===st.sel);markers[st.sel].setIcon(icon(p,false));}
+  st.sel=id;const h=D.homes.find(x=>x.id===id);if(!h)return;
+  markers[id].setIcon(icon(h,true));
+  if(fly){map.flyTo([h.lat,h.lng],Math.max(map.getZoom(),13),{duration:.6});markers[id].openPopup();}
+  document.querySelectorAll('.card').forEach(c=>c.classList.toggle('sel',c.dataset.id===id));
+  const el=document.querySelector(`.card[data-id="${id}"]`);if(el&&!fly)el.scrollIntoView({block:'nearest',behavior:'smooth'});
+}
+function openDetail(id){
+  const h=D.homes.find(x=>x.id===id);select(id,true);
+  const t=TIER[h.financing];const c=h.crime;
+  const crime=c?`<div class="grid2"><div class="kv"><small>Violent crime / 100K (city)</small><b>${c.violent}</b><div class="bar"><i style="width:${Math.min(100,c.violent/D.texasAvg.violent*50)}%;background:${c.violent<D.texasAvg.violent?'var(--green)':'var(--red)'}"></i></div></div><div class="kv"><small>Property crime / 100K (city)</small><b>${c.property.toLocaleString()}</b><div class="bar"><i style="width:${Math.min(100,c.property/D.texasAvg.property*50)}%;background:${c.property<D.texasAvg.property?'var(--green)':'var(--red)'}"></i></div></div></div><div class="src">Bar midpoint = Texas average (${D.texasAvg.violent} violent · ${D.texasAvg.property.toLocaleString()} property per 100K). City-level FBI data, ${D.crimeYear||''} — neighborhoods vary.</div>`:'<div class="src">City crime data pending for '+h.city+'.</div>';
+  $('#detail').innerHTML=`<button class="back" onclick="closeDetail()">← Back to list</button>
+   <div class="tags" style="margin-bottom:8px">${tags(h)}</div>
+   <div class="d-price">${fmt(h.price)}</div><div class="d-addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}${h.status&&h.status!=='House for sale'?' · '+h.status:''}</div>
+   ${h.financingNote?`<div class="sec"><h3>Financing</h3><div class="note${h.financing==='incentive'?' green':''}"><b style="color:${t.c}">${t.l}:</b> ${h.financingNote}</div></div>`:''}
+   ${h.note?`<div class="sec"><div class="note" style="background:var(--red-soft)">${h.note}</div></div>`:''}
+   ${h.openHouse?`<div class="sec"><h3>Open house</h3><div class="note" style="background:var(--violet-soft)">${h.openHouse}</div></div>`:''}
+   <div class="sec"><h3>The home</h3><div class="grid2">
+     <div class="kv"><small>Beds / baths</small><b>${h.beds} / ${h.baths}</b></div><div class="kv"><small>Square feet</small><b>${h.sqft.toLocaleString()}</b></div>
+     <div class="kv"><small>Lot</small><b>${h.lot} acres</b></div><div class="kv"><small>Stories</small><b>${h.story}</b></div>
+     <div class="kv"><small>To Flint Academy</small><b>${h.miles} mi · ~${h.drive} min</b></div><div class="kv"><small>Days on Zillow</small><b>${h.dom??'—'}</b></div></div></div>
+   <div class="sec"><h3>Assigned schools · GreatSchools</h3>${h.schools.map(s=>`<div class="school"><div class="rate" style="background:${rc(s.rating)}">${s.rating??'NR'}</div><div><b>${s.name}</b><small>Grades ${s.grades}</small></div></div>`).join('')||'<div class="src">No school data.</div>'}</div>
+   <div class="sec"><h3>Crime · ${h.city}</h3>${crime}</div>
+   <div class="btns"><a class="btn primary" href="${h.url}" target="_blank" rel="noopener">Open on Zillow ↗</a><a class="btn" href="https://www.google.com/maps/dir/${encodeURIComponent(h.street+', '+h.city+', TX '+h.zip)}/${encodeURIComponent(D.flint.addr)}" target="_blank" rel="noopener">Drive time to Flint ↗</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=${h.lat},${h.lng}" target="_blank" rel="noopener">Street view ↗</a></div>`;
+  $('#detail').classList.add('open');$('#detail').scrollTop=0;
+}
+function closeDetail(){$('#detail').classList.remove('open');}
+function bind(){
+  document.querySelectorAll('.chip[data-f]').forEach(b=>b.onclick=()=>{st[b.dataset.f]=b.dataset.v;syncChips();render();});
+  document.querySelectorAll('.chip[data-t]').forEach(b=>b.onclick=()=>{st[b.dataset.t]=!st[b.dataset.t];syncChips();render();});
+  $('#maxp').oninput=e=>{st.maxp=+e.target.value;render();};
+  $('#mins').oninput=e=>{st.mins=+e.target.value;render();};
+  $('#sort').onchange=e=>{st.sort=e.target.value;render();};
+  $('#list').onclick=e=>{const c=e.target.closest('.card');if(c)openDetail(c.dataset.id);};
+  $('#list').onkeydown=e=>{if(e.key==='Enter'){const c=e.target.closest('.card');if(c)openDetail(c.dataset.id);}};
+  $('#list').onmouseover=e=>{const c=e.target.closest('.card');if(c&&markers[c.dataset.id])markers[c.dataset.id].setZIndexOffset(900);};
+  $('#list').onmouseout=e=>{const c=e.target.closest('.card');if(c&&markers[c.dataset.id])markers[c.dataset.id].setZIndexOffset(0);};
+  $('#stats').onclick=e=>{const b=e.target.closest('.stat');if(!b)return;const k=b.dataset.k;
+    Object.assign(st,{story:'all',fin:'all',oh:false,mans:false});
+    if(k==='assumable'||k==='deal')st.fin=k;if(k==='oh')st.oh=true;if(k==='Single')st.story='Single';if(k==='mans')st.mans=true;syncChips();render();};
+  $('#reset').onclick=e=>{e.preventDefault();Object.assign(st,{story:'all',fin:'all',oh:false,mans:false,noauction:false,maxp:500000,mins:0,sort:'deal'});syncChips();render();closeDetail();map.setView([D.flint.lat,D.flint.lng],11);};
+  $('#theme').onclick=()=>{const t=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',t);try{localStorage.setItem('hs-theme',t)}catch(e){}tiles.setUrl(tileUrl());};
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDetail();});
+}
+load();
+</script>
+</body>
+</html>
