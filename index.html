@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>House Search · Flint Academy</title>
-<meta name="description" content="Homes for sale within ~15–20 minutes of Flint Academy (Grand Prairie, TX) — mapped with schools, crime, financing incentives and open houses.">
+<meta name="description" content="Homes for sale within ~25 minutes of Flint Academy (Grand Prairie, TX) — mapped with schools, crime, financing incentives and open houses.">
 <meta name="robots" content="noindex">
 <script>(function(){var h=new Date().getHours(),t=(h>=7&&h<19)?'light':'dark';try{var s=localStorage.getItem('hs-theme');if(s)t=s}catch(e){}document.documentElement.setAttribute('data-theme',t)})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -231,7 +231,7 @@ function init(){
 }
 function icon(h,sel){const t=TIER[h.financing];const lbl=h.price?Math.round(h.price/1000):'A';
   return L.divIcon({className:'',html:`<div class="pin${h.openHouse?' oh':''}${sel?' sel':''}" style="background:${t.c}"><span>${h.story==='Single'?'1':'2'}</span></div>`,iconSize:sel?[38,38]:[30,30],iconAnchor:sel?[19,38]:[15,30],popupAnchor:[0,-30]});}
-function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<br><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Zillow ↗</a></div>`;}
+function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<br><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Listing ↗</a></div>`;}
 function filtered(){
   let a=D.homes.filter(h=>(st.story==='all'||h.story===st.story)&&(st.fin==='all'||(st.fin==='assumable'?h.financing==='assumable':h.financing!=='none'))&&(!st.oh||h.openHouse)&&(!st.mans||isMans(h))&&(!st.noauction||h.price)&&((h.price||0)<=st.maxp)&&((h.schoolAvg||0)>=st.mins));
   const o={assumable:0,incentive:1,none:2};
@@ -287,10 +287,10 @@ function openDetail(id){
    <div class="sec"><h3>The home</h3><div class="grid2">
      <div class="kv"><small>Beds / baths</small><b>${h.beds} / ${h.baths}</b></div><div class="kv"><small>Square feet</small><b>${h.sqft.toLocaleString()}</b></div>
      <div class="kv"><small>Lot</small><b>${h.lot} acres</b></div><div class="kv"><small>Stories</small><b>${h.story}</b></div>
-     <div class="kv"><small>To Flint Academy</small><b>${h.miles} mi · ~${h.drive} min</b></div><div class="kv"><small>Days on Zillow</small><b>${h.dom??'—'}</b></div></div></div>
+     <div class="kv"><small>To Flint Academy</small><b>${h.miles} mi · ~${h.drive} min</b></div><div class="kv"><small>Days on market</small><b>${h.dom??'—'}</b></div></div></div>
    <div class="sec"><h3>Assigned schools · GreatSchools</h3>${h.schools.map(s=>`<div class="school"><div class="rate" style="background:${rc(s.rating)}">${s.rating??'NR'}</div><div><b>${s.name}</b><small>Grades ${s.grades}</small></div></div>`).join('')||'<div class="src">No school data.</div>'}</div>
    <div class="sec"><h3>Crime · ${h.city}</h3>${crime}</div>
-   <div class="btns"><a class="btn primary" href="${h.url}" target="_blank" rel="noopener">Open on Zillow ↗</a><a class="btn" href="https://www.google.com/maps/dir/${encodeURIComponent(h.street+', '+h.city+', TX '+h.zip)}/${encodeURIComponent(D.flint.addr)}" target="_blank" rel="noopener">Drive time to Flint ↗</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=${h.lat},${h.lng}" target="_blank" rel="noopener">Street view ↗</a></div>`;
+   <div class="btns"><a class="btn primary" href="${h.url}" target="_blank" rel="noopener">Open listing ↗</a><a class="btn" href="https://www.google.com/maps/dir/${encodeURIComponent(h.street+', '+h.city+', TX '+h.zip)}/${encodeURIComponent(D.flint.addr)}" target="_blank" rel="noopener">Drive time to Flint ↗</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=${h.lat},${h.lng}" target="_blank" rel="noopener">Street view ↗</a></div>`;
   $('#detail').classList.add('open');$('#detail').scrollTop=0;
 }
 function closeDetail(){$('#detail').classList.remove('open');}
