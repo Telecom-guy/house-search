@@ -1,3369 +1,3369 @@
 {
- "updated": "2026-11-10",
- "flint": {
-  "name": "Flint Academy",
-  "addr": "801 E I-20, Grand Prairie, TX 75052",
-  "lat": 32.6718878,
-  "lng": -96.9959732
- },
- "criteria": "$500K max · 3+ bd · 2+ ba · 2,250+ sq ft · 0.25+ acre lot · houses only (no duplex/multi-family/manufactured) · single or multi story · ≤25 min drive to Flint Academy · schools avg 6+ · neighborhood crime: Dallas/Arlington/Fort Worth/Grand Prairie use 0.5-mi police data (score ≤ city sample median and violent ≤ cap), other cities need city rate below Texas avg (violent <348, property <1,809 per 100K) · ranked by matchScore",
- "texasAvg": {
-  "violent": 348,
-  "property": 1809
- },
- "crimeSource": "FBI Crime Data Explorer, agency summarized rates per 100K",
- "crimeYear": 2025,
- "homes": [
-  {
-   "id": "32290852",
-   "street": "1525 Inverness Rd",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 416000,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 2732,
-   "lot": 0.26,
-   "story": "Single",
-   "miles": 9.1,
-   "drive": 20,
-   "openHouse": "",
-   "dom": 153,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
-   "lat": 32.5938244,
-   "lng": -97.1208859,
-   "schools": [
-    {
-     "name": "J L Boren Elementary School",
-     "grades": "Elementary",
-     "rating": 9
-    },
-    {
-     "name": "Brooks Wester Middle School",
-     "grades": "Middle",
-     "rating": 9
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 8.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 440000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
-   "mls": "21297497",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 44,
-    "lasColinas": 40,
-    "galleria": 48
-   },
-   "weeklyDrive": {
-    "schoolMin": 157,
-    "workMin": 220,
-    "totalMin": 377,
-    "ifGalleriaWorkMin": 242,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Walnut Creek Valley Add (Mansfield 76063)",
-    "improving": true,
-    "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 19,
-     "sportsFields": 1,
-     "music": 2,
-     "martialArts": 3,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Chandler Park",
-      "category": "park",
-      "miles": 0.5
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 0.8
-     },
-     {
-      "name": "Kumon Math and Reading Center of Mansfield - North",
-      "category": "tutoring",
-      "miles": 0.8
-     },
-     {
-      "name": "TX Black Belt Academy (karate)",
-      "category": "martialArts",
-      "miles": 1.5
-     },
-     {
-      "name": "Mansfield Public Library",
-      "category": "library",
-      "miles": 2.0
-     }
-    ],
-    "score": 8.6,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 1,
-     "dance": 0.75,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 8.6,
-   "matchScore": 76.6,
-   "matchParts": {
-    "afterSchool": 21.5,
-    "schoolAvg": 16.6,
-    "crime": 10.4,
-    "improvingArea": 10.0,
-    "value": 11.3,
-    "schoolDrive": 3.8,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 1
+  "updated": "2026-11-11",
+  "flint": {
+    "name": "Flint Academy",
+    "addr": "801 E I-20, Grand Prairie, TX 75052",
+    "lat": 32.6718878,
+    "lng": -96.9959732
   },
-  {
-   "id": "31665200",
-   "street": "204 Juniper St",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 324900,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 2413,
-   "lot": 0.27,
-   "story": "Single",
-   "miles": 10.3,
-   "drive": 21,
-   "openHouse": "",
-   "dom": 310,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/204-Juniper-St-76063/home/31665200",
-   "lat": 32.5695276,
-   "lng": -97.1245564,
-   "schools": [
-    {
-     "name": "Erma Nash Elementary School",
-     "grades": "Elementary",
-     "rating": 5
-    },
-    {
-     "name": "Rogene Worley Middle School",
-     "grades": "Middle",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 6.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 345900,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/204-Juniper-St-76063/home/31665200",
-   "mls": "21133088",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 46,
-    "lasColinas": 42,
-    "galleria": 50
-   },
-   "weeklyDrive": {
-    "schoolMin": 170,
-    "workMin": 229,
-    "totalMin": 399,
-    "ifGalleriaWorkMin": 251,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Hillcrest Add (Mansfield 76063)",
-    "improving": true,
-    "note": "Matches the approved improving-area list (subdivision name \"hillcrest\"); matched by zip/subdivision name only, no boundary polygons."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 14,
-     "sportsFields": 1,
-     "music": 2,
-     "martialArts": 4,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Mansfield City Park",
-      "category": "park",
-      "miles": 0.2
-     },
-     {
-      "name": "Mansfield Public Library",
-      "category": "library",
-      "miles": 0.3
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 0.4
-     },
-     {
-      "name": "Red Tiger Karate (at the Activities Center)",
-      "category": "martialArts",
-      "miles": 0.4
-     },
-     {
-      "name": "Dance Academy of Mansfield",
-      "category": "dance",
-      "miles": 1.0
-     }
-    ],
-    "score": 9.4,
-    "groupCredit": {
-     "library": 1,
-     "recCenter": 1,
-     "ymcaSwim": 1,
-     "parksFields": 1,
-     "music": 1,
-     "martialArts": 1,
-     "dance": 1,
-     "stem": 0.75,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 9.4,
-   "matchScore": 75.8,
-   "matchParts": {
-    "afterSchool": 23.5,
-    "schoolAvg": 12.6,
-    "crime": 10.4,
-    "improvingArea": 10.0,
-    "value": 13.3,
-    "schoolDrive": 3.0,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 2
+  "criteria": "$500K max \u00b7 3+ bd \u00b7 2+ ba \u00b7 2,250+ sq ft \u00b7 0.25+ acre lot \u00b7 houses only (no duplex/multi-family/manufactured) \u00b7 single or multi story \u00b7 \u226425 min drive to Flint Academy \u00b7 schools avg 6+ \u00b7 neighborhood crime: Dallas/Arlington/Fort Worth/Grand Prairie use 0.5-mi police data (score \u2264 city sample median and violent \u2264 cap), other cities need city rate below Texas avg (violent <348, property <1,809 per 100K) \u00b7 ranked by matchScore",
+  "texasAvg": {
+    "violent": 348,
+    "property": 1809
   },
-  {
-   "id": "32353921",
-   "street": "1416 Spyglass Dr",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 474500,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 2807,
-   "lot": 0.3,
-   "story": "Single",
-   "miles": 8.9,
-   "drive": 19,
-   "openHouse": "",
-   "dom": 145,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
-   "lat": 32.5972779,
-   "lng": -97.1196475,
-   "schools": [
+  "crimeSource": "FBI Crime Data Explorer, agency summarized rates per 100K",
+  "crimeYear": 2025,
+  "homes": [
     {
-     "name": "J L Boren Elementary School",
-     "grades": "Elementary",
-     "rating": 9
+      "id": "32290852",
+      "street": "1525 Inverness Rd",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 416000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2732,
+      "lot": 0.26,
+      "story": "Single",
+      "miles": 9.1,
+      "drive": 20,
+      "openHouse": "",
+      "dom": 154,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
+      "lat": 32.5938244,
+      "lng": -97.1208859,
+      "schools": [
+        {
+          "name": "J L Boren Elementary School",
+          "grades": "Elementary",
+          "rating": 9
+        },
+        {
+          "name": "Brooks Wester Middle School",
+          "grades": "Middle",
+          "rating": 9
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 8.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 440000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
+      "mls": "21297497",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 44,
+        "lasColinas": 40,
+        "galleria": 48
+      },
+      "weeklyDrive": {
+        "schoolMin": 157,
+        "workMin": 220,
+        "totalMin": 377,
+        "ifGalleriaWorkMin": 242,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Walnut Creek Valley Add (Mansfield 76063)",
+        "improving": true,
+        "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 0,
+          "park": 19,
+          "sportsFields": 1,
+          "music": 2,
+          "martialArts": 3,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "Chandler Park",
+            "category": "park",
+            "miles": 0.5
+          },
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 0.8
+          },
+          {
+            "name": "Kumon Math and Reading Center of Mansfield - North",
+            "category": "tutoring",
+            "miles": 0.8
+          },
+          {
+            "name": "TX Black Belt Academy (karate)",
+            "category": "martialArts",
+            "miles": 1.5
+          },
+          {
+            "name": "Mansfield Public Library",
+            "category": "library",
+            "miles": 2.0
+          }
+        ],
+        "score": 8.6,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0.75,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 1,
+          "dance": 0.75,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 8.6,
+      "matchScore": 76.6,
+      "matchParts": {
+        "afterSchool": 21.5,
+        "schoolAvg": 16.6,
+        "crime": 10.4,
+        "improvingArea": 10.0,
+        "value": 11.3,
+        "schoolDrive": 3.8,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 1
     },
     {
-     "name": "Brooks Wester Middle School",
-     "grades": "Middle",
-     "rating": 9
+      "id": "31665200",
+      "street": "204 Juniper St",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 324900,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2413,
+      "lot": 0.27,
+      "story": "Single",
+      "miles": 10.3,
+      "drive": 21,
+      "openHouse": "",
+      "dom": 311,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/204-Juniper-St-76063/home/31665200",
+      "lat": 32.5695276,
+      "lng": -97.1245564,
+      "schools": [
+        {
+          "name": "Erma Nash Elementary School",
+          "grades": "Elementary",
+          "rating": 5
+        },
+        {
+          "name": "Rogene Worley Middle School",
+          "grades": "Middle",
+          "rating": 7
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 6.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 345900,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/204-Juniper-St-76063/home/31665200",
+      "mls": "21133088",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 46,
+        "lasColinas": 42,
+        "galleria": 50
+      },
+      "weeklyDrive": {
+        "schoolMin": 170,
+        "workMin": 229,
+        "totalMin": 399,
+        "ifGalleriaWorkMin": 251,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Hillcrest Add (Mansfield 76063)",
+        "improving": true,
+        "note": "Matches the approved improving-area list (subdivision name \"hillcrest\"); matched by zip/subdivision name only, no boundary polygons."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 0,
+          "park": 14,
+          "sportsFields": 1,
+          "music": 2,
+          "martialArts": 4,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "Mansfield City Park",
+            "category": "park",
+            "miles": 0.2
+          },
+          {
+            "name": "Mansfield Public Library",
+            "category": "library",
+            "miles": 0.3
+          },
+          {
+            "name": "Mansfield Activities Center (city rec center)",
+            "category": "recCenter",
+            "miles": 0.4
+          },
+          {
+            "name": "Red Tiger Karate (at the Activities Center)",
+            "category": "martialArts",
+            "miles": 0.4
+          },
+          {
+            "name": "Dance Academy of Mansfield",
+            "category": "dance",
+            "miles": 1.0
+          }
+        ],
+        "score": 9.4,
+        "groupCredit": {
+          "library": 1,
+          "recCenter": 1,
+          "ymcaSwim": 1,
+          "parksFields": 1,
+          "music": 1,
+          "martialArts": 1,
+          "dance": 1,
+          "stem": 0.75,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 9.4,
+      "matchScore": 75.8,
+      "matchParts": {
+        "afterSchool": 23.5,
+        "schoolAvg": 12.6,
+        "crime": 10.4,
+        "improvingArea": 10.0,
+        "value": 13.3,
+        "schoolDrive": 3.0,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 2
     },
     {
-     "name": "Asa E Low Jr Intermediate School",
-     "grades": "Middle",
-     "rating": 8
+      "id": "32353921",
+      "street": "1416 Spyglass Dr",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 474500,
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2807,
+      "lot": 0.3,
+      "story": "Single",
+      "miles": 8.9,
+      "drive": 19,
+      "openHouse": "",
+      "dom": 146,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
+      "lat": 32.5972779,
+      "lng": -97.1196475,
+      "schools": [
+        {
+          "name": "J L Boren Elementary School",
+          "grades": "Elementary",
+          "rating": 9
+        },
+        {
+          "name": "Brooks Wester Middle School",
+          "grades": "Middle",
+          "rating": 9
+        },
+        {
+          "name": "Asa E Low Jr Intermediate School",
+          "grades": "Middle",
+          "rating": 8
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 8.2,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 499000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
+      "mls": "21281146",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 43,
+        "lasColinas": 40,
+        "galleria": 48
+      },
+      "weeklyDrive": {
+        "schoolMin": 152,
+        "workMin": 217,
+        "totalMin": 369,
+        "ifGalleriaWorkMin": 239,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Walnut Creek Valley Add (Mansfield 76063)",
+        "improving": true,
+        "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 0,
+          "park": 19,
+          "sportsFields": 0,
+          "music": 2,
+          "martialArts": 3,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "Chandler Park",
+            "category": "park",
+            "miles": 0.5
+          },
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 0.7
+          },
+          {
+            "name": "Kumon Math and Reading Center of Mansfield - North",
+            "category": "tutoring",
+            "miles": 0.7
+          },
+          {
+            "name": "TX Black Belt Academy (karate)",
+            "category": "martialArts",
+            "miles": 1.5
+          },
+          {
+            "name": "Mansfield Activities Center (city rec center)",
+            "category": "recCenter",
+            "miles": 2.3
+          }
+        ],
+        "score": 8.6,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0.75,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 1,
+          "dance": 0.75,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 8.6,
+      "matchScore": 75.2,
+      "matchParts": {
+        "afterSchool": 21.5,
+        "schoolAvg": 16.4,
+        "crime": 10.4,
+        "improvingArea": 10.0,
+        "value": 9.3,
+        "schoolDrive": 4.5,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 3
     },
     {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
+      "id": "32419600",
+      "street": "1005 Saint Andrews Dr",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 460000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2550,
+      "lot": 0.28,
+      "story": "Single",
+      "miles": 9.6,
+      "drive": 20,
+      "openHouse": "",
+      "dom": 56,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
+      "lat": 32.5812537,
+      "lng": -97.1219278,
+      "schools": [
+        {
+          "name": "J L Boren Elementary School",
+          "grades": "Elementary",
+          "rating": 9
+        },
+        {
+          "name": "Brooks Wester Middle School",
+          "grades": "Middle",
+          "rating": 9
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 8.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 475000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
+      "mls": "21388613",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 44,
+        "lasColinas": 41,
+        "galleria": 49
+      },
+      "weeklyDrive": {
+        "schoolMin": 160,
+        "workMin": 222,
+        "totalMin": 383,
+        "ifGalleriaWorkMin": 244,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Walnut Creek Estate Mansfield (Mansfield 76063)",
+        "improving": true,
+        "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 0,
+          "park": 15,
+          "sportsFields": 1,
+          "music": 2,
+          "martialArts": 3,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "James McKnight Park East",
+            "category": "park",
+            "miles": 0.5
+          },
+          {
+            "name": "Mansfield Public Library",
+            "category": "library",
+            "miles": 1.1
+          },
+          {
+            "name": "Mansfield Activities Center (city rec center)",
+            "category": "recCenter",
+            "miles": 1.2
+          },
+          {
+            "name": "Red Tiger Karate (at the Activities Center)",
+            "category": "martialArts",
+            "miles": 1.2
+          },
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 1.3
+          }
+        ],
+        "score": 9.2,
+        "groupCredit": {
+          "library": 1,
+          "recCenter": 1,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 1,
+          "dance": 0.75,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 9.2,
+      "matchScore": 74.8,
+      "matchParts": {
+        "afterSchool": 23.0,
+        "schoolAvg": 16.6,
+        "crime": 10.4,
+        "improvingArea": 10.0,
+        "value": 8.0,
+        "schoolDrive": 3.8,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 4
+    },
+    {
+      "id": "32351125",
+      "street": "1123 Shady Oak Trl",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 398000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2399,
+      "lot": 0.26,
+      "story": "Single",
+      "miles": 9.8,
+      "drive": 23,
+      "openHouse": "",
+      "dom": 84,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
+      "lat": 32.6080652,
+      "lng": -97.1469717,
+      "schools": [
+        {
+          "name": "Nancy Neal Elementary School",
+          "grades": "Elementary",
+          "rating": 10
+        },
+        {
+          "name": "Linda Jobe Middle School",
+          "grades": "Middle",
+          "rating": 7
+        },
+        {
+          "name": "Mansfield Legacy High School",
+          "grades": "High",
+          "rating": 5
+        }
+      ],
+      "schoolAvg": 7.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 415000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
+      "mls": "21363686",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 47,
+        "lasColinas": 43,
+        "galleria": 51
+      },
+      "weeklyDrive": {
+        "schoolMin": 180,
+        "workMin": 236,
+        "totalMin": 416,
+        "ifGalleriaWorkMin": 257,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Nelmwood Estates (Mansfield 76063)",
+        "improving": true,
+        "note": "Matches the approved improving-area list (subdivision name \"nelmwood\"); matched by zip/subdivision name only, no boundary polygons."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 0,
+          "recCenter": 1,
+          "ymca": 0,
+          "swim": 0,
+          "park": 20,
+          "sportsFields": 0,
+          "music": 1,
+          "martialArts": 2,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "nearest": [
+          {
+            "name": "TX Black Belt Academy (karate)",
+            "category": "martialArts",
+            "miles": 0.5
+          },
+          {
+            "name": "Martha Walker Park",
+            "category": "park",
+            "miles": 1.0
+          },
+          {
+            "name": "StageDoor Dance Centre",
+            "category": "dance",
+            "miles": 1.6
+          },
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 2.4
+          },
+          {
+            "name": "Kumon Math and Reading Center of Mansfield - North",
+            "category": "tutoring",
+            "miles": 2.4
+          }
+        ],
+        "score": 6.4,
+        "groupCredit": {
+          "library": 0,
+          "recCenter": 0.75,
+          "ymcaSwim": 0,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 1,
+          "dance": 0.75,
+          "stem": 0.75,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 6.4,
+      "matchScore": 65.2,
+      "matchParts": {
+        "afterSchool": 16.0,
+        "schoolAvg": 14.6,
+        "crime": 10.4,
+        "improvingArea": 10.0,
+        "value": 9.7,
+        "schoolDrive": 1.5,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 5
+    },
+    {
+      "id": "32481373",
+      "street": "5 Scramble Ct",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 475000,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 3493,
+      "lot": 0.25,
+      "story": "Multi",
+      "miles": 9.1,
+      "drive": 18,
+      "openHouse": "",
+      "dom": 235,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
+      "lat": 32.5576689,
+      "lng": -97.0743263,
+      "schools": [
+        {
+          "name": "Elizabeth Smith Elementary School",
+          "grades": "Elementary",
+          "rating": 7
+        },
+        {
+          "name": "Danny Jones Middle School",
+          "grades": "Middle",
+          "rating": 9
+        },
+        {
+          "name": "Mansfield Lake Ridge High School",
+          "grades": "High",
+          "rating": 8
+        }
+      ],
+      "schoolAvg": 8.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 505000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
+      "mls": "21214241",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 42,
+        "lasColinas": 38,
+        "galleria": 46
+      },
+      "weeklyDrive": {
+        "schoolMin": 140,
+        "workMin": 210,
+        "totalMin": 350,
+        "ifGalleriaWorkMin": 232,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Mansfield Natl Sec A & B (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 1,
+          "ymca": 1,
+          "swim": 1,
+          "park": 7,
+          "sportsFields": 1,
+          "music": 1,
+          "martialArts": 2,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 1
+        },
+        "nearest": [
+          {
+            "name": "Mansfield Sports Complex",
+            "category": "park",
+            "miles": 0.8
+          },
+          {
+            "name": "Mathnasium of Mansfield",
+            "category": "tutoring",
+            "miles": 1.4
+          },
+          {
+            "name": "Mansfield YMCA",
+            "category": "ymca",
+            "miles": 1.7
+          },
+          {
+            "name": "Heritage Towne Community Pool",
+            "category": "swim",
+            "miles": 2.4
+          },
+          {
+            "name": "Pinaroc Taekwondo",
+            "category": "martialArts",
+            "miles": 2.6
+          }
+        ],
+        "score": 6.4,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0.75,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 0.75,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 1
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 6.4,
+      "matchScore": 60.8,
+      "matchParts": {
+        "afterSchool": 16.0,
+        "schoolAvg": 16.0,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 13.2,
+        "schoolDrive": 5.2,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 6
+    },
+    {
+      "id": "32378064",
+      "street": "1415 Fairhaven Dr",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 490000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2442,
+      "lot": 0.28,
+      "story": "Single",
+      "miles": 8.9,
+      "drive": 19,
+      "openHouse": "",
+      "dom": 22,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
+      "lat": 32.5893832,
+      "lng": -97.1138211,
+      "schools": [
+        {
+          "name": "J L Boren Elementary School",
+          "grades": "Elementary",
+          "rating": 9
+        },
+        {
+          "name": "Brooks Wester Middle School",
+          "grades": "Middle",
+          "rating": 9
+        },
+        {
+          "name": "Asa E Low Jr Intermediate School",
+          "grades": "Middle",
+          "rating": 8
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 8.2,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
+      "mls": "21416222",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 43,
+        "lasColinas": 39,
+        "galleria": 48
+      },
+      "weeklyDrive": {
+        "schoolMin": 150,
+        "workMin": 216,
+        "totalMin": 366,
+        "ifGalleriaWorkMin": 238,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Walnut Estates (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 0,
+          "park": 19,
+          "sportsFields": 1,
+          "music": 2,
+          "martialArts": 3,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 0.6
+          },
+          {
+            "name": "Kumon Math and Reading Center of Mansfield - North",
+            "category": "tutoring",
+            "miles": 0.6
+          },
+          {
+            "name": "Elmer W. Oliver Nature Park",
+            "category": "park",
+            "miles": 0.7
+          },
+          {
+            "name": "Mansfield Activities Center (city rec center)",
+            "category": "recCenter",
+            "miles": 1.8
+          },
+          {
+            "name": "Red Tiger Karate (at the Activities Center)",
+            "category": "martialArts",
+            "miles": 1.8
+          }
+        ],
+        "score": 8.3,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0.75,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 0.75,
+          "dance": 0.75,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 8.3,
+      "matchScore": 60.8,
+      "matchParts": {
+        "afterSchool": 20.8,
+        "schoolAvg": 16.4,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 5.7,
+        "schoolDrive": 4.5,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 7
+    },
+    {
+      "id": "29022061",
+      "street": "12008 Saddlehorn Ln",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 415999,
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2455,
+      "lot": 0.61,
+      "story": "Single",
+      "miles": 7.9,
+      "drive": 18,
+      "openHouse": "",
+      "dom": 152,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/12008-Saddlehorn-Ln-Mansfield-TX-76063/29022061_zpid/",
+      "lat": 32.5889272,
+      "lng": -97.0897748,
+      "schools": [
+        {
+          "name": "Mary Orr Intermediate School",
+          "grades": "5-6",
+          "rating": 7
+        },
+        {
+          "name": "Rogene Worley Middle School",
+          "grades": "7-8",
+          "rating": 7
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "9-12",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 7.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/12008-Saddlehorn-Ln-76063/home/31737083",
+      "mls": "21277419",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "stored from original file (Zillow/GreatSchools)",
+      "commute": {
+        "southlake": 42,
+        "lasColinas": 39,
+        "galleria": 47
+      },
+      "weeklyDrive": {
+        "schoolMin": 143,
+        "workMin": 212,
+        "totalMin": 355,
+        "ifGalleriaWorkMin": 234,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Lakeview Country Estates Addn (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 1,
+          "ymca": 1,
+          "swim": 0,
+          "park": 13,
+          "sportsFields": 1,
+          "music": 1,
+          "martialArts": 1,
+          "dance": 0,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "Elmer W. Oliver Nature Park",
+            "category": "park",
+            "miles": 0.8
+          },
+          {
+            "name": "Mathnasium of Mansfield",
+            "category": "tutoring",
+            "miles": 1.0
+          },
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 1.1
+          },
+          {
+            "name": "Mansfield YMCA",
+            "category": "ymca",
+            "miles": 2.1
+          },
+          {
+            "name": "Mansfield Activities Center (city rec center)",
+            "category": "recCenter",
+            "miles": 2.6
+          }
+        ],
+        "score": 7.5,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0.75,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 0.75,
+          "dance": 0,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 7.5,
+      "matchScore": 60.7,
+      "matchParts": {
+        "afterSchool": 18.8,
+        "schoolAvg": 14.0,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 9.3,
+        "schoolDrive": 5.2,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 8
+    },
+    {
+      "id": "30986567",
+      "street": "2420 Bent Trl",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 485000,
+      "beds": 4,
+      "baths": 2,
+      "sqft": 3149,
+      "lot": 0.26,
+      "story": "Multi",
+      "miles": 9.6,
+      "drive": 20,
+      "openHouse": "",
+      "dom": 76,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
+      "lat": 32.5998141,
+      "lng": -97.1367077,
+      "schools": [
+        {
+          "name": "Roberta Tipps Elementary School",
+          "grades": "Elementary",
+          "rating": 9
+        },
+        {
+          "name": "Brooks Wester Middle School",
+          "grades": "Middle",
+          "rating": 9
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 8.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 499000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
+      "mls": "21369679",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 44,
+        "lasColinas": 41,
+        "galleria": 49
+      },
+      "weeklyDrive": {
+        "schoolMin": 159,
+        "workMin": 222,
+        "totalMin": 381,
+        "ifGalleriaWorkMin": 244,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Trails The (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 0,
+          "swim": 0,
+          "park": 20,
+          "sportsFields": 0,
+          "music": 1,
+          "martialArts": 3,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "nearest": [
+          {
+            "name": "Windmill Walking Park",
+            "category": "park",
+            "miles": 0.2
+          },
+          {
+            "name": "TX Black Belt Academy (karate)",
+            "category": "martialArts",
+            "miles": 0.5
+          },
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 1.7
+          },
+          {
+            "name": "Kumon Math and Reading Center of Mansfield - North",
+            "category": "tutoring",
+            "miles": 1.7
+          },
+          {
+            "name": "StageDoor Dance Centre",
+            "category": "dance",
+            "miles": 1.7
+          }
+        ],
+        "score": 7.2,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0.75,
+          "ymcaSwim": 0,
+          "parksFields": 1,
+          "music": 0.75,
+          "martialArts": 1,
+          "dance": 0.75,
+          "stem": 0.75,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 7.2,
+      "matchScore": 59.9,
+      "matchParts": {
+        "afterSchool": 18.0,
+        "schoolAvg": 16.6,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 11.1,
+        "schoolDrive": 3.8,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 9
+    },
+    {
+      "id": "32433403",
+      "street": "18 Red Bluff Ct",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 445000,
+      "beds": 4,
+      "baths": 2.5,
+      "sqft": 2886,
+      "lot": 0.28,
+      "story": "Multi",
+      "miles": 10.6,
+      "drive": 22,
+      "openHouse": "",
+      "dom": 76,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
+      "lat": 32.5686968,
+      "lng": -97.1311543,
+      "schools": [
+        {
+          "name": "Erma Nash Elementary School",
+          "grades": "Elementary",
+          "rating": 5
+        },
+        {
+          "name": "Rogene Worley Middle School",
+          "grades": "Middle",
+          "rating": 7
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 6.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
+      "mls": "21361306",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 47,
+        "lasColinas": 43,
+        "galleria": 51
+      },
+      "weeklyDrive": {
+        "schoolMin": 177,
+        "workMin": 233,
+        "totalMin": 410,
+        "ifGalleriaWorkMin": 255,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Red Bluff Parc Add (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 0,
+          "park": 13,
+          "sportsFields": 0,
+          "music": 2,
+          "martialArts": 4,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "Walnut Creek Linear Park",
+            "category": "park",
+            "miles": 0.3
+          },
+          {
+            "name": "Mansfield Activities Center (city rec center)",
+            "category": "recCenter",
+            "miles": 0.5
+          },
+          {
+            "name": "Red Tiger Karate (at the Activities Center)",
+            "category": "martialArts",
+            "miles": 0.5
+          },
+          {
+            "name": "Mansfield Public Library",
+            "category": "library",
+            "miles": 0.5
+          },
+          {
+            "name": "Dance Academy of Mansfield",
+            "category": "dance",
+            "miles": 0.7
+          }
+        ],
+        "score": 9.2,
+        "groupCredit": {
+          "library": 1,
+          "recCenter": 1,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 1,
+          "martialArts": 1,
+          "dance": 1,
+          "stem": 0.75,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 9.2,
+      "matchScore": 59.3,
+      "matchParts": {
+        "afterSchool": 23.0,
+        "schoolAvg": 12.6,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 11.1,
+        "schoolDrive": 2.2,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 10
+    },
+    {
+      "id": "58525051",
+      "street": "607 Biscayne Dr",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 439900,
+      "beds": 5,
+      "baths": 2,
+      "sqft": 2729,
+      "lot": 0.34,
+      "story": "Multi",
+      "miles": 10.9,
+      "drive": 23,
+      "openHouse": "",
+      "dom": 47,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
+      "lat": 32.5721225,
+      "lng": -97.1408692,
+      "schools": [
+        {
+          "name": "Alice Ponder Elementary School",
+          "grades": "PK-4",
+          "rating": 7
+        },
+        {
+          "name": "Rogene Worley Middle School",
+          "grades": "7-8",
+          "rating": 7
+        },
+        {
+          "name": "Mansfield Legacy High School",
+          "grades": "9-12",
+          "rating": 5
+        }
+      ],
+      "schoolAvg": 6.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 449900,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/607-Biscayne-Dr-76063/home/32479256",
+      "mls": "21390472",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "stored from original file (Zillow/GreatSchools)",
+      "commute": {
+        "southlake": 48,
+        "lasColinas": 44,
+        "galleria": 52
+      },
+      "weeklyDrive": {
+        "schoolMin": 186,
+        "workMin": 238,
+        "totalMin": 424,
+        "ifGalleriaWorkMin": 260,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Parks At Walnut Creek Add (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 0,
+          "park": 13,
+          "sportsFields": 0,
+          "music": 2,
+          "martialArts": 4,
+          "dance": 3,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "nearest": [
+          {
+            "name": "Mansfield Town Park",
+            "category": "park",
+            "miles": 0.1
+          },
+          {
+            "name": "Dance Academy of Mansfield",
+            "category": "dance",
+            "miles": 0.6
+          },
+          {
+            "name": "Mansfield Music Mentors",
+            "category": "music",
+            "miles": 0.6
+          },
+          {
+            "name": "Mansfield Historical Society",
+            "category": "recCenter",
+            "miles": 0.6
+          },
+          {
+            "name": "Red Tiger Karate (at the Activities Center)",
+            "category": "martialArts",
+            "miles": 1.1
+          }
+        ],
+        "score": 9.2,
+        "groupCredit": {
+          "library": 1,
+          "recCenter": 1,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 1,
+          "martialArts": 1,
+          "dance": 1,
+          "stem": 0.75,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 9.2,
+      "matchScore": 57.8,
+      "matchParts": {
+        "afterSchool": 23.0,
+        "schoolAvg": 12.6,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 10.2,
+        "schoolDrive": 1.5,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 11
+    },
+    {
+      "id": "144042570",
+      "street": "3403 Willow Brook Dr",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 499990,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3603,
+      "lot": 0.27,
+      "story": "Multi",
+      "miles": 7.6,
+      "drive": 17,
+      "openHouse": "",
+      "dom": 112,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
+      "lat": 32.6111829,
+      "lng": -97.1052367,
+      "schools": [
+        {
+          "name": "Janet Brockett Elementary School",
+          "grades": "Elementary",
+          "rating": 6
+        },
+        {
+          "name": "James Coble Middle School",
+          "grades": "Middle",
+          "rating": 7
+        },
+        {
+          "name": "Mansfield Timberview High School",
+          "grades": "High",
+          "rating": 6
+        }
+      ],
+      "schoolAvg": 6.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 510000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
+      "mls": "21336219",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings (manually matched)",
+      "commute": {
+        "southlake": 41,
+        "lasColinas": 37,
+        "galleria": 46
+      },
+      "weeklyDrive": {
+        "schoolMin": 133,
+        "workMin": 206,
+        "totalMin": 339,
+        "ifGalleriaWorkMin": 228,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Five Oaks Crossing Add (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 2,
+          "recCenter": 0,
+          "ymca": 0,
+          "swim": 0,
+          "park": 17,
+          "sportsFields": 0,
+          "music": 0,
+          "martialArts": 1,
+          "dance": 0,
+          "stem": 1,
+          "tutoring": 2
+        },
+        "nearest": [
+          {
+            "name": "Don Misenhimer Park",
+            "category": "park",
+            "miles": 0.6
+          },
+          {
+            "name": "Code Ninjas Mansfield",
+            "category": "stem",
+            "miles": 1.1
+          },
+          {
+            "name": "Kumon Math and Reading Center of Mansfield - North",
+            "category": "tutoring",
+            "miles": 1.1
+          },
+          {
+            "name": "TX Black Belt Academy (karate)",
+            "category": "martialArts",
+            "miles": 2.4
+          },
+          {
+            "name": "Judith J. Carrier Library",
+            "category": "library",
+            "miles": 2.7
+          }
+        ],
+        "score": 5.0,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0,
+          "ymcaSwim": 0,
+          "parksFields": 1,
+          "music": 0,
+          "martialArts": 0.75,
+          "dance": 0,
+          "stem": 1,
+          "tutoring": 1
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 5.0,
+      "matchScore": 54.4,
+      "matchParts": {
+        "afterSchool": 12.5,
+        "schoolAvg": 12.6,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 12.8,
+        "schoolDrive": 6.0,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 12
+    },
+    {
+      "id": "31372052",
+      "street": "5816 Gatewood Dr",
+      "city": "Arlington",
+      "zip": "76016",
+      "price": 350000,
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2569,
+      "lot": 0.26,
+      "story": "Single",
+      "miles": 11.8,
+      "drive": 20,
+      "openHouse": "",
+      "dom": 54,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
+      "lat": 32.6995318,
+      "lng": -97.1969501,
+      "schools": [
+        {
+          "name": "Ditto Elementary School",
+          "grades": "Elementary",
+          "rating": 8
+        },
+        {
+          "name": "Young Junior High School",
+          "grades": "Middle",
+          "rating": 6
+        },
+        {
+          "name": "Martin High School",
+          "grades": "High",
+          "rating": 6
+        }
+      ],
+      "schoolAvg": 6.7,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 406,
+        "property": 1994
+      },
+      "isNew": false,
+      "prevPrice": 362500,
+      "redfinUrl": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
+      "mls": "21386898",
+      "crimeBasis": "local",
+      "crimeLocal": {
+        "covered": true,
+        "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
+        "radiusMiles": 0.5,
+        "window": "last 12 months",
+        "incidents": 39,
+        "violent": 2,
+        "burglary": 1,
+        "vehicle": 4,
+        "score": 36.5,
+        "cityMedianScore": 74.25,
+        "violentCap": 8,
+        "passes": true
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 41,
+        "lasColinas": 38,
+        "galleria": 46
+      },
+      "weeklyDrive": {
+        "schoolMin": 158,
+        "workMin": 204,
+        "totalMin": 361,
+        "ifGalleriaWorkMin": 231,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Arbor Valley (Arlington 76016)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 2,
+          "recCenter": 5,
+          "ymca": 0,
+          "swim": 1,
+          "park": 9,
+          "sportsFields": 0,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0
+        },
+        "nearest": [
+          {
+            "name": "Thora Hart Park",
+            "category": "park",
+            "miles": 0.7
+          },
+          {
+            "name": "Arlington Public Library",
+            "category": "library",
+            "miles": 1.1
+          },
+          {
+            "name": "Cliff Nelson Recreation Center",
+            "category": "recCenter",
+            "miles": 2.4
+          },
+          {
+            "name": "Dottie Lynn Recreation Center Swimming Pool",
+            "category": "swim",
+            "miles": 2.7
+          },
+          {
+            "name": "Richard Simpson Park",
+            "category": "park",
+            "miles": 0.9
+          }
+        ],
+        "score": 3.9,
+        "groupCredit": {
+          "library": 1,
+          "recCenter": 0.75,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 3.9,
+      "matchScore": 54.3,
+      "matchParts": {
+        "afterSchool": 9.8,
+        "schoolAvg": 13.4,
+        "crime": 11.3,
+        "improvingArea": 0.0,
+        "value": 13.1,
+        "schoolDrive": 3.8,
+        "singleStoryBonus": 3.0
+      },
+      "rank": 13
+    },
+    {
+      "id": "193196175",
+      "street": "2123 Pennywell Dr",
+      "city": "Venus",
+      "zip": "76084",
+      "price": 499900,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2377,
+      "lot": 0.31,
+      "story": "Multi",
+      "miles": 11.4,
+      "drive": 21,
+      "openHouse": "November-21-2026 10:00 AM \u2013 03:00 PM",
+      "dom": 60,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
+      "lat": 32.534676,
+      "lng": -97.105437,
+      "schools": [
+        {
+          "name": "Brenda Norwood Elementary School",
+          "grades": "Elementary",
+          "rating": 9
+        },
+        {
+          "name": "Charlene McKinzey Middle",
+          "grades": "Middle",
+          "rating": 8
+        },
+        {
+          "name": "Mansfield High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 8.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 116,
+        "property": 347
+      },
+      "isNew": false,
+      "prevPrice": 509900,
+      "redfinUrl": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
+      "mls": "21384203",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Venus has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 46,
+        "lasColinas": 42,
+        "galleria": 50
+      },
+      "weeklyDrive": {
+        "schoolMin": 169,
+        "workMin": 228,
+        "totalMin": 397,
+        "ifGalleriaWorkMin": 250,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Somerset Ph V-1 (Venus 76084)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 1,
+          "recCenter": 2,
+          "ymca": 1,
+          "swim": 1,
+          "park": 9,
+          "sportsFields": 1,
+          "music": 2,
+          "martialArts": 2,
+          "dance": 1,
+          "stem": 0,
+          "tutoring": 1
+        },
+        "nearest": [
+          {
+            "name": "Pinaroc Taekwondo",
+            "category": "martialArts",
+            "miles": 0.2
+          },
+          {
+            "name": "Harold M. Bell Park",
+            "category": "park",
+            "miles": 1.2
+          },
+          {
+            "name": "Family Dream Center (music school)",
+            "category": "music",
+            "miles": 1.5
+          },
+          {
+            "name": "Mansfield YMCA",
+            "category": "ymca",
+            "miles": 1.8
+          },
+          {
+            "name": "Heritage Towne Community Pool",
+            "category": "swim",
+            "miles": 2.1
+          }
+        ],
+        "score": 7.5,
+        "groupCredit": {
+          "library": 0.75,
+          "recCenter": 0.75,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 1,
+          "martialArts": 1,
+          "dance": 0.75,
+          "stem": 0,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 7.5,
+      "matchScore": 52.3,
+      "matchParts": {
+        "afterSchool": 18.8,
+        "schoolAvg": 16.0,
+        "crime": 10.0,
+        "improvingArea": 0.0,
+        "value": 4.6,
+        "schoolDrive": 3.0,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 14
+    },
+    {
+      "id": "32391407",
+      "street": "4303 Solitude Ct",
+      "city": "Arlington",
+      "zip": "76017",
+      "price": 380000,
+      "beds": 5,
+      "baths": 3.5,
+      "sqft": 2922,
+      "lot": 0.27,
+      "story": "Multi",
+      "miles": 10.5,
+      "drive": 15,
+      "openHouse": "",
+      "dom": 273,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
+      "lat": 32.670411,
+      "lng": -97.1761253,
+      "schools": [
+        {
+          "name": "Wood Elementary School",
+          "grades": "Elementary",
+          "rating": 6
+        },
+        {
+          "name": "Boles Junior High School",
+          "grades": "Middle",
+          "rating": 6
+        },
+        {
+          "name": "Martin High School",
+          "grades": "High",
+          "rating": 6
+        }
+      ],
+      "schoolAvg": 6.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 406,
+        "property": 1994
+      },
+      "isNew": false,
+      "prevPrice": 395000,
+      "redfinUrl": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
+      "mls": "21167885",
+      "crimeBasis": "local",
+      "crimeLocal": {
+        "covered": true,
+        "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
+        "radiusMiles": 0.5,
+        "window": "last 12 months",
+        "incidents": 52,
+        "violent": 5,
+        "burglary": 3,
+        "vehicle": 6,
+        "score": 58.0,
+        "cityMedianScore": 74.25,
+        "violentCap": 8,
+        "passes": true
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 41,
+        "lasColinas": 36,
+        "galleria": 44
+      },
+      "weeklyDrive": {
+        "schoolMin": 121,
+        "workMin": 205,
+        "totalMin": 326,
+        "ifGalleriaWorkMin": 220,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Belle Aceda Point (Arlington 76017)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 2,
+          "recCenter": 1,
+          "ymca": 0,
+          "swim": 0,
+          "park": 17,
+          "sportsFields": 0,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0
+        },
+        "nearest": [
+          {
+            "name": "Clif Nelson Park",
+            "category": "park",
+            "miles": 0.4
+          },
+          {
+            "name": "Cliff Nelson Recreation Center",
+            "category": "recCenter",
+            "miles": 0.4
+          },
+          {
+            "name": "Arlington Public Library-Southwest Branch",
+            "category": "library",
+            "miles": 1.2
+          },
+          {
+            "name": "Gene Schrickel, Jr. Park",
+            "category": "park",
+            "miles": 0.5
+          },
+          {
+            "name": "Al Rollins Park",
+            "category": "park",
+            "miles": 1.1
+          }
+        ],
+        "score": 3.3,
+        "groupCredit": {
+          "library": 1,
+          "recCenter": 1,
+          "ymcaSwim": 0,
+          "parksFields": 1,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 3.3,
+      "matchScore": 50.7,
+      "matchParts": {
+        "afterSchool": 8.2,
+        "schoolAvg": 12.0,
+        "crime": 9.1,
+        "improvingArea": 0.0,
+        "value": 13.8,
+        "schoolDrive": 7.5,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 15
+    },
+    {
+      "id": "31079607",
+      "street": "2808 N Camino Lagos",
+      "city": "Grand Prairie",
+      "zip": "75054",
+      "price": 425000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2725,
+      "lot": 0.29,
+      "story": "Multi",
+      "miles": 6.3,
+      "drive": 17,
+      "openHouse": "",
+      "dom": 37,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
+      "lat": 32.59302,
+      "lng": -97.0498682,
+      "schools": [
+        {
+          "name": "Cora Spencer Elementary School",
+          "grades": "Elementary",
+          "rating": 10
+        },
+        {
+          "name": "Linda Jobe Middle School",
+          "grades": "Middle",
+          "rating": 7
+        },
+        {
+          "name": "Mansfield Lake Ridge High School",
+          "grades": "High",
+          "rating": 8
+        }
+      ],
+      "schoolAvg": 8.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 201,
+        "property": 1330
+      },
+      "isNew": false,
+      "prevPrice": 435000,
+      "redfinUrl": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
+      "mls": "21316614",
+      "crimeBasis": "local",
+      "crimeLocal": {
+        "covered": true,
+        "source": "Grand Prairie PD open data (90-day layer, scaled x365/90)",
+        "radiusMiles": 0.5,
+        "window": "last 90 days, annualised",
+        "incidents": 69,
+        "violent": 8,
+        "burglary": 0,
+        "vehicle": 0,
+        "score": 40.6,
+        "cityMedianScore": 122.69999999999999,
+        "violentCap": 26,
+        "passes": true
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 43,
+        "lasColinas": 38,
+        "galleria": 46
+      },
+      "weeklyDrive": {
+        "schoolMin": 132,
+        "workMin": 214,
+        "totalMin": 346,
+        "ifGalleriaWorkMin": 229,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Mira Lagos B (Grand Prairie 75054)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 0,
+          "recCenter": 0,
+          "ymca": 0,
+          "swim": 0,
+          "park": 8,
+          "sportsFields": 1,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 1
+        },
+        "nearest": [
+          {
+            "name": "Loyd Park",
+            "category": "park",
+            "miles": 1.3
+          },
+          {
+            "name": "Mathnasium of Mansfield",
+            "category": "tutoring",
+            "miles": 2.3
+          },
+          {
+            "name": "Estes Park",
+            "category": "park",
+            "miles": 1.9
+          },
+          {
+            "name": "Mansfield Sports Complex",
+            "category": "park",
+            "miles": 2.2
+          },
+          {
+            "name": "Pleasant Valley Park",
+            "category": "park",
+            "miles": 2.3
+          }
+        ],
+        "score": 1.9,
+        "groupCredit": {
+          "library": 0,
+          "recCenter": 0,
+          "ymcaSwim": 0,
+          "parksFields": 1,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 1.9,
+      "matchScore": 50.7,
+      "matchParts": {
+        "afterSchool": 4.8,
+        "schoolAvg": 16.6,
+        "crime": 12.5,
+        "improvingArea": 0.0,
+        "value": 10.9,
+        "schoolDrive": 6.0,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 16
+    },
+    {
+      "id": "113468332",
+      "street": "5205 Shelter Point Ct",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 500000,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3006,
+      "lot": 0.35,
+      "story": "Multi",
+      "miles": 8.4,
+      "drive": 20,
+      "openHouse": "",
+      "dom": 57,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
+      "lat": 32.559897,
+      "lng": -97.051315,
+      "schools": [
+        {
+          "name": "Elizabeth Smith Elementary School",
+          "grades": "Elementary",
+          "rating": 7
+        },
+        {
+          "name": "Charlene McKinzey Middle",
+          "grades": "Middle",
+          "rating": 8
+        },
+        {
+          "name": "Mansfield Lake Ridge High School",
+          "grades": "High",
+          "rating": 8
+        }
+      ],
+      "schoolAvg": 7.7,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": 510000,
+      "redfinUrl": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
+      "mls": "21387458",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+      "commute": {
+        "southlake": 45,
+        "lasColinas": 41,
+        "galleria": 49
+      },
+      "weeklyDrive": {
+        "schoolMin": 162,
+        "workMin": 223,
+        "totalMin": 385,
+        "ifGalleriaWorkMin": 245,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Spring Lake Estates (Mansfield 76063)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 0,
+          "recCenter": 0,
+          "ymca": 1,
+          "swim": 1,
+          "park": 7,
+          "sportsFields": 1,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 1
+        },
+        "nearest": [
+          {
+            "name": "Britton Park",
+            "category": "park",
+            "miles": 0.7
+          },
+          {
+            "name": "Mathnasium of Mansfield",
+            "category": "tutoring",
+            "miles": 2.2
+          },
+          {
+            "name": "Heritage Towne Community Pool",
+            "category": "swim",
+            "miles": 2.9
+          },
+          {
+            "name": "Mansfield YMCA",
+            "category": "ymca",
+            "miles": 3.0
+          },
+          {
+            "name": "Pleasant Valley Park",
+            "category": "park",
+            "miles": 1.4
+          }
+        ],
+        "score": 2.8,
+        "groupCredit": {
+          "library": 0,
+          "recCenter": 0,
+          "ymcaSwim": 0.75,
+          "parksFields": 1,
+          "music": 0,
+          "martialArts": 0,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0.75
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 2.8,
+      "matchScore": 46.2,
+      "matchParts": {
+        "afterSchool": 7.0,
+        "schoolAvg": 15.4,
+        "crime": 10.4,
+        "improvingArea": 0.0,
+        "value": 9.7,
+        "schoolDrive": 3.8,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 17
+    },
+    {
+      "id": "176763617",
+      "street": "6717 Aster Dr",
+      "city": "Venus",
+      "zip": "76084",
+      "price": 459000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2945,
+      "lot": 0.28,
+      "story": "Multi",
+      "miles": 12.7,
+      "drive": 24,
+      "openHouse": "",
+      "dom": 117,
+      "status": "House for sale",
+      "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
+      "lat": 32.5013923,
+      "lng": -97.0778566,
+      "schools": [
+        {
+          "name": "J A Vitovsky Elementary School",
+          "grades": "Elementary",
+          "rating": 5
+        },
+        {
+          "name": "Frank Seale Middle School",
+          "grades": "Middle",
+          "rating": 6
+        },
+        {
+          "name": "Midlothian High School",
+          "grades": "High",
+          "rating": 7
+        }
+      ],
+      "schoolAvg": 6.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 116,
+        "property": 347
+      },
+      "isNew": false,
+      "prevPrice": 465000,
+      "redfinUrl": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
+      "mls": "21328474",
+      "crimeBasis": "city",
+      "crimeLocal": {
+        "covered": false,
+        "source": "no point data",
+        "note": "Venus has no open point-level crime data; city FBI rate vs Texas average used."
+      },
+      "crimePass": true,
+      "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings (manually matched)",
+      "commute": {
+        "southlake": 48,
+        "lasColinas": 45,
+        "galleria": 51
+      },
+      "weeklyDrive": {
+        "schoolMin": 192,
+        "workMin": 242,
+        "totalMin": 434,
+        "ifGalleriaWorkMin": 257,
+        "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+      },
+      "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+      "area": {
+        "name": "Prairie Rdg Ph 1 (Venus 76084)",
+        "improving": false,
+        "note": "Not in the approved improving-area list."
+      },
+      "afterSchool": {
+        "counts": {
+          "library": 0,
+          "recCenter": 0,
+          "ymca": 0,
+          "swim": 1,
+          "park": 1,
+          "sportsFields": 0,
+          "music": 0,
+          "martialArts": 1,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0
+        },
+        "nearest": [
+          {
+            "name": "Heritage Towne Community Pool",
+            "category": "swim",
+            "miles": 1.5
+          },
+          {
+            "name": "Harold M. Bell Park",
+            "category": "park",
+            "miles": 2.5
+          },
+          {
+            "name": "Pinaroc Taekwondo",
+            "category": "martialArts",
+            "miles": 2.9
+          }
+        ],
+        "score": 2.2,
+        "groupCredit": {
+          "library": 0,
+          "recCenter": 0,
+          "ymcaSwim": 1,
+          "parksFields": 0.25,
+          "music": 0,
+          "martialArts": 0.75,
+          "dance": 0,
+          "stem": 0,
+          "tutoring": 0
+        },
+        "radiusMiles": 3,
+        "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+        "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+      },
+      "afterSchoolScore": 2.2,
+      "matchScore": 39.1,
+      "matchParts": {
+        "afterSchool": 5.5,
+        "schoolAvg": 12.0,
+        "crime": 10.0,
+        "improvingArea": 0.0,
+        "value": 10.9,
+        "schoolDrive": 0.8,
+        "singleStoryBonus": 0.0
+      },
+      "rank": 18
     }
-   ],
-   "schoolAvg": 8.2,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 499000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
-   "mls": "21281146",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 43,
-    "lasColinas": 40,
-    "galleria": 48
-   },
-   "weeklyDrive": {
-    "schoolMin": 152,
-    "workMin": 217,
-    "totalMin": 369,
-    "ifGalleriaWorkMin": 239,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Walnut Creek Valley Add (Mansfield 76063)",
-    "improving": true,
-    "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 19,
-     "sportsFields": 0,
-     "music": 2,
-     "martialArts": 3,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
+  ],
+  "removed": [
+    {
+      "id": "27211523",
+      "street": "510 N Clark Rd",
+      "city": "Duncanville",
+      "zip": "75116",
+      "price": 475000,
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2343,
+      "lot": 0.51,
+      "story": "Single",
+      "miles": 3.2,
+      "drive": 10,
+      "openHouse": "",
+      "dom": 113,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/510-N-Clark-Rd-Duncanville-TX-75116/27211523_zpid/",
+      "lat": 32.658733,
+      "lng": -96.94259,
+      "schools": [
+        {
+          "name": "Cj & Anne Hyman Elementary School",
+          "grades": "PK-4",
+          "rating": 4
+        },
+        {
+          "name": "William High Byrd Middle School",
+          "grades": "7-8",
+          "rating": 2
+        },
+        {
+          "name": "Duncanville High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 3.0,
+      "financing": "incentive",
+      "financingNote": "Special Financing Available! Qualified buyers may be eligible for 5.85% financing, FHA, VA & USDA loans, plus 3.5% down payment and closing cost assistance (non-repayable grant).",
+      "note": "",
+      "crime": {
+        "violent": 260,
+        "property": 2041
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
     },
-    "nearest": [
-     {
-      "name": "Chandler Park",
-      "category": "park",
-      "miles": 0.5
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 0.7
-     },
-     {
-      "name": "Kumon Math and Reading Center of Mansfield - North",
-      "category": "tutoring",
-      "miles": 0.7
-     },
-     {
-      "name": "TX Black Belt Academy (karate)",
-      "category": "martialArts",
-      "miles": 1.5
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 2.3
-     }
-    ],
-    "score": 8.6,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 1,
-     "dance": 0.75,
-     "stem": 1,
-     "tutoring": 1
+    {
+      "id": "248829998",
+      "street": "908 Heath Creek Dr",
+      "city": "DeSoto",
+      "zip": "75115",
+      "price": 480000,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3948,
+      "lot": 0.35,
+      "story": "Multi",
+      "miles": 8.6,
+      "drive": 21,
+      "openHouse": "Daily Sun, 10/18\u2013Thu, 10/22, 9 AM\u20137 PM",
+      "dom": 9,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/908-Heath-Creek-Dr-Desoto-TX-75115/248829998_zpid/",
+      "lat": 32.595016,
+      "lng": -96.87894,
+      "schools": [
+        {
+          "name": "Desoto West Middle School",
+          "grades": "6-8",
+          "rating": 2
+        },
+        {
+          "name": "Desoto High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 2.5,
+      "financing": "incentive",
+      "financingNote": "INCREDIBLE BUYER INCENTIVES: $7,000 MORTGAGE CONCESSION. Opendoor Home Loans will contribute up to $7,000 towards a permanent interest rate buy-down if you finance with Opendoor Home Loans LLC.",
+      "note": "",
+      "crime": {
+        "violent": 285,
+        "property": 1581
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
     },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 8.6,
-   "matchScore": 75.2,
-   "matchParts": {
-    "afterSchool": 21.5,
-    "schoolAvg": 16.4,
-    "crime": 10.4,
-    "improvingArea": 10.0,
-    "value": 9.3,
-    "schoolDrive": 4.5,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 3
+    {
+      "id": "67953338",
+      "street": "106 S Clark Rd",
+      "city": "Duncanville",
+      "zip": "75116",
+      "price": 330000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2349,
+      "lot": 0.3,
+      "story": "Multi",
+      "miles": 3.5,
+      "drive": 10,
+      "openHouse": "",
+      "dom": 175,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/106-S-Clark-Rd-Duncanville-TX-75116/67953338_zpid/",
+      "lat": 32.649986,
+      "lng": -96.942535,
+      "schools": [
+        {
+          "name": "H Bob Daniel Sr Intermediate School",
+          "grades": "5-6",
+          "rating": 2
+        },
+        {
+          "name": "William High Byrd Middle School",
+          "grades": "7-8",
+          "rating": 2
+        },
+        {
+          "name": "Duncanville High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 2.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 260,
+        "property": 2041
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "465227323",
+      "street": "1606 Avenue C",
+      "city": "Grand Prairie",
+      "zip": "75051",
+      "price": 475000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2302,
+      "lot": 0.34,
+      "story": "Single",
+      "miles": 3.7,
+      "drive": 11,
+      "openHouse": "",
+      "dom": 36,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/1606-Avenue-C-Grand-Prairie-TX-75051/465227323_zpid/",
+      "lat": 32.724247,
+      "lng": -96.97938,
+      "schools": [
+        {
+          "name": "Hobbs Williams Elementary School",
+          "grades": "PK-5",
+          "rating": 3
+        },
+        {
+          "name": "BILL ARNOLD MIDDLE",
+          "grades": "6-8",
+          "rating": 2
+        },
+        {
+          "name": "Young Women's Leadership Academy at Bill Arnold",
+          "grades": "11-12",
+          "rating": 10
+        }
+      ],
+      "schoolAvg": 5.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": null,
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "27204014",
+      "street": "406 Dula Cir",
+      "city": "Duncanville",
+      "zip": "75116",
+      "price": 265000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2454,
+      "lot": 0.43,
+      "story": "Multi",
+      "miles": 4.7,
+      "drive": 13,
+      "openHouse": "",
+      "dom": 94,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/406-Dula-Cir-Duncanville-TX-75116/27204014_zpid/",
+      "lat": 32.67055,
+      "lng": -96.91457,
+      "schools": [
+        {
+          "name": "James R Bilhartz Jr Elementary School",
+          "grades": "PK-4",
+          "rating": 2
+        },
+        {
+          "name": "G W Kennemer Middle School",
+          "grades": "6-8",
+          "rating": 4
+        },
+        {
+          "name": "Duncanville High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 3.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 260,
+        "property": 2041
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "26991587",
+      "street": "523 Softwood Dr",
+      "city": "Duncanville",
+      "zip": "75137",
+      "price": 429300,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2968,
+      "lot": 0.76,
+      "story": "Multi",
+      "miles": 5.5,
+      "drive": 14,
+      "openHouse": "",
+      "dom": 338,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/523-Softwood-Dr-Duncanville-TX-75137/26991587_zpid/",
+      "lat": 32.623398,
+      "lng": -96.92189,
+      "schools": [
+        {
+          "name": "S Gus Alexander Jr Elementary School",
+          "grades": "PK-4",
+          "rating": 3
+        },
+        {
+          "name": "William High Byrd Middle School",
+          "grades": "7-8",
+          "rating": 2
+        },
+        {
+          "name": "Duncanville High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 2.7,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 260,
+        "property": 2041
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "2070094007",
+      "street": "2853 S Lakeview Dr",
+      "city": "Cedar Hill",
+      "zip": "75104",
+      "price": null,
+      "beds": 4,
+      "baths": 5,
+      "sqft": 4308,
+      "lot": 1.1,
+      "story": "Multi",
+      "miles": 7.0,
+      "drive": 17,
+      "openHouse": "",
+      "dom": 5,
+      "status": "Auction",
+      "url": "https://www.zillow.com/homedetails/2853-S-Lakeview-Dr-Cedar-Hill-TX-75104/2070094007_zpid/",
+      "lat": 32.571777,
+      "lng": -97.00952,
+      "schools": [
+        {
+          "name": "Lakeridge Elementary School",
+          "grades": "PK-5",
+          "rating": 4
+        },
+        {
+          "name": "W S Permenter Middle School",
+          "grades": "6-8",
+          "rating": 4
+        },
+        {
+          "name": "Cedar Hill High School",
+          "grades": "9-12",
+          "rating": 2
+        }
+      ],
+      "schoolAvg": 3.3,
+      "financing": "none",
+      "financingNote": "",
+      "note": "Auction \u2014 sold as-is",
+      "crime": {
+        "violent": 155,
+        "property": 1718
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "26983750",
+      "street": "1528 Registry Dr",
+      "city": "DeSoto",
+      "zip": "75115",
+      "price": 369000,
+      "beds": 5,
+      "baths": 5,
+      "sqft": 3789,
+      "lot": 0.3,
+      "story": "Multi",
+      "miles": 7.5,
+      "drive": 18,
+      "openHouse": "",
+      "dom": 62,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/1528-Registry-Dr-Desoto-TX-75115/26983750_zpid/",
+      "lat": 32.601288,
+      "lng": -96.897194,
+      "schools": [
+        {
+          "name": "Curtistene S McCowan Middle School",
+          "grades": "6-8",
+          "rating": 4
+        },
+        {
+          "name": "Desoto High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 3.5,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 285,
+        "property": 1581
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "26980988",
+      "street": "636 Bent Creek Dr",
+      "city": "DeSoto",
+      "zip": "75115",
+      "price": 459000,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 3567,
+      "lot": 0.31,
+      "story": "Multi",
+      "miles": 7.8,
+      "drive": 19,
+      "openHouse": "Sun, 10/18 2 PM\u20134 PM",
+      "dom": 136,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/636-Bent-Creek-Dr-Desoto-TX-75115/26980988_zpid/",
+      "lat": 32.59883,
+      "lng": -96.89283,
+      "schools": [
+        {
+          "name": "Curtistene S McCowan Middle School",
+          "grades": "6-8",
+          "rating": 4
+        },
+        {
+          "name": "Desoto High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 3.5,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 285,
+        "property": 1581
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "29013850",
+      "street": "1110 Western Blvd",
+      "city": "Arlington",
+      "zip": "76013",
+      "price": 365000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2434,
+      "lot": 0.33,
+      "story": "Single",
+      "miles": 7.9,
+      "drive": 19,
+      "openHouse": "",
+      "dom": 101,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/1110-Western-Blvd-Arlington-TX-76013/29013850_zpid/",
+      "lat": 32.716427,
+      "lng": -97.12078,
+      "schools": [
+        {
+          "name": "South Davis Elementary School",
+          "grades": "PK-6",
+          "rating": 4
+        },
+        {
+          "name": "Bailey Junior High School",
+          "grades": "7-8",
+          "rating": 5
+        },
+        {
+          "name": "Arlington High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 4.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": null,
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "26980879",
+      "street": "1112 W Pleasant Run Rd",
+      "city": "DeSoto",
+      "zip": "75115",
+      "price": 430000,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 2495,
+      "lot": 0.93,
+      "story": "Single",
+      "miles": 8.0,
+      "drive": 19,
+      "openHouse": "",
+      "dom": 113,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/1112-W-Pleasant-Run-Rd-Desoto-TX-75115/26980879_zpid/",
+      "lat": 32.603596,
+      "lng": -96.8852,
+      "schools": [
+        {
+          "name": "Desoto West Middle School",
+          "grades": "6-8",
+          "rating": 2
+        },
+        {
+          "name": "Desoto High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 2.5,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 285,
+        "property": 1581
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "67953785",
+      "street": "1105 Marisa Ln",
+      "city": "DeSoto",
+      "zip": "75115",
+      "price": 449900,
+      "beds": 4,
+      "baths": 4,
+      "sqft": 4434,
+      "lot": 0.31,
+      "story": "Multi",
+      "miles": 8.4,
+      "drive": 20,
+      "openHouse": "",
+      "dom": 41,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/1105-Marisa-Ln-Desoto-TX-75115/67953785_zpid/",
+      "lat": 32.60931,
+      "lng": -96.872246,
+      "schools": [
+        {
+          "name": "Desoto West Middle School",
+          "grades": "6-8",
+          "rating": 2
+        },
+        {
+          "name": "Desoto High School",
+          "grades": "9-12",
+          "rating": 3
+        }
+      ],
+      "schoolAvg": 2.5,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 285,
+        "property": 1581
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "461753359",
+      "street": "1903 Spirit Walk",
+      "city": "Mansfield",
+      "zip": "76063",
+      "price": 434999,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2976,
+      "lot": 0.49,
+      "story": "Multi",
+      "miles": 9.6,
+      "drive": 23,
+      "openHouse": "",
+      "dom": 1,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/1903-Spirit-Walk-Mansfield-TX-76063/461753359_zpid/",
+      "lat": 32.6048,
+      "lng": -97.140396,
+      "schools": [
+        {
+          "name": "Roberta Tipps Elementary School",
+          "grades": "PK-4",
+          "rating": 9
+        },
+        {
+          "name": "Brooks Wester Middle School",
+          "grades": "6-8",
+          "rating": 9
+        },
+        {
+          "name": "Summit High School",
+          "grades": "9-12",
+          "rating": 5
+        }
+      ],
+      "schoolAvg": 7.7,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": {
+        "violent": 106,
+        "property": 1191
+      },
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "29127002",
+      "street": "2811 Crowley Ct",
+      "city": "Arlington",
+      "zip": "76012",
+      "price": 498000,
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2856,
+      "lot": 0.34,
+      "story": "Multi",
+      "miles": 10.4,
+      "drive": 24,
+      "openHouse": "Sun, 10/18 3 PM\u20134:30 PM",
+      "dom": 64,
+      "status": "House for sale",
+      "url": "https://www.zillow.com/homedetails/2811-Crowley-Ct-Arlington-TX-76012/29127002_zpid/",
+      "lat": 32.744026,
+      "lng": -97.153824,
+      "schools": [
+        {
+          "name": "Pope Elementary School",
+          "grades": "PK-6",
+          "rating": 3
+        },
+        {
+          "name": "Shackelford Junior High School",
+          "grades": "7-8",
+          "rating": 4
+        },
+        {
+          "name": "Lamar High School",
+          "grades": "9-12",
+          "rating": 2
+        }
+      ],
+      "schoolAvg": 3.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "",
+      "crime": null,
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    },
+    {
+      "id": "29127187",
+      "street": "2604 Oak Cliff Ln",
+      "city": "Arlington",
+      "zip": "76012",
+      "price": null,
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2557,
+      "lot": 0.57,
+      "story": "Multi",
+      "miles": 10.5,
+      "drive": 24,
+      "openHouse": "",
+      "dom": 46,
+      "status": "Auction",
+      "url": "https://www.zillow.com/homedetails/2604-Oak-Cliff-Ln-Arlington-TX-76012/29127187_zpid/",
+      "lat": 32.747852,
+      "lng": -97.15185,
+      "schools": [
+        {
+          "name": "Pope Elementary School",
+          "grades": "PK-6",
+          "rating": 3
+        },
+        {
+          "name": "Shackelford Junior High School",
+          "grades": "7-8",
+          "rating": 4
+        },
+        {
+          "name": "Lamar High School",
+          "grades": "9-12",
+          "rating": 2
+        }
+      ],
+      "schoolAvg": 3.0,
+      "financing": "none",
+      "financingNote": "",
+      "note": "Auction \u2014 sold as-is",
+      "crime": null,
+      "isNew": false,
+      "prevPrice": null,
+      "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
+      "removedOn": "2026-11-10"
+    }
+  ],
+  "commuteTargets": {
+    "southlake": "Southlake Town Square (32.9443,-97.1309)",
+    "lasColinas": "Las Colinas Urban Center, Irving (32.8682,-96.9333)",
+    "galleria": "Galleria Dallas (32.9306,-96.8192)",
+    "method": "OSRM free-flow"
   },
-  {
-   "id": "32419600",
-   "street": "1005 Saint Andrews Dr",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 460000,
-   "beds": 3,
-   "baths": 2.5,
-   "sqft": 2550,
-   "lot": 0.28,
-   "story": "Single",
-   "miles": 9.6,
-   "drive": 20,
-   "openHouse": "",
-   "dom": 55,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
-   "lat": 32.5812537,
-   "lng": -97.1219278,
-   "schools": [
-    {
-     "name": "J L Boren Elementary School",
-     "grades": "Elementary",
-     "rating": 9
+  "crimeRule": {
+    "local": "weighted incident score within 0.5 mi (violent x5, burglary x3, vehicle x2, theft x1, vandalism x1, drugs x0.5) <= median of 30 random listing points in the same city AND violent incidents/yr <= 75th percentile of the same sample",
+    "baselines": {
+      "Dallas": {
+        "medianScore": 321.0,
+        "violentCap": 46.2,
+        "sampleN": 30
+      },
+      "Arlington": {
+        "medianScore": 74.25,
+        "violentCap": 8.0,
+        "sampleN": 30
+      },
+      "GrandPrairie": {
+        "medianScore": 122.69999999999999,
+        "violentCap": 26.0,
+        "sampleN": 30
+      },
+      "FortWorth": {
+        "medianScore": 213.0,
+        "violentCap": 25.8,
+        "sampleN": 30
+      }
     },
-    {
-     "name": "Brooks Wester Middle School",
-     "grades": "Middle",
-     "rating": 9
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 8.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 475000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
-   "mls": "21388613",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 44,
-    "lasColinas": 41,
-    "galleria": 49
-   },
-   "weeklyDrive": {
-    "schoolMin": 160,
-    "workMin": 222,
-    "totalMin": 383,
-    "ifGalleriaWorkMin": 244,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Walnut Creek Estate Mansfield (Mansfield 76063)",
-    "improving": true,
-    "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 15,
-     "sportsFields": 1,
-     "music": 2,
-     "martialArts": 3,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "James McKnight Park East",
-      "category": "park",
-      "miles": 0.5
-     },
-     {
-      "name": "Mansfield Public Library",
-      "category": "library",
-      "miles": 1.1
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 1.2
-     },
-     {
-      "name": "Red Tiger Karate (at the Activities Center)",
-      "category": "martialArts",
-      "miles": 1.2
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 1.3
-     }
-    ],
-    "score": 9.2,
-    "groupCredit": {
-     "library": 1,
-     "recCenter": 1,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 1,
-     "dance": 0.75,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 9.2,
-   "matchScore": 74.8,
-   "matchParts": {
-    "afterSchool": 23.0,
-    "schoolAvg": 16.6,
-    "crime": 10.4,
-    "improvingArea": 10.0,
-    "value": 8.0,
-    "schoolDrive": 3.8,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 4
-  },
-  {
-   "id": "32351125",
-   "street": "1123 Shady Oak Trl",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 398000,
-   "beds": 3,
-   "baths": 2.5,
-   "sqft": 2399,
-   "lot": 0.26,
-   "story": "Single",
-   "miles": 9.8,
-   "drive": 23,
-   "openHouse": "",
-   "dom": 83,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
-   "lat": 32.6080652,
-   "lng": -97.1469717,
-   "schools": [
-    {
-     "name": "Nancy Neal Elementary School",
-     "grades": "Elementary",
-     "rating": 10
-    },
-    {
-     "name": "Linda Jobe Middle School",
-     "grades": "Middle",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield Legacy High School",
-     "grades": "High",
-     "rating": 5
-    }
-   ],
-   "schoolAvg": 7.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 415000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
-   "mls": "21363686",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 47,
-    "lasColinas": 43,
-    "galleria": 51
-   },
-   "weeklyDrive": {
-    "schoolMin": 180,
-    "workMin": 236,
-    "totalMin": 416,
-    "ifGalleriaWorkMin": 257,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Nelmwood Estates (Mansfield 76063)",
-    "improving": true,
-    "note": "Matches the approved improving-area list (subdivision name \"nelmwood\"); matched by zip/subdivision name only, no boundary polygons."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 0,
-     "recCenter": 1,
-     "ymca": 0,
-     "swim": 0,
-     "park": 20,
-     "sportsFields": 0,
-     "music": 1,
-     "martialArts": 2,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "TX Black Belt Academy (karate)",
-      "category": "martialArts",
-      "miles": 0.5
-     },
-     {
-      "name": "Martha Walker Park",
-      "category": "park",
-      "miles": 1.0
-     },
-     {
-      "name": "StageDoor Dance Centre",
-      "category": "dance",
-      "miles": 1.6
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 2.4
-     },
-     {
-      "name": "Kumon Math and Reading Center of Mansfield - North",
-      "category": "tutoring",
-      "miles": 2.4
-     }
-    ],
-    "score": 6.4,
-    "groupCredit": {
-     "library": 0,
-     "recCenter": 0.75,
-     "ymcaSwim": 0,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 1,
-     "dance": 0.75,
-     "stem": 0.75,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 6.4,
-   "matchScore": 65.2,
-   "matchParts": {
-    "afterSchool": 16.0,
-    "schoolAvg": 14.6,
-    "crime": 10.4,
-    "improvingArea": 10.0,
-    "value": 9.7,
-    "schoolDrive": 1.5,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 5
-  },
-  {
-   "id": "32481373",
-   "street": "5 Scramble Ct",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 475000,
-   "beds": 4,
-   "baths": 2.5,
-   "sqft": 3493,
-   "lot": 0.25,
-   "story": "Multi",
-   "miles": 9.1,
-   "drive": 18,
-   "openHouse": "",
-   "dom": 234,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
-   "lat": 32.5576689,
-   "lng": -97.0743263,
-   "schools": [
-    {
-     "name": "Elizabeth Smith Elementary School",
-     "grades": "Elementary",
-     "rating": 7
-    },
-    {
-     "name": "Danny Jones Middle School",
-     "grades": "Middle",
-     "rating": 9
-    },
-    {
-     "name": "Mansfield Lake Ridge High School",
-     "grades": "High",
-     "rating": 8
-    }
-   ],
-   "schoolAvg": 8.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 505000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
-   "mls": "21214241",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 42,
-    "lasColinas": 38,
-    "galleria": 46
-   },
-   "weeklyDrive": {
-    "schoolMin": 140,
-    "workMin": 210,
-    "totalMin": 350,
-    "ifGalleriaWorkMin": 232,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Mansfield Natl Sec A & B (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 1,
-     "ymca": 1,
-     "swim": 1,
-     "park": 7,
-     "sportsFields": 1,
-     "music": 1,
-     "martialArts": 2,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "Mansfield Sports Complex",
-      "category": "park",
-      "miles": 0.8
-     },
-     {
-      "name": "Mathnasium of Mansfield",
-      "category": "tutoring",
-      "miles": 1.4
-     },
-     {
-      "name": "Mansfield YMCA",
-      "category": "ymca",
-      "miles": 1.7
-     },
-     {
-      "name": "Heritage Towne Community Pool",
-      "category": "swim",
-      "miles": 2.4
-     },
-     {
-      "name": "Pinaroc Taekwondo",
-      "category": "martialArts",
-      "miles": 2.6
-     }
-    ],
-    "score": 6.4,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 0.75,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 6.4,
-   "matchScore": 60.8,
-   "matchParts": {
-    "afterSchool": 16.0,
-    "schoolAvg": 16.0,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 13.2,
-    "schoolDrive": 5.2,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 6
-  },
-  {
-   "id": "32378064",
-   "street": "1415 Fairhaven Dr",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 490000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2442,
-   "lot": 0.28,
-   "story": "Single",
-   "miles": 8.9,
-   "drive": 19,
-   "openHouse": "",
-   "dom": 21,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
-   "lat": 32.5893832,
-   "lng": -97.1138211,
-   "schools": [
-    {
-     "name": "J L Boren Elementary School",
-     "grades": "Elementary",
-     "rating": 9
-    },
-    {
-     "name": "Brooks Wester Middle School",
-     "grades": "Middle",
-     "rating": 9
-    },
-    {
-     "name": "Asa E Low Jr Intermediate School",
-     "grades": "Middle",
-     "rating": 8
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 8.2,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": null,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
-   "mls": "21416222",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 43,
-    "lasColinas": 39,
-    "galleria": 48
-   },
-   "weeklyDrive": {
-    "schoolMin": 150,
-    "workMin": 216,
-    "totalMin": 366,
-    "ifGalleriaWorkMin": 238,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Walnut Estates (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 19,
-     "sportsFields": 1,
-     "music": 2,
-     "martialArts": 3,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 0.6
-     },
-     {
-      "name": "Kumon Math and Reading Center of Mansfield - North",
-      "category": "tutoring",
-      "miles": 0.6
-     },
-     {
-      "name": "Elmer W. Oliver Nature Park",
-      "category": "park",
-      "miles": 0.7
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 1.8
-     },
-     {
-      "name": "Red Tiger Karate (at the Activities Center)",
-      "category": "martialArts",
-      "miles": 1.8
-     }
-    ],
-    "score": 8.3,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 0.75,
-     "dance": 0.75,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 8.3,
-   "matchScore": 60.8,
-   "matchParts": {
-    "afterSchool": 20.8,
-    "schoolAvg": 16.4,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 5.7,
-    "schoolDrive": 4.5,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 7
-  },
-  {
-   "id": "29022061",
-   "street": "12008 Saddlehorn Ln",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 415999,
-   "beds": 3,
-   "baths": 3,
-   "sqft": 2455,
-   "lot": 0.61,
-   "story": "Single",
-   "miles": 7.9,
-   "drive": 18,
-   "openHouse": "",
-   "dom": 151,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/12008-Saddlehorn-Ln-Mansfield-TX-76063/29022061_zpid/",
-   "lat": 32.5889272,
-   "lng": -97.0897748,
-   "schools": [
-    {
-     "name": "Mary Orr Intermediate School",
-     "grades": "5-6",
-     "rating": 7
-    },
-    {
-     "name": "Rogene Worley Middle School",
-     "grades": "7-8",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "9-12",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 7.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/12008-Saddlehorn-Ln-76063/home/31737083",
-   "mls": "21277419",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "stored from original file (Zillow/GreatSchools)",
-   "commute": {
-    "southlake": 42,
-    "lasColinas": 39,
-    "galleria": 47
-   },
-   "weeklyDrive": {
-    "schoolMin": 143,
-    "workMin": 212,
-    "totalMin": 355,
-    "ifGalleriaWorkMin": 234,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Lakeview Country Estates Addn (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 1,
-     "ymca": 1,
-     "swim": 0,
-     "park": 13,
-     "sportsFields": 1,
-     "music": 1,
-     "martialArts": 1,
-     "dance": 0,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Elmer W. Oliver Nature Park",
-      "category": "park",
-      "miles": 0.8
-     },
-     {
-      "name": "Mathnasium of Mansfield",
-      "category": "tutoring",
-      "miles": 1.0
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 1.1
-     },
-     {
-      "name": "Mansfield YMCA",
-      "category": "ymca",
-      "miles": 2.1
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 2.6
-     }
-    ],
-    "score": 7.5,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 0.75,
-     "dance": 0,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 7.5,
-   "matchScore": 60.7,
-   "matchParts": {
-    "afterSchool": 18.8,
-    "schoolAvg": 14.0,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 9.3,
-    "schoolDrive": 5.2,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 8
-  },
-  {
-   "id": "30986567",
-   "street": "2420 Bent Trl",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 485000,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 3149,
-   "lot": 0.26,
-   "story": "Multi",
-   "miles": 9.6,
-   "drive": 20,
-   "openHouse": "",
-   "dom": 75,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
-   "lat": 32.5998141,
-   "lng": -97.1367077,
-   "schools": [
-    {
-     "name": "Roberta Tipps Elementary School",
-     "grades": "Elementary",
-     "rating": 9
-    },
-    {
-     "name": "Brooks Wester Middle School",
-     "grades": "Middle",
-     "rating": 9
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 8.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 499000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
-   "mls": "21369679",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 44,
-    "lasColinas": 41,
-    "galleria": 49
-   },
-   "weeklyDrive": {
-    "schoolMin": 159,
-    "workMin": 222,
-    "totalMin": 381,
-    "ifGalleriaWorkMin": 244,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Trails The (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 0,
-     "swim": 0,
-     "park": 20,
-     "sportsFields": 0,
-     "music": 1,
-     "martialArts": 3,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "Windmill Walking Park",
-      "category": "park",
-      "miles": 0.2
-     },
-     {
-      "name": "TX Black Belt Academy (karate)",
-      "category": "martialArts",
-      "miles": 0.5
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 1.7
-     },
-     {
-      "name": "Kumon Math and Reading Center of Mansfield - North",
-      "category": "tutoring",
-      "miles": 1.7
-     },
-     {
-      "name": "StageDoor Dance Centre",
-      "category": "dance",
-      "miles": 1.7
-     }
-    ],
-    "score": 7.2,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 1,
-     "dance": 0.75,
-     "stem": 0.75,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 7.2,
-   "matchScore": 59.9,
-   "matchParts": {
-    "afterSchool": 18.0,
-    "schoolAvg": 16.6,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 11.1,
-    "schoolDrive": 3.8,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 9
-  },
-  {
-   "id": "32433403",
-   "street": "18 Red Bluff Ct",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 445000,
-   "beds": 4,
-   "baths": 2.5,
-   "sqft": 2886,
-   "lot": 0.28,
-   "story": "Multi",
-   "miles": 10.6,
-   "drive": 22,
-   "openHouse": "",
-   "dom": 75,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
-   "lat": 32.5686968,
-   "lng": -97.1311543,
-   "schools": [
-    {
-     "name": "Erma Nash Elementary School",
-     "grades": "Elementary",
-     "rating": 5
-    },
-    {
-     "name": "Rogene Worley Middle School",
-     "grades": "Middle",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 6.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": null,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
-   "mls": "21361306",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 47,
-    "lasColinas": 43,
-    "galleria": 51
-   },
-   "weeklyDrive": {
-    "schoolMin": 177,
-    "workMin": 233,
-    "totalMin": 410,
-    "ifGalleriaWorkMin": 255,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Red Bluff Parc Add (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 13,
-     "sportsFields": 0,
-     "music": 2,
-     "martialArts": 4,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Walnut Creek Linear Park",
-      "category": "park",
-      "miles": 0.3
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 0.5
-     },
-     {
-      "name": "Red Tiger Karate (at the Activities Center)",
-      "category": "martialArts",
-      "miles": 0.5
-     },
-     {
-      "name": "Mansfield Public Library",
-      "category": "library",
-      "miles": 0.5
-     },
-     {
-      "name": "Dance Academy of Mansfield",
-      "category": "dance",
-      "miles": 0.7
-     }
-    ],
-    "score": 9.2,
-    "groupCredit": {
-     "library": 1,
-     "recCenter": 1,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 1,
-     "martialArts": 1,
-     "dance": 1,
-     "stem": 0.75,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 9.2,
-   "matchScore": 59.3,
-   "matchParts": {
-    "afterSchool": 23.0,
-    "schoolAvg": 12.6,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 11.1,
-    "schoolDrive": 2.2,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 10
-  },
-  {
-   "id": "58525051",
-   "street": "607 Biscayne Dr",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 439900,
-   "beds": 5,
-   "baths": 2,
-   "sqft": 2729,
-   "lot": 0.34,
-   "story": "Multi",
-   "miles": 10.9,
-   "drive": 23,
-   "openHouse": "",
-   "dom": 46,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
-   "lat": 32.5721225,
-   "lng": -97.1408692,
-   "schools": [
-    {
-     "name": "Alice Ponder Elementary School",
-     "grades": "PK-4",
-     "rating": 7
-    },
-    {
-     "name": "Rogene Worley Middle School",
-     "grades": "7-8",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield Legacy High School",
-     "grades": "9-12",
-     "rating": 5
-    }
-   ],
-   "schoolAvg": 6.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": false,
-   "prevPrice": 449900,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/607-Biscayne-Dr-76063/home/32479256",
-   "mls": "21390472",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "stored from original file (Zillow/GreatSchools)",
-   "commute": {
-    "southlake": 48,
-    "lasColinas": 44,
-    "galleria": 52
-   },
-   "weeklyDrive": {
-    "schoolMin": 186,
-    "workMin": 238,
-    "totalMin": 424,
-    "ifGalleriaWorkMin": 260,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Parks At Walnut Creek Add (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 13,
-     "sportsFields": 0,
-     "music": 2,
-     "martialArts": 4,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "Mansfield Town Park",
-      "category": "park",
-      "miles": 0.1
-     },
-     {
-      "name": "Dance Academy of Mansfield",
-      "category": "dance",
-      "miles": 0.6
-     },
-     {
-      "name": "Mansfield Music Mentors",
-      "category": "music",
-      "miles": 0.6
-     },
-     {
-      "name": "Mansfield Historical Society",
-      "category": "recCenter",
-      "miles": 0.6
-     },
-     {
-      "name": "Red Tiger Karate (at the Activities Center)",
-      "category": "martialArts",
-      "miles": 1.1
-     }
-    ],
-    "score": 9.2,
-    "groupCredit": {
-     "library": 1,
-     "recCenter": 1,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 1,
-     "martialArts": 1,
-     "dance": 1,
-     "stem": 0.75,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 9.2,
-   "matchScore": 57.8,
-   "matchParts": {
-    "afterSchool": 23.0,
-    "schoolAvg": 12.6,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 10.2,
-    "schoolDrive": 1.5,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 11
-  },
-  {
-   "id": "144042570",
-   "street": "3403 Willow Brook Dr",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 499990,
-   "beds": 5,
-   "baths": 4,
-   "sqft": 3603,
-   "lot": 0.27,
-   "story": "Multi",
-   "miles": 7.6,
-   "drive": 17,
-   "openHouse": "",
-   "dom": 111,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
-   "lat": 32.6111829,
-   "lng": -97.1052367,
-   "schools": [
-    {
-     "name": "Janet Brockett Elementary School",
-     "grades": "Elementary",
-     "rating": 6
-    },
-    {
-     "name": "James Coble Middle School",
-     "grades": "Middle",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield Timberview High School",
-     "grades": "High",
-     "rating": 6
-    }
-   ],
-   "schoolAvg": 6.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 510000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
-   "mls": "21336219",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings (manually matched)",
-   "commute": {
-    "southlake": 41,
-    "lasColinas": 37,
-    "galleria": 46
-   },
-   "weeklyDrive": {
-    "schoolMin": 133,
-    "workMin": 206,
-    "totalMin": 339,
-    "ifGalleriaWorkMin": 228,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Five Oaks Crossing Add (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 2,
-     "recCenter": 0,
-     "ymca": 0,
-     "swim": 0,
-     "park": 17,
-     "sportsFields": 0,
-     "music": 0,
-     "martialArts": 1,
-     "dance": 0,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Don Misenhimer Park",
-      "category": "park",
-      "miles": 0.6
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 1.1
-     },
-     {
-      "name": "Kumon Math and Reading Center of Mansfield - North",
-      "category": "tutoring",
-      "miles": 1.1
-     },
-     {
-      "name": "TX Black Belt Academy (karate)",
-      "category": "martialArts",
-      "miles": 2.4
-     },
-     {
-      "name": "Judith J. Carrier Library",
-      "category": "library",
-      "miles": 2.7
-     }
-    ],
-    "score": 5.0,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0,
-     "ymcaSwim": 0,
-     "parksFields": 1,
-     "music": 0,
-     "martialArts": 0.75,
-     "dance": 0,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 5.0,
-   "matchScore": 54.4,
-   "matchParts": {
-    "afterSchool": 12.5,
-    "schoolAvg": 12.6,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 12.8,
-    "schoolDrive": 6.0,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 12
-  },
-  {
-   "id": "31372052",
-   "street": "5816 Gatewood Dr",
-   "city": "Arlington",
-   "zip": "76016",
-   "price": 350000,
-   "beds": 3,
-   "baths": 3,
-   "sqft": 2569,
-   "lot": 0.26,
-   "story": "Single",
-   "miles": 11.8,
-   "drive": 20,
-   "openHouse": "",
-   "dom": 53,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
-   "lat": 32.6995318,
-   "lng": -97.1969501,
-   "schools": [
-    {
-     "name": "Ditto Elementary School",
-     "grades": "Elementary",
-     "rating": 8
-    },
-    {
-     "name": "Young Junior High School",
-     "grades": "Middle",
-     "rating": 6
-    },
-    {
-     "name": "Martin High School",
-     "grades": "High",
-     "rating": 6
-    }
-   ],
-   "schoolAvg": 6.7,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 406,
-    "property": 1994
-   },
-   "isNew": true,
-   "prevPrice": 362500,
-   "redfinUrl": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
-   "mls": "21386898",
-   "crimeBasis": "local",
-   "crimeLocal": {
-    "covered": true,
-    "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
-    "radiusMiles": 0.5,
-    "window": "last 12 months",
-    "incidents": 39,
-    "violent": 2,
-    "burglary": 1,
-    "vehicle": 4,
-    "score": 36.5,
-    "cityMedianScore": 74.25,
-    "violentCap": 8,
-    "passes": true
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 41,
-    "lasColinas": 38,
-    "galleria": 46
-   },
-   "weeklyDrive": {
-    "schoolMin": 158,
-    "workMin": 204,
-    "totalMin": 361,
-    "ifGalleriaWorkMin": 231,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Arbor Valley (Arlington 76016)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 2,
-     "recCenter": 5,
-     "ymca": 0,
-     "swim": 1,
-     "park": 9,
-     "sportsFields": 0,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "nearest": [
-     {
-      "name": "Thora Hart Park",
-      "category": "park",
-      "miles": 0.7
-     },
-     {
-      "name": "Arlington Public Library",
-      "category": "library",
-      "miles": 1.1
-     },
-     {
-      "name": "Cliff Nelson Recreation Center",
-      "category": "recCenter",
-      "miles": 2.4
-     },
-     {
-      "name": "Dottie Lynn Recreation Center Swimming Pool",
-      "category": "swim",
-      "miles": 2.7
-     },
-     {
-      "name": "Richard Simpson Park",
-      "category": "park",
-      "miles": 0.9
-     }
-    ],
-    "score": 3.9,
-    "groupCredit": {
-     "library": 1,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 3.9,
-   "matchScore": 54.3,
-   "matchParts": {
-    "afterSchool": 9.8,
-    "schoolAvg": 13.4,
-    "crime": 11.3,
-    "improvingArea": 0.0,
-    "value": 13.1,
-    "schoolDrive": 3.8,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 13
-  },
-  {
-   "id": "193196175",
-   "street": "2123 Pennywell Dr",
-   "city": "Venus",
-   "zip": "76084",
-   "price": 499900,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2377,
-   "lot": 0.31,
-   "story": "Multi",
-   "miles": 11.4,
-   "drive": 21,
-   "openHouse": "November-21-2026 10:00 AM – November-21-2026 03:00 PM",
-   "dom": 59,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
-   "lat": 32.534676,
-   "lng": -97.105437,
-   "schools": [
-    {
-     "name": "Brenda Norwood Elementary School",
-     "grades": "Elementary",
-     "rating": 9
-    },
-    {
-     "name": "Charlene McKinzey Middle",
-     "grades": "Middle",
-     "rating": 8
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 8.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 116,
-    "property": 347
-   },
-   "isNew": true,
-   "prevPrice": 509900,
-   "redfinUrl": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
-   "mls": "21384203",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Venus has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 46,
-    "lasColinas": 42,
-    "galleria": 50
-   },
-   "weeklyDrive": {
-    "schoolMin": 169,
-    "workMin": 228,
-    "totalMin": 397,
-    "ifGalleriaWorkMin": 250,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Somerset Ph V-1 (Venus 76084)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 1,
-     "park": 9,
-     "sportsFields": 1,
-     "music": 2,
-     "martialArts": 2,
-     "dance": 1,
-     "stem": 0,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "Pinaroc Taekwondo",
-      "category": "martialArts",
-      "miles": 0.2
-     },
-     {
-      "name": "Harold M. Bell Park",
-      "category": "park",
-      "miles": 1.2
-     },
-     {
-      "name": "Family Dream Center (music school)",
-      "category": "music",
-      "miles": 1.5
-     },
-     {
-      "name": "Mansfield YMCA",
-      "category": "ymca",
-      "miles": 1.8
-     },
-     {
-      "name": "Heritage Towne Community Pool",
-      "category": "swim",
-      "miles": 2.1
-     }
-    ],
-    "score": 7.5,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 1,
-     "martialArts": 1,
-     "dance": 0.75,
-     "stem": 0,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 7.5,
-   "matchScore": 52.3,
-   "matchParts": {
-    "afterSchool": 18.8,
-    "schoolAvg": 16.0,
-    "crime": 10.0,
-    "improvingArea": 0.0,
-    "value": 4.6,
-    "schoolDrive": 3.0,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 14
-  },
-  {
-   "id": "32391407",
-   "street": "4303 Solitude Ct",
-   "city": "Arlington",
-   "zip": "76017",
-   "price": 380000,
-   "beds": 5,
-   "baths": 3.5,
-   "sqft": 2922,
-   "lot": 0.27,
-   "story": "Multi",
-   "miles": 10.5,
-   "drive": 15,
-   "openHouse": "",
-   "dom": 272,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
-   "lat": 32.670411,
-   "lng": -97.1761253,
-   "schools": [
-    {
-     "name": "Wood Elementary School",
-     "grades": "Elementary",
-     "rating": 6
-    },
-    {
-     "name": "Boles Junior High School",
-     "grades": "Middle",
-     "rating": 6
-    },
-    {
-     "name": "Martin High School",
-     "grades": "High",
-     "rating": 6
-    }
-   ],
-   "schoolAvg": 6.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 406,
-    "property": 1994
-   },
-   "isNew": true,
-   "prevPrice": 395000,
-   "redfinUrl": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
-   "mls": "21167885",
-   "crimeBasis": "local",
-   "crimeLocal": {
-    "covered": true,
-    "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
-    "radiusMiles": 0.5,
-    "window": "last 12 months",
-    "incidents": 52,
-    "violent": 5,
-    "burglary": 3,
-    "vehicle": 6,
-    "score": 58.0,
-    "cityMedianScore": 74.25,
-    "violentCap": 8,
-    "passes": true
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 41,
-    "lasColinas": 36,
-    "galleria": 44
-   },
-   "weeklyDrive": {
-    "schoolMin": 121,
-    "workMin": 205,
-    "totalMin": 326,
-    "ifGalleriaWorkMin": 220,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Belle Aceda Point (Arlington 76017)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 2,
-     "recCenter": 1,
-     "ymca": 0,
-     "swim": 0,
-     "park": 17,
-     "sportsFields": 0,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "nearest": [
-     {
-      "name": "Clif Nelson Park",
-      "category": "park",
-      "miles": 0.4
-     },
-     {
-      "name": "Cliff Nelson Recreation Center",
-      "category": "recCenter",
-      "miles": 0.4
-     },
-     {
-      "name": "Arlington Public Library-Southwest Branch",
-      "category": "library",
-      "miles": 1.2
-     },
-     {
-      "name": "Gene Schrickel, Jr. Park",
-      "category": "park",
-      "miles": 0.5
-     },
-     {
-      "name": "Al Rollins Park",
-      "category": "park",
-      "miles": 1.1
-     }
-    ],
-    "score": 3.3,
-    "groupCredit": {
-     "library": 1,
-     "recCenter": 1,
-     "ymcaSwim": 0,
-     "parksFields": 1,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 3.3,
-   "matchScore": 50.7,
-   "matchParts": {
-    "afterSchool": 8.2,
-    "schoolAvg": 12.0,
-    "crime": 9.1,
-    "improvingArea": 0.0,
-    "value": 13.8,
-    "schoolDrive": 7.5,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 15
-  },
-  {
-   "id": "31079607",
-   "street": "2808 N Camino Lagos",
-   "city": "Grand Prairie",
-   "zip": "75054",
-   "price": 425000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2725,
-   "lot": 0.29,
-   "story": "Multi",
-   "miles": 6.3,
-   "drive": 17,
-   "openHouse": "",
-   "dom": 36,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
-   "lat": 32.59302,
-   "lng": -97.0498682,
-   "schools": [
-    {
-     "name": "Cora Spencer Elementary School",
-     "grades": "Elementary",
-     "rating": 10
-    },
-    {
-     "name": "Linda Jobe Middle School",
-     "grades": "Middle",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield Lake Ridge High School",
-     "grades": "High",
-     "rating": 8
-    }
-   ],
-   "schoolAvg": 8.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 201,
-    "property": 1330
-   },
-   "isNew": true,
-   "prevPrice": 435000,
-   "redfinUrl": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
-   "mls": "21316614",
-   "crimeBasis": "local",
-   "crimeLocal": {
-    "covered": true,
-    "source": "Grand Prairie PD open data (90-day layer, scaled x365/90)",
-    "radiusMiles": 0.5,
-    "window": "last 90 days, annualised",
-    "incidents": 69,
-    "violent": 8,
-    "burglary": 0,
-    "vehicle": 0,
-    "score": 40.6,
-    "cityMedianScore": 122.69999999999999,
-    "violentCap": 26,
-    "passes": true
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 43,
-    "lasColinas": 38,
-    "galleria": 46
-   },
-   "weeklyDrive": {
-    "schoolMin": 132,
-    "workMin": 214,
-    "totalMin": 346,
-    "ifGalleriaWorkMin": 229,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Mira Lagos B (Grand Prairie 75054)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 0,
-     "recCenter": 0,
-     "ymca": 0,
-     "swim": 0,
-     "park": 8,
-     "sportsFields": 1,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "Loyd Park",
-      "category": "park",
-      "miles": 1.3
-     },
-     {
-      "name": "Mathnasium of Mansfield",
-      "category": "tutoring",
-      "miles": 2.3
-     },
-     {
-      "name": "Estes Park",
-      "category": "park",
-      "miles": 1.9
-     },
-     {
-      "name": "Mansfield Sports Complex",
-      "category": "park",
-      "miles": 2.2
-     },
-     {
-      "name": "Pleasant Valley Park",
-      "category": "park",
-      "miles": 2.3
-     }
-    ],
-    "score": 1.9,
-    "groupCredit": {
-     "library": 0,
-     "recCenter": 0,
-     "ymcaSwim": 0,
-     "parksFields": 1,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 1.9,
-   "matchScore": 50.7,
-   "matchParts": {
-    "afterSchool": 4.8,
-    "schoolAvg": 16.6,
-    "crime": 12.5,
-    "improvingArea": 0.0,
-    "value": 10.9,
-    "schoolDrive": 6.0,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 16
-  },
-  {
-   "id": "113468332",
-   "street": "5205 Shelter Point Ct",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 500000,
-   "beds": 5,
-   "baths": 4,
-   "sqft": 3006,
-   "lot": 0.35,
-   "story": "Multi",
-   "miles": 8.4,
-   "drive": 20,
-   "openHouse": "",
-   "dom": 56,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
-   "lat": 32.559897,
-   "lng": -97.051315,
-   "schools": [
-    {
-     "name": "Elizabeth Smith Elementary School",
-     "grades": "Elementary",
-     "rating": 7
-    },
-    {
-     "name": "Charlene McKinzey Middle",
-     "grades": "Middle",
-     "rating": 8
-    },
-    {
-     "name": "Mansfield Lake Ridge High School",
-     "grades": "High",
-     "rating": 8
-    }
-   ],
-   "schoolAvg": 7.7,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": true,
-   "prevPrice": 510000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
-   "mls": "21387458",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 45,
-    "lasColinas": 41,
-    "galleria": 49
-   },
-   "weeklyDrive": {
-    "schoolMin": 162,
-    "workMin": 223,
-    "totalMin": 385,
-    "ifGalleriaWorkMin": 245,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Spring Lake Estates (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 0,
-     "recCenter": 0,
-     "ymca": 1,
-     "swim": 1,
-     "park": 7,
-     "sportsFields": 1,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "Britton Park",
-      "category": "park",
-      "miles": 0.7
-     },
-     {
-      "name": "Mathnasium of Mansfield",
-      "category": "tutoring",
-      "miles": 2.2
-     },
-     {
-      "name": "Heritage Towne Community Pool",
-      "category": "swim",
-      "miles": 2.9
-     },
-     {
-      "name": "Mansfield YMCA",
-      "category": "ymca",
-      "miles": 3.0
-     },
-     {
-      "name": "Pleasant Valley Park",
-      "category": "park",
-      "miles": 1.4
-     }
-    ],
-    "score": 2.8,
-    "groupCredit": {
-     "library": 0,
-     "recCenter": 0,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 2.8,
-   "matchScore": 46.2,
-   "matchParts": {
-    "afterSchool": 7.0,
-    "schoolAvg": 15.4,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 9.7,
-    "schoolDrive": 3.8,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 17
-  },
-  {
-   "id": "176763617",
-   "street": "6717 Aster Dr",
-   "city": "Venus",
-   "zip": "76084",
-   "price": 459000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2945,
-   "lot": 0.28,
-   "story": "Multi",
-   "miles": 12.7,
-   "drive": 24,
-   "openHouse": "",
-   "dom": 116,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
-   "lat": 32.5013923,
-   "lng": -97.0778566,
-   "schools": [
-    {
-     "name": "J A Vitovsky Elementary School",
-     "grades": "Elementary",
-     "rating": 5
-    },
-    {
-     "name": "Frank Seale Middle School",
-     "grades": "Middle",
-     "rating": 6
-    },
-    {
-     "name": "Midlothian High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 6.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 116,
-    "property": 347
-   },
-   "isNew": true,
-   "prevPrice": 465000,
-   "redfinUrl": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
-   "mls": "21328474",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Venus has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings (manually matched)",
-   "commute": {
-    "southlake": 48,
-    "lasColinas": 45,
-    "galleria": 51
-   },
-   "weeklyDrive": {
-    "schoolMin": 192,
-    "workMin": 242,
-    "totalMin": 434,
-    "ifGalleriaWorkMin": 257,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Prairie Rdg Ph 1 (Venus 76084)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 0,
-     "recCenter": 0,
-     "ymca": 0,
-     "swim": 1,
-     "park": 1,
-     "sportsFields": 0,
-     "music": 0,
-     "martialArts": 1,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "nearest": [
-     {
-      "name": "Heritage Towne Community Pool",
-      "category": "swim",
-      "miles": 1.5
-     },
-     {
-      "name": "Harold M. Bell Park",
-      "category": "park",
-      "miles": 2.5
-     },
-     {
-      "name": "Pinaroc Taekwondo",
-      "category": "martialArts",
-      "miles": 2.9
-     }
-    ],
-    "score": 2.2,
-    "groupCredit": {
-     "library": 0,
-     "recCenter": 0,
-     "ymcaSwim": 1,
-     "parksFields": 0.25,
-     "music": 0,
-     "martialArts": 0.75,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 2.2,
-   "matchScore": 39.1,
-   "matchParts": {
-    "afterSchool": 5.5,
-    "schoolAvg": 12.0,
-    "crime": 10.0,
-    "improvingArea": 0.0,
-    "value": 10.9,
-    "schoolDrive": 0.8,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 18
+    "city": "violent < 348 and property < 1809 per 100K (FBI CDE 2025)"
   }
- ],
- "removed": [
-  {
-   "id": "27211523",
-   "street": "510 N Clark Rd",
-   "city": "Duncanville",
-   "zip": "75116",
-   "price": 475000,
-   "beds": 3,
-   "baths": 3,
-   "sqft": 2343,
-   "lot": 0.51,
-   "story": "Single",
-   "miles": 3.2,
-   "drive": 10,
-   "openHouse": "",
-   "dom": 113,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/510-N-Clark-Rd-Duncanville-TX-75116/27211523_zpid/",
-   "lat": 32.658733,
-   "lng": -96.94259,
-   "schools": [
-    {
-     "name": "Cj & Anne Hyman Elementary School",
-     "grades": "PK-4",
-     "rating": 4
-    },
-    {
-     "name": "William High Byrd Middle School",
-     "grades": "7-8",
-     "rating": 2
-    },
-    {
-     "name": "Duncanville High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 3.0,
-   "financing": "incentive",
-   "financingNote": "Special Financing Available! Qualified buyers may be eligible for 5.85% financing, FHA, VA & USDA loans, plus 3.5% down payment and closing cost assistance (non-repayable grant).",
-   "note": "",
-   "crime": {
-    "violent": 260,
-    "property": 2041
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "248829998",
-   "street": "908 Heath Creek Dr",
-   "city": "DeSoto",
-   "zip": "75115",
-   "price": 480000,
-   "beds": 5,
-   "baths": 4,
-   "sqft": 3948,
-   "lot": 0.35,
-   "story": "Multi",
-   "miles": 8.6,
-   "drive": 21,
-   "openHouse": "Daily Sun, 10/18–Thu, 10/22, 9 AM–7 PM",
-   "dom": 9,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/908-Heath-Creek-Dr-Desoto-TX-75115/248829998_zpid/",
-   "lat": 32.595016,
-   "lng": -96.87894,
-   "schools": [
-    {
-     "name": "Desoto West Middle School",
-     "grades": "6-8",
-     "rating": 2
-    },
-    {
-     "name": "Desoto High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 2.5,
-   "financing": "incentive",
-   "financingNote": "INCREDIBLE BUYER INCENTIVES: $7,000 MORTGAGE CONCESSION. Opendoor Home Loans will contribute up to $7,000 towards a permanent interest rate buy-down if you finance with Opendoor Home Loans LLC.",
-   "note": "",
-   "crime": {
-    "violent": 285,
-    "property": 1581
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "67953338",
-   "street": "106 S Clark Rd",
-   "city": "Duncanville",
-   "zip": "75116",
-   "price": 330000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2349,
-   "lot": 0.3,
-   "story": "Multi",
-   "miles": 3.5,
-   "drive": 10,
-   "openHouse": "",
-   "dom": 175,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/106-S-Clark-Rd-Duncanville-TX-75116/67953338_zpid/",
-   "lat": 32.649986,
-   "lng": -96.942535,
-   "schools": [
-    {
-     "name": "H Bob Daniel Sr Intermediate School",
-     "grades": "5-6",
-     "rating": 2
-    },
-    {
-     "name": "William High Byrd Middle School",
-     "grades": "7-8",
-     "rating": 2
-    },
-    {
-     "name": "Duncanville High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 2.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 260,
-    "property": 2041
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "465227323",
-   "street": "1606 Avenue C",
-   "city": "Grand Prairie",
-   "zip": "75051",
-   "price": 475000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2302,
-   "lot": 0.34,
-   "story": "Single",
-   "miles": 3.7,
-   "drive": 11,
-   "openHouse": "",
-   "dom": 36,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/1606-Avenue-C-Grand-Prairie-TX-75051/465227323_zpid/",
-   "lat": 32.724247,
-   "lng": -96.97938,
-   "schools": [
-    {
-     "name": "Hobbs Williams Elementary School",
-     "grades": "PK-5",
-     "rating": 3
-    },
-    {
-     "name": "BILL ARNOLD MIDDLE",
-     "grades": "6-8",
-     "rating": 2
-    },
-    {
-     "name": "Young Women's Leadership Academy at Bill Arnold",
-     "grades": "11-12",
-     "rating": 10
-    }
-   ],
-   "schoolAvg": 5.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": null,
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "27204014",
-   "street": "406 Dula Cir",
-   "city": "Duncanville",
-   "zip": "75116",
-   "price": 265000,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 2454,
-   "lot": 0.43,
-   "story": "Multi",
-   "miles": 4.7,
-   "drive": 13,
-   "openHouse": "",
-   "dom": 94,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/406-Dula-Cir-Duncanville-TX-75116/27204014_zpid/",
-   "lat": 32.67055,
-   "lng": -96.91457,
-   "schools": [
-    {
-     "name": "James R Bilhartz Jr Elementary School",
-     "grades": "PK-4",
-     "rating": 2
-    },
-    {
-     "name": "G W Kennemer Middle School",
-     "grades": "6-8",
-     "rating": 4
-    },
-    {
-     "name": "Duncanville High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 3.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 260,
-    "property": 2041
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "26991587",
-   "street": "523 Softwood Dr",
-   "city": "Duncanville",
-   "zip": "75137",
-   "price": 429300,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2968,
-   "lot": 0.76,
-   "story": "Multi",
-   "miles": 5.5,
-   "drive": 14,
-   "openHouse": "",
-   "dom": 338,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/523-Softwood-Dr-Duncanville-TX-75137/26991587_zpid/",
-   "lat": 32.623398,
-   "lng": -96.92189,
-   "schools": [
-    {
-     "name": "S Gus Alexander Jr Elementary School",
-     "grades": "PK-4",
-     "rating": 3
-    },
-    {
-     "name": "William High Byrd Middle School",
-     "grades": "7-8",
-     "rating": 2
-    },
-    {
-     "name": "Duncanville High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 2.7,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 260,
-    "property": 2041
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "2070094007",
-   "street": "2853 S Lakeview Dr",
-   "city": "Cedar Hill",
-   "zip": "75104",
-   "price": null,
-   "beds": 4,
-   "baths": 5,
-   "sqft": 4308,
-   "lot": 1.1,
-   "story": "Multi",
-   "miles": 7.0,
-   "drive": 17,
-   "openHouse": "",
-   "dom": 5,
-   "status": "Auction",
-   "url": "https://www.zillow.com/homedetails/2853-S-Lakeview-Dr-Cedar-Hill-TX-75104/2070094007_zpid/",
-   "lat": 32.571777,
-   "lng": -97.00952,
-   "schools": [
-    {
-     "name": "Lakeridge Elementary School",
-     "grades": "PK-5",
-     "rating": 4
-    },
-    {
-     "name": "W S Permenter Middle School",
-     "grades": "6-8",
-     "rating": 4
-    },
-    {
-     "name": "Cedar Hill High School",
-     "grades": "9-12",
-     "rating": 2
-    }
-   ],
-   "schoolAvg": 3.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "Auction — sold as-is",
-   "crime": {
-    "violent": 155,
-    "property": 1718
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "26983750",
-   "street": "1528 Registry Dr",
-   "city": "DeSoto",
-   "zip": "75115",
-   "price": 369000,
-   "beds": 5,
-   "baths": 5,
-   "sqft": 3789,
-   "lot": 0.3,
-   "story": "Multi",
-   "miles": 7.5,
-   "drive": 18,
-   "openHouse": "",
-   "dom": 62,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/1528-Registry-Dr-Desoto-TX-75115/26983750_zpid/",
-   "lat": 32.601288,
-   "lng": -96.897194,
-   "schools": [
-    {
-     "name": "Curtistene S McCowan Middle School",
-     "grades": "6-8",
-     "rating": 4
-    },
-    {
-     "name": "Desoto High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 3.5,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 285,
-    "property": 1581
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "26980988",
-   "street": "636 Bent Creek Dr",
-   "city": "DeSoto",
-   "zip": "75115",
-   "price": 459000,
-   "beds": 4,
-   "baths": 4,
-   "sqft": 3567,
-   "lot": 0.31,
-   "story": "Multi",
-   "miles": 7.8,
-   "drive": 19,
-   "openHouse": "Sun, 10/18 2 PM–4 PM",
-   "dom": 136,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/636-Bent-Creek-Dr-Desoto-TX-75115/26980988_zpid/",
-   "lat": 32.59883,
-   "lng": -96.89283,
-   "schools": [
-    {
-     "name": "Curtistene S McCowan Middle School",
-     "grades": "6-8",
-     "rating": 4
-    },
-    {
-     "name": "Desoto High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 3.5,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 285,
-    "property": 1581
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "29013850",
-   "street": "1110 Western Blvd",
-   "city": "Arlington",
-   "zip": "76013",
-   "price": 365000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2434,
-   "lot": 0.33,
-   "story": "Single",
-   "miles": 7.9,
-   "drive": 19,
-   "openHouse": "",
-   "dom": 101,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/1110-Western-Blvd-Arlington-TX-76013/29013850_zpid/",
-   "lat": 32.716427,
-   "lng": -97.12078,
-   "schools": [
-    {
-     "name": "South Davis Elementary School",
-     "grades": "PK-6",
-     "rating": 4
-    },
-    {
-     "name": "Bailey Junior High School",
-     "grades": "7-8",
-     "rating": 5
-    },
-    {
-     "name": "Arlington High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 4.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": null,
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "26980879",
-   "street": "1112 W Pleasant Run Rd",
-   "city": "DeSoto",
-   "zip": "75115",
-   "price": 430000,
-   "beds": 4,
-   "baths": 4,
-   "sqft": 2495,
-   "lot": 0.93,
-   "story": "Single",
-   "miles": 8.0,
-   "drive": 19,
-   "openHouse": "",
-   "dom": 113,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/1112-W-Pleasant-Run-Rd-Desoto-TX-75115/26980879_zpid/",
-   "lat": 32.603596,
-   "lng": -96.8852,
-   "schools": [
-    {
-     "name": "Desoto West Middle School",
-     "grades": "6-8",
-     "rating": 2
-    },
-    {
-     "name": "Desoto High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 2.5,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 285,
-    "property": 1581
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "67953785",
-   "street": "1105 Marisa Ln",
-   "city": "DeSoto",
-   "zip": "75115",
-   "price": 449900,
-   "beds": 4,
-   "baths": 4,
-   "sqft": 4434,
-   "lot": 0.31,
-   "story": "Multi",
-   "miles": 8.4,
-   "drive": 20,
-   "openHouse": "",
-   "dom": 41,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/1105-Marisa-Ln-Desoto-TX-75115/67953785_zpid/",
-   "lat": 32.60931,
-   "lng": -96.872246,
-   "schools": [
-    {
-     "name": "Desoto West Middle School",
-     "grades": "6-8",
-     "rating": 2
-    },
-    {
-     "name": "Desoto High School",
-     "grades": "9-12",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 2.5,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 285,
-    "property": 1581
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "461753359",
-   "street": "1903 Spirit Walk",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 434999,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2976,
-   "lot": 0.49,
-   "story": "Multi",
-   "miles": 9.6,
-   "drive": 23,
-   "openHouse": "",
-   "dom": 1,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/1903-Spirit-Walk-Mansfield-TX-76063/461753359_zpid/",
-   "lat": 32.6048,
-   "lng": -97.140396,
-   "schools": [
-    {
-     "name": "Roberta Tipps Elementary School",
-     "grades": "PK-4",
-     "rating": 9
-    },
-    {
-     "name": "Brooks Wester Middle School",
-     "grades": "6-8",
-     "rating": 9
-    },
-    {
-     "name": "Summit High School",
-     "grades": "9-12",
-     "rating": 5
-    }
-   ],
-   "schoolAvg": 7.7,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "29127002",
-   "street": "2811 Crowley Ct",
-   "city": "Arlington",
-   "zip": "76012",
-   "price": 498000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 2856,
-   "lot": 0.34,
-   "story": "Multi",
-   "miles": 10.4,
-   "drive": 24,
-   "openHouse": "Sun, 10/18 3 PM–4:30 PM",
-   "dom": 64,
-   "status": "House for sale",
-   "url": "https://www.zillow.com/homedetails/2811-Crowley-Ct-Arlington-TX-76012/29127002_zpid/",
-   "lat": 32.744026,
-   "lng": -97.153824,
-   "schools": [
-    {
-     "name": "Pope Elementary School",
-     "grades": "PK-6",
-     "rating": 3
-    },
-    {
-     "name": "Shackelford Junior High School",
-     "grades": "7-8",
-     "rating": 4
-    },
-    {
-     "name": "Lamar High School",
-     "grades": "9-12",
-     "rating": 2
-    }
-   ],
-   "schoolAvg": 3.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": null,
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  },
-  {
-   "id": "29127187",
-   "street": "2604 Oak Cliff Ln",
-   "city": "Arlington",
-   "zip": "76012",
-   "price": null,
-   "beds": 3,
-   "baths": 3,
-   "sqft": 2557,
-   "lot": 0.57,
-   "story": "Multi",
-   "miles": 10.5,
-   "drive": 24,
-   "openHouse": "",
-   "dom": 46,
-   "status": "Auction",
-   "url": "https://www.zillow.com/homedetails/2604-Oak-Cliff-Ln-Arlington-TX-76012/29127187_zpid/",
-   "lat": 32.747852,
-   "lng": -97.15185,
-   "schools": [
-    {
-     "name": "Pope Elementary School",
-     "grades": "PK-6",
-     "rating": 3
-    },
-    {
-     "name": "Shackelford Junior High School",
-     "grades": "7-8",
-     "rating": 4
-    },
-    {
-     "name": "Lamar High School",
-     "grades": "9-12",
-     "rating": 2
-    }
-   ],
-   "schoolAvg": 3.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "Auction — sold as-is",
-   "crime": null,
-   "isNew": false,
-   "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
-  }
- ],
- "commuteTargets": {
-  "southlake": "Southlake Town Square (32.9443,-97.1309)",
-  "lasColinas": "Las Colinas Urban Center, Irving (32.8682,-96.9333)",
-  "galleria": "Galleria Dallas (32.9306,-96.8192)",
-  "method": "OSRM free-flow"
- },
- "crimeRule": {
-  "local": "weighted incident score within 0.5 mi (violent x5, burglary x3, vehicle x2, theft x1, vandalism x1, drugs x0.5) <= median of 30 random listing points in the same city AND violent incidents/yr <= 75th percentile of the same sample",
-  "baselines": {
-   "Dallas": {
-    "medianScore": 321.0,
-    "violentCap": 46.2,
-    "sampleN": 30
-   },
-   "Arlington": {
-    "medianScore": 74.25,
-    "violentCap": 8.0,
-    "sampleN": 30
-   },
-   "GrandPrairie": {
-    "medianScore": 122.69999999999999,
-    "violentCap": 26.0,
-    "sampleN": 30
-   },
-   "FortWorth": {
-    "medianScore": 213.0,
-    "violentCap": 25.8,
-    "sampleN": 30
-   }
-  },
-  "city": "violent < 348 and property < 1809 per 100K (FBI CDE 2025)"
- }
 }
