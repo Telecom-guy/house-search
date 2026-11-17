@@ -92,6 +92,15 @@ input[type=range]{padding:0;accent-color:var(--accent);flex:1;min-width:120px;bo
 .tag.red{background:var(--red-soft);color:var(--red);border-color:transparent}
 .tag.violet{background:var(--violet-soft);color:var(--violet);border-color:transparent}
 .empty{padding:30px 10px;text-align:center;color:var(--muted)}
+.xsec{margin-top:18px}
+.xsec h2{font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:0 0 4px}
+.xsec p{font-size:.74rem;color:var(--muted);margin:0 0 8px}
+.xcard{background:var(--surface-2);border:1px dashed var(--line);border-radius:var(--radius);padding:10px 12px;margin-bottom:8px;font-size:.82rem}
+.xcard .addr{font-size:.9rem}
+.srcs{font-size:.72rem;color:var(--muted);margin-top:6px;line-height:1.5}
+.srcs a{color:var(--accent);text-decoration:none;font-weight:600}
+.srow{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--line);font-size:.85rem}
+.srow:last-child{border-bottom:0}
 /* detail drawer */
 .detail{display:none;position:absolute;inset:0;background:var(--surface);z-index:5;overflow-y:auto;padding:16px}
 aside{position:relative}
@@ -210,11 +219,26 @@ const TIER={assumable:{c:'#d97706',l:'Assumable'},incentive:{c:'#059669',l:'Ince
 const rc=r=>r==null?'#94a3b8':r>=7?'#059669':r>=5?'#65a30d':r>=4?'#d97706':'#dc2626';
 const isMans=h=>h.schools.some(s=>/Mansfield|Summit|Timberview|Legacy|Worley|Wester|Coble|Howard|Icenhower|Tipps|Ponder|Nash|Orr|Anderson/.test(s.name));
 function crimeTag(h){if(!h.crime)return null;const v=h.crime.violent/D.texasAvg.violent;return v<.6?['Low crime','green']:v<.9?['Below-avg crime','green']:v<1.1?['Avg crime','amber']:['Higher crime','red'];}
+const isAvail=h=>h.listingStatus==='Active'&&(h.statusSources||[]).filter(s=>s.status==='Active').length>=2&&!(h.statusSources||[]).some(s=>/Pending|Contingent|Under contract|Sold/i.test(s.status));
+const SCOL={Active:'green',Pending:'amber',Contingent:'amber','Under contract':'amber',Sold:'red','Off market':'red','Needs check':'violet',unreachable:''};
+const ct=t=>t?new Date(t).toLocaleString('en-US',{timeZone:'America/Chicago',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' CT':'';
+function srcLine(h){const S=h.statusSources||[];if(!S.length)return '<div class="srcs">Status not verified.</div>';
+  return '<div class="srcs">Checked '+S.map(s=>(s.url?`<a href="${s.url}" target="_blank" rel="noopener">${s.site}</a>`:s.site)+': '+s.status).join(' · ')+(h.statusChecked?' · '+ct(h.statusChecked):'')+'</div>';}
+function statusTag(h){const l=h.listingStatus||'Needs check';const n=(h.statusSources||[]).filter(s=>s.status==='Active').length;
+  return `<span class="tag ${SCOL[l]||'violet'}">${l==='Active'?'✓ Active · '+n+' sources':l}</span>`;}
+function xcard(h){return `<div class="xcard"><div class="c-top"><span class="price">${fmt(h.price)}</span><span class="tag ${SCOL[h.listingStatus]||'violet'}">${h.listingStatus||'Needs check'}</span></div>
+  <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}${h.beds?` · ${h.beds} bd / ${h.baths} ba · ${(h.sqft||0).toLocaleString()} sf`:''}</div>
+  ${h.statusDetail?`<div class="srcs">${h.statusDetail}</div>`:''}${srcLine(h)}</div>`;}
+function others(){const P=D.hold||[],R=D.removed||[];let o='';
+  if(P.length)o+=`<div class="xsec"><h2>Not available · Pending or needs check (${P.length})</h2><p>Under contract on at least one site, or the sites disagree. Not counted in the list above.</p>${P.map(xcard).join('')}</div>`;
+  if(R.length)o+=`<div class="xsec"><h2>No longer on the list (${R.length})</h2><p>Earlier matches, with today's status from the listing sites.</p>${R.map(xcard).join('')}</div>`;
+  return o;}
 function load(){
   fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;init();}).catch(()=>{$('#list').innerHTML='<div class="empty">Could not load data.json</div>';});
 }
 function tileUrl(){return 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';}
 function init(){
+  D.all=D.homes;D.homes=D.all.filter(isAvail);D.hold=(D.pending||[]).concat(D.all.filter(h=>!isAvail(h)));
   $('#crit').textContent=D.criteria;
   $('#upd').innerHTML='Updated<br><b class="mono">'+D.updated+'</b>';
   map=L.map('map',{zoomControl:true}).setView([D.flint.lat,D.flint.lng],11);
@@ -251,13 +275,14 @@ function tags(h){const t=[];
 function render(){
   const a=filtered();const ids=new Set(a.map(h=>h.id));
   D.homes.forEach(h=>{const m=markers[h.id];if(ids.has(h.id)){if(!map.hasLayer(m))m.addTo(map);}else if(map.hasLayer(m))m.remove();});
-  $('#count').textContent=a.length+' of '+D.homes.length+' homes';
+  $('#count').textContent=a.length+' of '+D.homes.length+' verified-active homes'+((D.hold||[]).length?' · '+D.hold.length+' pending/needs check':'');
   $('#maxpv').textContent='$'+Math.round(st.maxp/1000)+'K';$('#minsv').textContent=st.mins?st.mins+'+ avg':'Any';
   $('#list').innerHTML=a.length?a.map(h=>`<div class="card t-${h.financing}${st.sel===h.id?' sel':''}" data-id="${h.id}" tabindex="0">
     <div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
     <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>
     <div class="facts"><span><b>${h.beds}</b> bd</span><span><b>${h.baths}</b> ba</span><span><b>${h.sqft.toLocaleString()}</b> sf</span><span><b>${h.lot}</b> ac</span>${h.dom!=null?`<span><b>${h.dom}</b> days</span>`:''}</div>
-    <div class="tags">${tags(h)}</div></div>`).join(''):'<div class="empty">No homes match these filters.</div>';
+    <div class="tags">${statusTag(h)}${tags(h)}</div>${srcLine(h)}</div>`).join(''):'<div class="empty">No homes match these filters.</div>';
+  $('#list').innerHTML+=others();
   stats();
 }
 function stats(){
@@ -279,8 +304,9 @@ function openDetail(id){
   const t=TIER[h.financing];const c=h.crime;
   const crime=c?`<div class="grid2"><div class="kv"><small>Violent crime / 100K (city)</small><b>${c.violent}</b><div class="bar"><i style="width:${Math.min(100,c.violent/D.texasAvg.violent*50)}%;background:${c.violent<D.texasAvg.violent?'var(--green)':'var(--red)'}"></i></div></div><div class="kv"><small>Property crime / 100K (city)</small><b>${c.property.toLocaleString()}</b><div class="bar"><i style="width:${Math.min(100,c.property/D.texasAvg.property*50)}%;background:${c.property<D.texasAvg.property?'var(--green)':'var(--red)'}"></i></div></div></div><div class="src">Bar midpoint = Texas average (${D.texasAvg.violent} violent · ${D.texasAvg.property.toLocaleString()} property per 100K). City-level FBI data, ${D.crimeYear||''} — neighborhoods vary.</div>`:'<div class="src">City crime data pending for '+h.city+'.</div>';
   $('#detail').innerHTML=`<button class="back" onclick="closeDetail()">← Back to list</button>
-   <div class="tags" style="margin-bottom:8px">${tags(h)}</div>
-   <div class="d-price">${fmt(h.price)}</div><div class="d-addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}${h.status&&h.status!=='House for sale'?' · '+h.status:''}</div>
+   <div class="tags" style="margin-bottom:8px">${statusTag(h)}${tags(h)}</div>
+   <div class="d-price">${fmt(h.price)}</div><div class="d-addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>
+   <div class="sec"><h3>Listing status · ${h.listingStatus||'Not verified'}</h3>${(h.statusSources||[]).map(s=>`<div class="srow"><span>${s.url?`<a href="${s.url}" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;text-decoration:none">${s.site} ↗</a>`:s.site}</span><span class="tag ${SCOL[s.status]||''}">${s.status}</span></div>`).join('')}<div class="src">Checked ${ct(h.statusChecked)}. Shown as available only when 2+ sites say Active and none says pending, contingent, under contract or sold.</div></div>
    ${h.financingNote?`<div class="sec"><h3>Financing</h3><div class="note${h.financing==='incentive'?' green':''}"><b style="color:${t.c}">${t.l}:</b> ${h.financingNote}</div></div>`:''}
    ${h.note?`<div class="sec"><div class="note" style="background:var(--red-soft)">${h.note}</div></div>`:''}
    ${h.openHouse?`<div class="sec"><h3>Open house</h3><div class="note" style="background:var(--violet-soft)">${h.openHouse}</div></div>`:''}

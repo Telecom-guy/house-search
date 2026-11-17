@@ -29,7 +29,7 @@
    "drive": 20,
    "openHouse": "",
    "dom": 160,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
    "lat": 32.5938244,
    "lng": -97.1208859,
@@ -156,7 +156,27 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 3.0
    },
-   "rank": 1
+   "rank": 1,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604"
+    },
+    {
+     "site": "Zillow",
+     "status": "unreachable",
+     "url": "https://www.zillow.com/homes/1525-Inverness-Rd-Mansfield,-TX-76063_rb/",
+     "detail": "page loads (160 days on Zillow) but no status text returned"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:33:21-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32353921",
@@ -173,7 +193,7 @@
    "drive": 19,
    "openHouse": "",
    "dom": 152,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
    "lat": 32.5972779,
    "lng": -97.1196475,
@@ -305,7 +325,21 @@
     "schoolDrive": 4.5,
     "singleStoryBonus": 3.0
    },
-   "rank": 2
+   "rank": 2,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:33:27-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32419600",
@@ -322,7 +356,7 @@
    "drive": 20,
    "openHouse": "",
    "dom": 62,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
    "lat": 32.5812537,
    "lng": -97.1219278,
@@ -449,7 +483,21 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 3.0
    },
-   "rank": 3
+   "rank": 3,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:33:33-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32350992",
@@ -466,7 +514,7 @@
    "drive": 22,
    "openHouse": "",
    "dom": 1,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/7-Kim-Ct-76063/home/32350992",
    "lat": 32.6081758,
    "lng": -97.1513199,
@@ -598,7 +646,21 @@
     "schoolDrive": 2.2,
     "singleStoryBonus": 3.0
    },
-   "rank": 4
+   "rank": 4,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/7-Kim-Ct-76063/home/32350992"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:33:39-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32351125",
@@ -615,7 +677,7 @@
    "drive": 23,
    "openHouse": "",
    "dom": 90,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
    "lat": 32.6080652,
    "lng": -97.1469717,
@@ -742,7 +804,21 @@
     "schoolDrive": 1.5,
     "singleStoryBonus": 3.0
    },
-   "rank": 5
+   "rank": 5,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:33:45-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32378064",
@@ -759,7 +835,7 @@
    "drive": 19,
    "openHouse": "",
    "dom": 28,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
    "lat": 32.5893832,
    "lng": -97.1138211,
@@ -891,7 +967,21 @@
     "schoolDrive": 4.5,
     "singleStoryBonus": 3.0
    },
-   "rank": 6
+   "rank": 6,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:33:51-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32379981",
@@ -908,7 +998,7 @@
    "drive": 21,
    "openHouse": "",
    "dom": 5,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1426-Holley-Creek-Ln-76063/home/32379981",
    "lat": 32.5933769,
    "lng": -97.135543,
@@ -1035,7 +1125,21 @@
     "schoolDrive": 3.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 7
+   "rank": 7,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/1426-Holley-Creek-Ln-76063/home/32379981"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:33:57-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "30986567",
@@ -1052,7 +1156,7 @@
    "drive": 20,
    "openHouse": "",
    "dom": 82,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
    "lat": 32.5998141,
    "lng": -97.1367077,
@@ -1179,7 +1283,21 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 8
+   "rank": 8,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:03-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32433403",
@@ -1196,7 +1314,7 @@
    "drive": 22,
    "openHouse": "",
    "dom": 82,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
    "lat": 32.5686968,
    "lng": -97.1311543,
@@ -1323,7 +1441,21 @@
     "schoolDrive": 2.2,
     "singleStoryBonus": 0.0
    },
-   "rank": 9
+   "rank": 9,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/18-Red-Bluff-Ct_Mansfield_TX_76063_M74675-22440"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:09-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "58525051",
@@ -1340,7 +1472,7 @@
    "drive": 23,
    "openHouse": "",
    "dom": 53,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
    "lat": 32.5721225,
    "lng": -97.1408692,
@@ -1467,7 +1599,21 @@
     "schoolDrive": 1.5,
     "singleStoryBonus": 0.0
    },
-   "rank": 10
+   "rank": 10,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/607-Biscayne-Dr-76063/home/32479256"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:15-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "144042570",
@@ -1484,7 +1630,7 @@
    "drive": 17,
    "openHouse": "",
    "dom": 118,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
    "lat": 32.6111829,
    "lng": -97.1052367,
@@ -1611,7 +1757,21 @@
     "schoolDrive": 6.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 11
+   "rank": 11,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:21-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "31372052",
@@ -1628,7 +1788,7 @@
    "drive": 20,
    "openHouse": "",
    "dom": 60,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
    "lat": 32.6995318,
    "lng": -97.1969501,
@@ -1764,7 +1924,21 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 3.0
    },
-   "rank": 12
+   "rank": 12,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:28-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "193196175",
@@ -1781,7 +1955,7 @@
    "drive": 21,
    "openHouse": "November-21-2026 10:00 AM – 03:00 PM",
    "dom": 66,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
    "lat": 32.534676,
    "lng": -97.105437,
@@ -1908,7 +2082,21 @@
     "schoolDrive": 3.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 13
+   "rank": 13,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/2123-Pennywell-Dr_Mansfield_TX_76084_M97505-19195"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:34-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "31079607",
@@ -1925,7 +2113,7 @@
    "drive": 17,
    "openHouse": "",
    "dom": 43,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
    "lat": 32.59302,
    "lng": -97.0498682,
@@ -2061,7 +2249,21 @@
     "schoolDrive": 6.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 14
+   "rank": 14,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:40-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "32391407",
@@ -2078,7 +2280,7 @@
    "drive": 15,
    "openHouse": "",
    "dom": 279,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
    "lat": 32.670411,
    "lng": -97.1761253,
@@ -2214,7 +2416,21 @@
     "schoolDrive": 7.5,
     "singleStoryBonus": 0.0
    },
-   "rank": 15
+   "rank": 15,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:46-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "113468332",
@@ -2231,7 +2447,7 @@
    "drive": 20,
    "openHouse": "",
    "dom": 63,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
    "lat": 32.559897,
    "lng": -97.051315,
@@ -2358,7 +2574,21 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 16
+   "rank": 16,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:52-06:00",
+   "listingStatus": "Active"
   },
   {
    "id": "176763617",
@@ -2375,7 +2605,7 @@
    "drive": 24,
    "openHouse": "",
    "dom": 123,
-   "status": "House for sale",
+   "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
    "lat": 32.5013923,
    "lng": -97.0778566,
@@ -2492,7 +2722,21 @@
     "schoolDrive": 0.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 17
+   "rank": 17,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:58-06:00",
+   "listingStatus": "Active"
   }
  ],
  "removed": [
@@ -2511,7 +2755,7 @@
    "drive": 10,
    "openHouse": "",
    "dom": 113,
-   "status": "House for sale",
+   "status": "Pending",
    "url": "https://www.zillow.com/homedetails/510-N-Clark-Rd-Duncanville-TX-75116/27211523_zpid/",
    "lat": 32.658733,
    "lng": -96.94259,
@@ -2542,8 +2786,24 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Pending",
+     "url": "https://www.redfin.com/TX/Duncanville/510-N-Clark-Rd-75116/home/32114810"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Pending",
+     "url": "https://www.realtor.com/realestateandhomes-detail/510-N-Clark-Rd_Duncanville_TX_75116_M79048-78721",
+     "detail": "is_pending=true"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:36:59-06:00",
+   "listingStatus": "Pending",
+   "statusDetail": "Redfin: Pending; Realtor.com: Pending"
   },
   {
    "id": "248829998",
@@ -2560,7 +2820,7 @@
    "drive": 21,
    "openHouse": "Daily Sun, 10/18–Thu, 10/22, 9 AM–7 PM",
    "dom": 9,
-   "status": "House for sale",
+   "status": "Pending",
    "url": "https://www.zillow.com/homedetails/908-Heath-Creek-Dr-Desoto-TX-75115/248829998_zpid/",
    "lat": 32.595016,
    "lng": -96.87894,
@@ -2586,8 +2846,24 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Pending",
+     "url": "https://www.redfin.com/TX/Desoto/908-Heath-Creek-Dr-75115/home/147236206"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Pending",
+     "url": "https://www.realtor.com/realestateandhomes-detail/908-Heath-Creek-Dr_Desoto_TX_75115_M93536-11605",
+     "detail": "is_pending=true"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:37:08-06:00",
+   "listingStatus": "Pending",
+   "statusDetail": "Redfin: Pending; Realtor.com: Pending"
   },
   {
    "id": "67953338",
@@ -2604,7 +2880,7 @@
    "drive": 10,
    "openHouse": "",
    "dom": 175,
-   "status": "House for sale",
+   "status": "Needs check",
    "url": "https://www.zillow.com/homedetails/106-S-Clark-Rd-Duncanville-TX-75116/67953338_zpid/",
    "lat": 32.649986,
    "lng": -96.942535,
@@ -2635,8 +2911,25 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Needs check (Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Off market (page status off_market but is_pending flag still true)) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/106-S-Clark-Rd_Duncanville_TX_75116_M71800-37949",
+     "detail": "page status off_market but is_pending flag still true"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:37:16-06:00",
+   "listingStatus": "Needs check",
+   "statusDetail": "Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Off market (page status off_market but is_pending flag still true)"
   },
   {
    "id": "465227323",
@@ -2653,7 +2946,7 @@
    "drive": 11,
    "openHouse": "",
    "dom": 36,
-   "status": "House for sale",
+   "status": "Pending",
    "url": "https://www.zillow.com/homedetails/1606-Avenue-C-Grand-Prairie-TX-75051/465227323_zpid/",
    "lat": 32.724247,
    "lng": -96.97938,
@@ -2681,8 +2974,24 @@
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Pending (Redfin: Contingent; Realtor.com: Contingent) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Contingent",
+     "url": "https://www.redfin.com/TX/Grand-Prairie/1606-Avenue-75051/home/205527332"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Contingent",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1606-Avenue-C_Grand-Prairie_TX_75051_M99584-18227",
+     "detail": "is_contingent=true (\"Active Under Contract\")"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:37:25-06:00",
+   "listingStatus": "Pending",
+   "statusDetail": "Redfin: Contingent; Realtor.com: Contingent"
   },
   {
    "id": "27204014",
@@ -2699,7 +3008,7 @@
    "drive": 13,
    "openHouse": "",
    "dom": 94,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/406-Dula-Cir-Duncanville-TX-75116/27204014_zpid/",
    "lat": 32.67055,
    "lng": -96.91457,
@@ -2730,8 +3039,25 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market (Sold November-11-2026) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Sold",
+     "url": "https://www.redfin.com/TX/Duncanville/406-Dula-Cir-75116/home/32074615",
+     "detail": "Sold November-11-2026"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Sold",
+     "url": "https://www.realtor.com/realestateandhomes-detail/406-Dula-Cir_Duncanville_TX_75116_M77126-54172",
+     "detail": "Sold 2026-11-11"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:37:34-06:00",
+   "listingStatus": "Off market",
+   "statusDetail": "Sold November-11-2026"
   },
   {
    "id": "26991587",
@@ -2748,7 +3074,7 @@
    "drive": 14,
    "openHouse": "",
    "dom": 338,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/523-Softwood-Dr-Duncanville-TX-75137/26991587_zpid/",
    "lat": 32.623398,
    "lng": -96.92189,
@@ -2779,8 +3105,23 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/523-Softwood-Dr_Duncanville_TX_75137_M77284-47411"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:37:43-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "2070094007",
@@ -2797,7 +3138,7 @@
    "drive": 17,
    "openHouse": "",
    "dom": 5,
-   "status": "Auction",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/2853-S-Lakeview-Dr-Cedar-Hill-TX-75104/2070094007_zpid/",
    "lat": 32.571777,
    "lng": -97.00952,
@@ -2828,8 +3169,24 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Sold",
+     "url": "https://www.realtor.com/realestateandhomes-detail/2853-S-Lakeview-Dr_Cedar-Hill_TX_75104_M89262-03142",
+     "detail": "No current listing; last recorded sale 2021-08-23"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:37:51-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "26983750",
@@ -2846,7 +3203,7 @@
    "drive": 18,
    "openHouse": "",
    "dom": 62,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/1528-Registry-Dr-Desoto-TX-75115/26983750_zpid/",
    "lat": 32.601288,
    "lng": -96.897194,
@@ -2872,8 +3229,23 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1528-Registry-Dr_Desoto_TX_75115_M82961-86341"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:38:00-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "26980988",
@@ -2890,7 +3262,7 @@
    "drive": 19,
    "openHouse": "Sun, 10/18 2 PM–4 PM",
    "dom": 136,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/636-Bent-Creek-Dr-Desoto-TX-75115/26980988_zpid/",
    "lat": 32.59883,
    "lng": -96.89283,
@@ -2916,8 +3288,23 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/636-Bent-Creek-Dr_Desoto_TX_75115_M80085-06563"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:38:09-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "29013850",
@@ -2934,7 +3321,7 @@
    "drive": 19,
    "openHouse": "",
    "dom": 101,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/1110-Western-Blvd-Arlington-TX-76013/29013850_zpid/",
    "lat": 32.716427,
    "lng": -97.12078,
@@ -2962,8 +3349,23 @@
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1110-Western-Blvd_Arlington_TX_76013_M82947-06006"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:38:18-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "26980879",
@@ -2980,7 +3382,7 @@
    "drive": 19,
    "openHouse": "",
    "dom": 113,
-   "status": "House for sale",
+   "status": "Needs check",
    "url": "https://www.zillow.com/homedetails/1112-W-Pleasant-Run-Rd-Desoto-TX-75115/26980879_zpid/",
    "lat": 32.603596,
    "lng": -96.8852,
@@ -3006,8 +3408,24 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Needs check (Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Active) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1112-W-Pleasant-Run-Rd_Desoto_TX_75115_M79993-76408"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:38:27-06:00",
+   "listingStatus": "Needs check",
+   "statusDetail": "Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Active"
   },
   {
    "id": "67953785",
@@ -3024,7 +3442,7 @@
    "drive": 20,
    "openHouse": "",
    "dom": 41,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/1105-Marisa-Ln-Desoto-TX-75115/67953785_zpid/",
    "lat": 32.60931,
    "lng": -96.872246,
@@ -3050,8 +3468,25 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market (Sold November-13-2026) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Sold",
+     "url": "https://www.redfin.com/TX/Desoto/1105-Marisa-Ln-75115/home/32224328",
+     "detail": "Sold November-13-2026"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Sold",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1105-Marisa-Ln_Desoto_TX_75115_M88473-97351",
+     "detail": "Sold 2026-11-13"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:38:35-06:00",
+   "listingStatus": "Off market",
+   "statusDetail": "Sold November-13-2026"
   },
   {
    "id": "461753359",
@@ -3068,7 +3503,7 @@
    "drive": 23,
    "openHouse": "",
    "dom": 1,
-   "status": "House for sale",
+   "status": "Pending",
    "url": "https://www.zillow.com/homedetails/1903-Spirit-Walk-Mansfield-TX-76063/461753359_zpid/",
    "lat": 32.6048,
    "lng": -97.140396,
@@ -3099,8 +3534,24 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Pending",
+     "url": "https://www.redfin.com/TX/Mansfield/1903-Spirit-Walk-76063/home/31628550"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Pending",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1903-Spirit-Walk_Mansfield_TX_76063_M75032-63291",
+     "detail": "is_pending=true"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:38:45-06:00",
+   "listingStatus": "Pending",
+   "statusDetail": "Redfin: Pending; Realtor.com: Pending"
   },
   {
    "id": "29127002",
@@ -3117,7 +3568,7 @@
    "drive": 24,
    "openHouse": "Sun, 10/18 3 PM–4:30 PM",
    "dom": 64,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/2811-Crowley-Ct-Arlington-TX-76012/29127002_zpid/",
    "lat": 32.744026,
    "lng": -97.153824,
@@ -3145,8 +3596,23 @@
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/2811-Crowley-Ct_Arlington_TX_76012_M78678-97240"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:38:54-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "29127187",
@@ -3163,7 +3629,7 @@
    "drive": 24,
    "openHouse": "",
    "dom": 46,
-   "status": "Auction",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/2604-Oak-Cliff-Ln-Arlington-TX-76012/29127187_zpid/",
    "lat": 32.747852,
    "lng": -97.15185,
@@ -3191,8 +3657,24 @@
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-10 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-10"
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedOn": "2026-11-10",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-365-days results",
+     "url": null
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Sold",
+     "url": "https://www.realtor.com/realestateandhomes-detail/2604-Oak-Cliff-Ln_Arlington_TX_76012_M72300-53368",
+     "detail": "No current listing; last recorded sale 2023-11-22"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:39:02-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "31665200",
@@ -3209,7 +3691,7 @@
    "drive": 21,
    "openHouse": "",
    "dom": 311,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.redfin.com/TX/Mansfield/204-Juniper-St-76063/home/31665200",
    "lat": 32.5695276,
    "lng": -97.1245564,
@@ -3337,154 +3819,23 @@
     "singleStoryBonus": 3.0
    },
    "rank": 2,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-17 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-17"
-  },
-  {
-   "id": "32481373",
-   "street": "5 Scramble Ct",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 475000,
-   "beds": 4,
-   "baths": 2.5,
-   "sqft": 3493,
-   "lot": 0.25,
-   "story": "Multi",
-   "miles": 9.1,
-   "drive": 18,
-   "openHouse": "",
-   "dom": 235,
-   "status": "House for sale",
-   "url": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
-   "lat": 32.5576689,
-   "lng": -97.0743263,
-   "schools": [
+   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-17",
+   "removedOn": "2026-11-17",
+   "statusSources": [
     {
-     "name": "Elizabeth Smith Elementary School",
-     "grades": "Elementary",
-     "rating": 7
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-60/365-days results",
+     "url": "https://www.redfin.com/TX/Mansfield/204-Juniper-St-76063/home/31665200"
     },
     {
-     "name": "Danny Jones Middle School",
-     "grades": "Middle",
-     "rating": 9
-    },
-    {
-     "name": "Mansfield Lake Ridge High School",
-     "grades": "High",
-     "rating": 8
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/204-Juniper-St_Mansfield_TX_76063_M84920-03277"
     }
    ],
-   "schoolAvg": 8.0,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": false,
-   "prevPrice": 505000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
-   "mls": "21214241",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 42,
-    "lasColinas": 38,
-    "galleria": 46
-   },
-   "weeklyDrive": {
-    "schoolMin": 140,
-    "workMin": 210,
-    "totalMin": 350,
-    "ifGalleriaWorkMin": 232,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Mansfield Natl Sec A & B (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 1,
-     "ymca": 1,
-     "swim": 1,
-     "park": 7,
-     "sportsFields": 1,
-     "music": 1,
-     "martialArts": 2,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 1
-    },
-    "nearest": [
-     {
-      "name": "Mansfield Sports Complex",
-      "category": "park",
-      "miles": 0.8
-     },
-     {
-      "name": "Mathnasium of Mansfield",
-      "category": "tutoring",
-      "miles": 1.4
-     },
-     {
-      "name": "Mansfield YMCA",
-      "category": "ymca",
-      "miles": 1.7
-     },
-     {
-      "name": "Heritage Towne Community Pool",
-      "category": "swim",
-      "miles": 2.4
-     },
-     {
-      "name": "Pinaroc Taekwondo",
-      "category": "martialArts",
-      "miles": 2.6
-     }
-    ],
-    "score": 6.4,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 0.75,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 6.4,
-   "matchScore": 60.8,
-   "matchParts": {
-    "afterSchool": 16.0,
-    "schoolAvg": 16.0,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 13.2,
-    "schoolDrive": 5.2,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 6,
-   "removedReason": "Listed as contingent / Active Under Contract on Realtor.com (page last updated 2026-11-11); no longer in Redfin's active set as of 2026-11-17",
-   "removedOn": "2026-11-17"
+   "statusChecked": "2026-11-17T15:35:04-06:00",
+   "listingStatus": "Off market"
   },
   {
    "id": "29022061",
@@ -3501,7 +3852,7 @@
    "drive": 18,
    "openHouse": "",
    "dom": 152,
-   "status": "House for sale",
+   "status": "Off market",
    "url": "https://www.zillow.com/homedetails/12008-Saddlehorn-Ln-Mansfield-TX-76063/29022061_zpid/",
    "lat": 32.5889272,
    "lng": -97.0897748,
@@ -3629,8 +3980,31 @@
     "singleStoryBonus": 3.0
    },
    "rank": 8,
-   "removedReason": "No longer an active listing on Redfin/Realtor.com as of 2026-11-17 (sold, pending, off-market or withdrawn)",
-   "removedOn": "2026-11-17"
+   "removedReason": "Off market (Sold November-12-2026) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-17",
+   "removedOn": "2026-11-17",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Sold",
+     "url": "https://www.redfin.com/TX/Mansfield/12008-Saddlehorn-Ln-76063/home/31737083",
+     "detail": "Sold November-12-2026"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Sold",
+     "url": "https://www.realtor.com/realestateandhomes-detail/12008-Saddlehorn-Ln_Mansfield_TX_76063_M88722-08612",
+     "detail": "Sold 2026-11-12"
+    },
+    {
+     "site": "Zillow",
+     "status": "unreachable",
+     "url": "https://www.zillow.com/homedetails/12008-Saddlehorn-Ln-Mansfield-TX-76063/29022061_zpid/",
+     "detail": "page shows \"Price Unknown\" and a \"Bought with\" buyer broker (consistent with sold) but no explicit status text"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:35:16-06:00",
+   "listingStatus": "Off market",
+   "statusDetail": "Sold November-12-2026"
   }
  ],
  "commuteTargets": {
@@ -3664,5 +4038,177 @@
    }
   },
   "city": "violent < 348 and property < 1809 per 100K (FBI CDE 2025)"
- }
+ },
+ "pending": [
+  {
+   "id": "32481373",
+   "street": "5 Scramble Ct",
+   "city": "Mansfield",
+   "zip": "76063",
+   "price": 475000,
+   "beds": 4,
+   "baths": 2.5,
+   "sqft": 3493,
+   "lot": 0.25,
+   "story": "Multi",
+   "miles": 9.1,
+   "drive": 18,
+   "openHouse": "",
+   "dom": 235,
+   "status": "Pending",
+   "url": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
+   "lat": 32.5576689,
+   "lng": -97.0743263,
+   "schools": [
+    {
+     "name": "Elizabeth Smith Elementary School",
+     "grades": "Elementary",
+     "rating": 7
+    },
+    {
+     "name": "Danny Jones Middle School",
+     "grades": "Middle",
+     "rating": 9
+    },
+    {
+     "name": "Mansfield Lake Ridge High School",
+     "grades": "High",
+     "rating": 8
+    }
+   ],
+   "schoolAvg": 8.0,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 106,
+    "property": 1191
+   },
+   "isNew": false,
+   "prevPrice": 505000,
+   "redfinUrl": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373",
+   "mls": "21214241",
+   "crimeBasis": "city",
+   "crimeLocal": {
+    "covered": false,
+    "source": "no point data",
+    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+   },
+   "crimePass": true,
+   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+   "commute": {
+    "southlake": 42,
+    "lasColinas": 38,
+    "galleria": 46
+   },
+   "weeklyDrive": {
+    "schoolMin": 140,
+    "workMin": 210,
+    "totalMin": 350,
+    "ifGalleriaWorkMin": 232,
+    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+   },
+   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+   "area": {
+    "name": "Mansfield Natl Sec A & B (Mansfield 76063)",
+    "improving": false,
+    "note": "Not in the approved improving-area list."
+   },
+   "afterSchool": {
+    "counts": {
+     "library": 1,
+     "recCenter": 1,
+     "ymca": 1,
+     "swim": 1,
+     "park": 7,
+     "sportsFields": 1,
+     "music": 1,
+     "martialArts": 2,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 1
+    },
+    "nearest": [
+     {
+      "name": "Mansfield Sports Complex",
+      "category": "park",
+      "miles": 0.8
+     },
+     {
+      "name": "Mathnasium of Mansfield",
+      "category": "tutoring",
+      "miles": 1.4
+     },
+     {
+      "name": "Mansfield YMCA",
+      "category": "ymca",
+      "miles": 1.7
+     },
+     {
+      "name": "Heritage Towne Community Pool",
+      "category": "swim",
+      "miles": 2.4
+     },
+     {
+      "name": "Pinaroc Taekwondo",
+      "category": "martialArts",
+      "miles": 2.6
+     }
+    ],
+    "score": 6.4,
+    "groupCredit": {
+     "library": 0.75,
+     "recCenter": 0.75,
+     "ymcaSwim": 0.75,
+     "parksFields": 1,
+     "music": 0.75,
+     "martialArts": 0.75,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 1
+    },
+    "radiusMiles": 3,
+    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+   },
+   "afterSchoolScore": 6.4,
+   "matchScore": 60.8,
+   "matchParts": {
+    "afterSchool": 16.0,
+    "schoolAvg": 16.0,
+    "crime": 10.4,
+    "improvingArea": 0.0,
+    "value": 13.2,
+    "schoolDrive": 5.2,
+    "singleStoryBonus": 0.0
+   },
+   "rank": 6,
+   "removedOn": "2026-11-17",
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Contingent",
+     "url": "https://www.redfin.com/TX/Mansfield/5-Scramble-Ct-76063/home/32481373"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Contingent",
+     "url": "https://www.realtor.com/realestateandhomes-detail/5-Scramble-Ct_Mansfield_TX_76063_M70865-39228",
+     "detail": "is_contingent=true (\"Active Under Contract\")"
+    },
+    {
+     "site": "Zillow",
+     "status": "unreachable",
+     "url": "https://www.zillow.com/homes/5-Scramble-Ct-Mansfield,-TX-76063_rb/",
+     "detail": "page loads with $475,000 but no status text returned"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:35:10-06:00",
+   "listingStatus": "Pending",
+   "statusDetail": "Redfin: Contingent; Realtor.com: Contingent",
+   "pendingSince": "2026-11-17"
+  }
+ ],
+ "statusRule": "A home is listed as available only when at least two of Redfin, Zillow and Realtor.com read Active and none reads Pending, Contingent, Under contract or Sold. Any Pending/Contingent/Under-contract reading -> Pending. Sold or off-market on the sources -> Off market. Only one readable source or disagreement -> Needs check. Zillow blocks automated reads (captcha / no status text), so Redfin + Realtor.com are the two sources checked today.",
+ "statusCheckedAt": "2026-11-17T15:39:02-06:00"
 }
