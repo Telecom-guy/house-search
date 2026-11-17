@@ -143,6 +143,17 @@ aside{position:relative}
 :root[data-theme="dark"] .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9)}
 .leaflet-control-attribution{background:var(--glass)!important;color:var(--muted)!important}
 .leaflet-control-attribution a{color:var(--muted)!important}
+.loc-ctl{display:flex;flex-direction:column;gap:6px;align-items:stretch;max-width:min(240px,calc(100vw - 24px));pointer-events:auto}
+.loc-btn{display:flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:var(--glass);backdrop-filter:blur(8px);color:var(--ink);font:600 .8rem Inter,system-ui,-apple-system,sans-serif;cursor:pointer;box-shadow:var(--shadow);-webkit-tap-highlight-color:transparent;touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.loc-btn:hover{border-color:var(--accent)}
+.loc-btn.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.loc-msg{background:var(--glass);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:.74rem;color:var(--ink);box-shadow:var(--shadow);line-height:1.4}
+.loc-msg.err{background:var(--amber-soft);border-color:transparent}
+.dist-you{display:block;font-size:.74rem;color:var(--accent);font-weight:600;margin-top:2px}
+.me-wrap{width:36px;height:36px;display:grid;place-items:center;position:relative}
+.me-dot{width:18px;height:18px;background:#1a73e8;border:3px solid #fff;border-radius:50%;box-shadow:0 0 0 2px rgba(26,115,232,.35),0 2px 8px rgba(0,0,0,.35);position:relative}
+.me-dot::after{content:'';position:absolute;inset:-8px;border-radius:50%;background:rgba(26,115,232,.25);animation:me-pulse 2s ease-out infinite;pointer-events:none}
+@keyframes me-pulse{0%{transform:scale(.6);opacity:.7}100%{transform:scale(1.6);opacity:0}}
 .mtoggle{display:none}
 @media (max-width:900px){
   .app{height:auto;min-height:100vh}
@@ -195,6 +206,7 @@ aside{position:relative}
           <select id="sort">
             <option value="deal">Best financing first</option>
             <option value="miles">Closest to Flint</option>
+            <option value="near">Nearest to me (straight-line)</option>
             <option value="price">Price: low → high</option>
             <option value="schools">School rating: high → low</option>
             <option value="crime">Lowest crime city</option>
@@ -214,7 +226,7 @@ aside{position:relative}
 const $=s=>document.querySelector(s);
 const fmt=n=>n==null?'Auction':'$'+n.toLocaleString();
 const st={story:'all',fin:'all',oh:false,mans:false,noauction:false,maxp:500000,mins:0,sort:'deal',sel:null,quick:null};
-let D,map,markers={},tiles;
+let D,map,markers={},tiles,meWatch=null,meMarker=null,meCircle=null,mePos=null,meCentered=false;
 const TIER={assumable:{c:'#d97706',l:'Assumable'},incentive:{c:'#059669',l:'Incentive'},none:{c:'#2563eb',l:''}};
 const rc=r=>r==null?'#94a3b8':r>=7?'#059669':r>=5?'#65a30d':r>=4?'#d97706':'#dc2626';
 const isMans=h=>h.schools.some(s=>/Mansfield|Summit|Timberview|Legacy|Worley|Wester|Coble|Howard|Icenhower|Tipps|Ponder|Nash|Orr|Anderson/.test(s.name));
@@ -233,6 +245,80 @@ function others(){const P=D.hold||[],R=D.removed||[];let o='';
   if(P.length)o+=`<div class="xsec"><h2>Not available · Pending or needs check (${P.length})</h2><p>Under contract on at least one site, or the sites disagree. Not counted in the list above.</p>${P.map(xcard).join('')}</div>`;
   if(R.length)o+=`<div class="xsec"><h2>No longer on the list (${R.length})</h2><p>Earlier matches, with today's status from the listing sites.</p>${R.map(xcard).join('')}</div>`;
   return o;}
+function toRad(d){return d*Math.PI/180}
+function distMi(aLat,aLng,bLat,bLng){
+  const R=3958.7613,dLat=toRad(bLat-aLat),dLng=toRad(bLng-aLng);
+  const s=Math.sin(dLat/2)**2+Math.cos(toRad(aLat))*Math.cos(toRad(bLat))*Math.sin(dLng/2)**2;
+  return 2*R*Math.asin(Math.min(1,Math.sqrt(s)));
+}
+function fmtMi(mi){if(mi==null||isNaN(mi))return '';return mi<1?mi.toFixed(2)+' mi':mi.toFixed(1)+' mi'}
+function youDist(h){return mePos?distMi(mePos.lat,mePos.lng,h.lat,h.lng):null}
+function youDistLine(h){const d=youDist(h);return d==null?'':`<span class="dist-you">${fmtMi(d)} from you · straight-line</span>`}
+function locMsg(t,err){
+  const el=$('#loc-msg');if(!el)return;
+  if(!t){el.hidden=true;el.textContent='';el.classList.remove('err');return;}
+  el.hidden=false;el.textContent=t;el.classList.toggle('err',!!err);
+}
+function addLocControl(){
+  const c=L.control({position:'topright'});
+  c.onAdd=()=>{
+    const d=L.DomUtil.create('div','loc-ctl');
+    d.innerHTML='<button type="button" class="loc-btn" id="loc-toggle" aria-pressed="false">📍 Show my location</button><button type="button" class="loc-btn" id="loc-recenter" hidden>Recenter on me</button><div class="loc-msg" id="loc-msg" hidden role="status" aria-live="polite"></div>';
+    L.DomEvent.disableClickPropagation(d);L.DomEvent.disableScrollPropagation(d);return d;
+  };
+  c.addTo(map);
+  $('#loc-toggle').onclick=toggleLoc;
+  $('#loc-recenter').onclick=recenterMe;
+}
+function toggleLoc(){if(meWatch!=null){stopLoc();return;}startLoc();}
+function startLoc(){
+  if(meWatch!=null)return;
+  if(!window.isSecureContext){locMsg('Location only works on a secure (https) page.',true);return;}
+  if(!navigator.geolocation){locMsg('This browser cannot share your location.',true);return;}
+  const btn=$('#loc-toggle');
+  if(btn)btn.textContent='📍 Locating…';
+  locMsg('Getting your location… It stays on this device only.');
+  meCentered=false;
+  meWatch=navigator.geolocation.watchPosition(onLoc,onLocErr,{enableHighAccuracy:true,maximumAge:0,timeout:15000});
+}
+function onLoc(pos){
+  const lat=pos.coords.latitude,lng=pos.coords.longitude,acc=Number(pos.coords.accuracy)||0;
+  mePos={lat,lng,acc};
+  const btn=$('#loc-toggle');
+  if(btn){btn.classList.add('on');btn.setAttribute('aria-pressed','true');btn.textContent='📍 Tracking on';}
+  const rec=$('#loc-recenter');if(rec)rec.hidden=false;
+  locMsg('');
+  if(!meMarker){
+    meMarker=L.marker([lat,lng],{icon:L.divIcon({className:'me-marker',html:'<div class="me-wrap"><div class="me-dot" title="You are here"></div></div>',iconSize:[36,36],iconAnchor:[18,18]}),zIndexOffset:2000,interactive:false,keyboard:false}).addTo(map);
+    meCircle=L.circle([lat,lng],{radius:acc,color:'#1a73e8',weight:1,fillColor:'#1a73e8',fillOpacity:.15,interactive:false,className:'me-acc'}).addTo(map);
+  }else{
+    meMarker.setLatLng([lat,lng]);meCircle.setLatLng([lat,lng]);meCircle.setRadius(acc);
+  }
+  if(!meCentered){meCentered=true;map.setView([lat,lng],Math.max(map.getZoom(),13));}
+  render();
+  if($('#detail').classList.contains('open')&&st.sel)openDetail(st.sel,{fly:false});
+}
+function onLocErr(err){
+  let m='Could not get your location. Try again.';
+  if(err&&err.code===1)m='Location access was denied. Allow it in your browser or phone settings, then try again.';
+  else if(err&&err.code===2)m='Your location is unavailable right now. Try again in a moment.';
+  else if(err&&err.code===3)m='Location request timed out. Try again.';
+  if(mePos&&err&&err.code!==1){locMsg(m,true);return;}
+  locMsg(m,true);stopLoc(true);
+}
+function stopLoc(keepMsg){
+  if(meWatch!=null){navigator.geolocation.clearWatch(meWatch);meWatch=null;}
+  if(meMarker){meMarker.remove();meMarker=null;}
+  if(meCircle){meCircle.remove();meCircle=null;}
+  mePos=null;meCentered=false;
+  const btn=$('#loc-toggle');
+  if(btn){btn.classList.remove('on');btn.setAttribute('aria-pressed','false');btn.textContent='📍 Show my location';}
+  const rec=$('#loc-recenter');if(rec)rec.hidden=true;
+  if(!keepMsg)locMsg('');
+  render();
+  if($('#detail').classList.contains('open')&&st.sel)openDetail(st.sel,{fly:false});
+}
+function recenterMe(){if(!mePos)return;map.flyTo([mePos.lat,mePos.lng],Math.max(map.getZoom(),14),{duration:.5});}
 function load(){
   fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;init();}).catch(()=>{$('#list').innerHTML='<div class="empty">Could not load data.json</div>';});
 }
@@ -247,6 +333,7 @@ function init(){
     .bindPopup('<div class="pp"><b style="font-family:Inter">Flint Academy</b><br>'+D.flint.addr+'</div>');
   [5,10].forEach(mi=>L.circle([D.flint.lat,D.flint.lng],{radius:mi*1609.34,color:'#8b5cf6',weight:1,dashArray:'4 6',fill:false,interactive:false}).addTo(map));
   const lg=L.control({position:'bottomleft'});lg.onAdd=()=>{const d=L.DomUtil.create('div','legend');d.innerHTML='<div><i style="background:#d97706"></i>Assumable loan</div><div><i style="background:#059669"></i>Seller / lender incentive</div><div><i style="background:#2563eb"></i>Standard</div><div><i style="background:#fff;outline:2px solid #7c3aed"></i>Open house</div><div>🎓 Flint Academy · rings 5 &amp; 10 mi</div>';return d;};lg.addTo(map);
+  addLocControl();
   D.homes.forEach(h=>{
     const m=L.marker([h.lat,h.lng],{icon:icon(h,false),riseOnHover:true}).addTo(map);
     m.bindPopup(popup(h),{closeButton:true});m.on('click',()=>select(h.id,false));markers[h.id]=m;
@@ -255,11 +342,11 @@ function init(){
 }
 function icon(h,sel){const t=TIER[h.financing];const lbl=h.price?Math.round(h.price/1000):'A';
   return L.divIcon({className:'',html:`<div class="pin${h.openHouse?' oh':''}${sel?' sel':''}" style="background:${t.c}"><span>${h.story==='Single'?'1':'2'}</span></div>`,iconSize:sel?[38,38]:[30,30],iconAnchor:sel?[19,38]:[15,30],popupAnchor:[0,-30]});}
-function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<br><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Listing ↗</a></div>`;}
+function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${mePos?'<br>'+fmtMi(youDist(h))+' from you · straight-line':''}${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<br><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Listing ↗</a></div>`;}
 function filtered(){
   let a=D.homes.filter(h=>(st.story==='all'||h.story===st.story)&&(st.fin==='all'||(st.fin==='assumable'?h.financing==='assumable':h.financing!=='none'))&&(!st.oh||h.openHouse)&&(!st.mans||isMans(h))&&(!st.noauction||h.price)&&((h.price||0)<=st.maxp)&&((h.schoolAvg||0)>=st.mins));
   const o={assumable:0,incentive:1,none:2};
-  const s={deal:(x,y)=>o[x.financing]-o[y.financing]||x.miles-y.miles,miles:(x,y)=>x.miles-y.miles,price:(x,y)=>(x.price||9e9)-(y.price||9e9),schools:(x,y)=>(y.schoolAvg||0)-(x.schoolAvg||0),crime:(x,y)=>(x.crime?.violent??9e9)-(y.crime?.violent??9e9),lot:(x,y)=>y.lot-x.lot,sqft:(x,y)=>y.sqft-x.sqft,dom:(x,y)=>(x.dom??9e9)-(y.dom??9e9)}[st.sort];
+  const s={deal:(x,y)=>o[x.financing]-o[y.financing]||x.miles-y.miles,miles:(x,y)=>x.miles-y.miles,near:(x,y)=>{const dx=youDist(x),dy=youDist(y);return (dx==null||dy==null)?x.miles-y.miles:dx-dy;},price:(x,y)=>(x.price||9e9)-(y.price||9e9),schools:(x,y)=>(y.schoolAvg||0)-(x.schoolAvg||0),crime:(x,y)=>(x.crime?.violent??9e9)-(y.crime?.violent??9e9),lot:(x,y)=>y.lot-x.lot,sqft:(x,y)=>y.sqft-x.sqft,dom:(x,y)=>(x.dom??9e9)-(y.dom??9e9)}[st.sort];
   return a.sort(s);
 }
 function tags(h){const t=[];
@@ -274,12 +361,12 @@ function tags(h){const t=[];
   return t.map(([l,c])=>`<span class="tag ${c}">${l}</span>`).join('');}
 function render(){
   const a=filtered();const ids=new Set(a.map(h=>h.id));
-  D.homes.forEach(h=>{const m=markers[h.id];if(ids.has(h.id)){if(!map.hasLayer(m))m.addTo(map);}else if(map.hasLayer(m))m.remove();});
+  D.homes.forEach(h=>{const m=markers[h.id];if(!m)return;if(ids.has(h.id)){if(!map.hasLayer(m))m.addTo(map);}else if(map.hasLayer(m))m.remove();m.setPopupContent(popup(h));});
   $('#count').textContent=a.length+' of '+D.homes.length+' verified-active homes'+((D.hold||[]).length?' · '+D.hold.length+' pending/needs check':'');
   $('#maxpv').textContent='$'+Math.round(st.maxp/1000)+'K';$('#minsv').textContent=st.mins?st.mins+'+ avg':'Any';
   $('#list').innerHTML=a.length?a.map(h=>`<div class="card t-${h.financing}${st.sel===h.id?' sel':''}" data-id="${h.id}" tabindex="0">
     <div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
-    <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>
+    <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>${youDistLine(h)}
     <div class="facts"><span><b>${h.beds}</b> bd</span><span><b>${h.baths}</b> ba</span><span><b>${h.sqft.toLocaleString()}</b> sf</span><span><b>${h.lot}</b> ac</span>${h.dom!=null?`<span><b>${h.dom}</b> days</span>`:''}</div>
     <div class="tags">${statusTag(h)}${tags(h)}</div>${srcLine(h)}</div>`).join(''):'<div class="empty">No homes match these filters.</div>';
   $('#list').innerHTML+=others();
@@ -299,8 +386,9 @@ function select(id,fly=true){
   document.querySelectorAll('.card').forEach(c=>c.classList.toggle('sel',c.dataset.id===id));
   const el=document.querySelector(`.card[data-id="${id}"]`);if(el&&!fly)el.scrollIntoView({block:'nearest',behavior:'smooth'});
 }
-function openDetail(id){
-  const h=D.homes.find(x=>x.id===id);select(id,true);
+function openDetail(id,opts){
+  const fly=!opts||opts.fly!==false;
+  const h=D.homes.find(x=>x.id===id);if(!h)return;select(id,fly);
   const t=TIER[h.financing];const c=h.crime;
   const crime=c?`<div class="grid2"><div class="kv"><small>Violent crime / 100K (city)</small><b>${c.violent}</b><div class="bar"><i style="width:${Math.min(100,c.violent/D.texasAvg.violent*50)}%;background:${c.violent<D.texasAvg.violent?'var(--green)':'var(--red)'}"></i></div></div><div class="kv"><small>Property crime / 100K (city)</small><b>${c.property.toLocaleString()}</b><div class="bar"><i style="width:${Math.min(100,c.property/D.texasAvg.property*50)}%;background:${c.property<D.texasAvg.property?'var(--green)':'var(--red)'}"></i></div></div></div><div class="src">Bar midpoint = Texas average (${D.texasAvg.violent} violent · ${D.texasAvg.property.toLocaleString()} property per 100K). City-level FBI data, ${D.crimeYear||''} — neighborhoods vary.</div>`:'<div class="src">City crime data pending for '+h.city+'.</div>';
   $('#detail').innerHTML=`<button class="back" onclick="closeDetail()">← Back to list</button>
@@ -313,11 +401,12 @@ function openDetail(id){
    <div class="sec"><h3>The home</h3><div class="grid2">
      <div class="kv"><small>Beds / baths</small><b>${h.beds} / ${h.baths}</b></div><div class="kv"><small>Square feet</small><b>${h.sqft.toLocaleString()}</b></div>
      <div class="kv"><small>Lot</small><b>${h.lot} acres</b></div><div class="kv"><small>Stories</small><b>${h.story}</b></div>
-     <div class="kv"><small>To Flint Academy</small><b>${h.miles} mi · ~${h.drive} min</b></div><div class="kv"><small>Days on market</small><b>${h.dom??'—'}</b></div></div></div>
+     <div class="kv"><small>To Flint Academy</small><b>${h.miles} mi · ~${h.drive} min</b></div><div class="kv"><small>Days on market</small><b>${h.dom??'—'}</b></div></div>${mePos?`<div class="kv" style="margin-top:8px"><small>From you (straight-line, not drive time)</small><b>${fmtMi(youDist(h))}</b></div>`:''}</div>
    <div class="sec"><h3>Assigned schools · GreatSchools</h3>${h.schools.map(s=>`<div class="school"><div class="rate" style="background:${rc(s.rating)}">${s.rating??'NR'}</div><div><b>${s.name}</b><small>Grades ${s.grades}</small></div></div>`).join('')||'<div class="src">No school data.</div>'}</div>
    <div class="sec"><h3>Crime · ${h.city}</h3>${crime}</div>
    <div class="btns"><a class="btn primary" href="${h.url}" target="_blank" rel="noopener">Open listing ↗</a><a class="btn" href="https://www.google.com/maps/dir/${encodeURIComponent(h.street+', '+h.city+', TX '+h.zip)}/${encodeURIComponent(D.flint.addr)}" target="_blank" rel="noopener">Drive time to Flint ↗</a><a class="btn" href="https://www.google.com/maps/search/?api=1&query=${h.lat},${h.lng}" target="_blank" rel="noopener">Street view ↗</a></div>`;
-  $('#detail').classList.add('open');$('#detail').scrollTop=0;
+  const was=$('#detail').classList.contains('open');
+  $('#detail').classList.add('open');if(fly||!was)$('#detail').scrollTop=0;
 }
 function closeDetail(){$('#detail').classList.remove('open');}
 function bind(){
@@ -325,7 +414,7 @@ function bind(){
   document.querySelectorAll('.chip[data-t]').forEach(b=>b.onclick=()=>{st[b.dataset.t]=!st[b.dataset.t];syncChips();render();});
   $('#maxp').oninput=e=>{st.maxp=+e.target.value;render();};
   $('#mins').oninput=e=>{st.mins=+e.target.value;render();};
-  $('#sort').onchange=e=>{st.sort=e.target.value;render();};
+  $('#sort').onchange=e=>{st.sort=e.target.value;if(st.sort==='near'&&!mePos)startLoc();render();};
   $('#list').onclick=e=>{const c=e.target.closest('.card');if(c)openDetail(c.dataset.id);};
   $('#list').onkeydown=e=>{if(e.key==='Enter'){const c=e.target.closest('.card');if(c)openDetail(c.dataset.id);}};
   $('#list').onmouseover=e=>{const c=e.target.closest('.card');if(c&&markers[c.dataset.id])markers[c.dataset.id].setZIndexOffset(900);};
