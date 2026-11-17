@@ -6,7 +6,7 @@
   "lat": 32.6718878,
   "lng": -96.9959732
  },
- "criteria": "$500K max · 3+ bd · 2+ ba · 2,250+ sq ft · 0.25+ acre lot · houses only (no duplex/multi-family/manufactured) · single or multi story · ≤25 min drive to Flint Academy · schools avg 6+ · neighborhood crime: Dallas/Arlington/Fort Worth/Grand Prairie use 0.5-mi police data (score ≤ city sample median and violent ≤ cap), other cities need city rate below Texas avg (violent <348, property <1,809 per 100K) · ranked by matchScore",
+ "criteria": "$500K max \u00b7 3+ bd \u00b7 2+ ba \u00b7 2,250+ sq ft \u00b7 0.25+ acre lot \u00b7 houses only (no duplex/multi-family/manufactured) \u00b7 single or multi story \u00b7 \u226425 min drive to Flint Academy \u00b7 schools avg 6+ \u00b7 neighborhood crime: Dallas/Arlington/Fort Worth/Grand Prairie use 0.5-mi police data (score \u2264 city sample median and violent \u2264 cap), other cities need city rate below Texas avg (violent <348, property <1,809 per 100K) \u00b7 ranked by matchScore",
  "texasAvg": {
   "violent": 348,
   "property": 1809
@@ -1300,164 +1300,6 @@
    "listingStatus": "Active"
   },
   {
-   "id": "32433403",
-   "street": "18 Red Bluff Ct",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 445000,
-   "beds": 4,
-   "baths": 2.5,
-   "sqft": 2886,
-   "lot": 0.28,
-   "story": "Multi",
-   "miles": 10.6,
-   "drive": 22,
-   "openHouse": "",
-   "dom": 82,
-   "status": "Active",
-   "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
-   "lat": 32.5686968,
-   "lng": -97.1311543,
-   "schools": [
-    {
-     "name": "Erma Nash Elementary School",
-     "grades": "Elementary",
-     "rating": 5
-    },
-    {
-     "name": "Rogene Worley Middle School",
-     "grades": "Middle",
-     "rating": 7
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 6.3,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": false,
-   "prevPrice": null,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
-   "mls": "21361306",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 47,
-    "lasColinas": 43,
-    "galleria": 51
-   },
-   "weeklyDrive": {
-    "schoolMin": 177,
-    "workMin": 233,
-    "totalMin": 410,
-    "ifGalleriaWorkMin": 255,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Red Bluff Parc Add (Mansfield 76063)",
-    "improving": false,
-    "note": "Not in the approved improving-area list."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 13,
-     "sportsFields": 0,
-     "music": 2,
-     "martialArts": 4,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Walnut Creek Linear Park",
-      "category": "park",
-      "miles": 0.3
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 0.5
-     },
-     {
-      "name": "Red Tiger Karate (at the Activities Center)",
-      "category": "martialArts",
-      "miles": 0.5
-     },
-     {
-      "name": "Mansfield Public Library",
-      "category": "library",
-      "miles": 0.5
-     },
-     {
-      "name": "Dance Academy of Mansfield",
-      "category": "dance",
-      "miles": 0.7
-     }
-    ],
-    "score": 9.2,
-    "groupCredit": {
-     "library": 1,
-     "recCenter": 1,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 1,
-     "martialArts": 1,
-     "dance": 1,
-     "stem": 0.75,
-     "tutoring": 0.75
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 9.2,
-   "matchScore": 59.3,
-   "matchParts": {
-    "afterSchool": 23.0,
-    "schoolAvg": 12.6,
-    "crime": 10.4,
-    "improvingArea": 0.0,
-    "value": 11.1,
-    "schoolDrive": 2.2,
-    "singleStoryBonus": 0.0
-   },
-   "rank": 9,
-   "statusSources": [
-    {
-     "site": "Redfin",
-     "status": "Active",
-     "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403"
-    },
-    {
-     "site": "Realtor.com",
-     "status": "Active",
-     "url": "https://www.realtor.com/realestateandhomes-detail/18-Red-Bluff-Ct_Mansfield_TX_76063_M74675-22440"
-    }
-   ],
-   "statusChecked": "2026-11-17T15:34:09-06:00",
-   "listingStatus": "Active"
-  },
-  {
    "id": "58525051",
    "street": "607 Biscayne Dr",
    "city": "Mansfield",
@@ -1599,7 +1441,7 @@
     "schoolDrive": 1.5,
     "singleStoryBonus": 0.0
    },
-   "rank": 10,
+   "rank": 9,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1757,7 +1599,7 @@
     "schoolDrive": 6.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 11,
+   "rank": 10,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1924,7 +1766,7 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 3.0
    },
-   "rank": 12,
+   "rank": 11,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1953,7 +1795,7 @@
    "story": "Multi",
    "miles": 11.4,
    "drive": 21,
-   "openHouse": "November-21-2026 10:00 AM – 03:00 PM",
+   "openHouse": "November-21-2026 10:00 AM \u2013 03:00 PM",
    "dom": 66,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
@@ -2082,7 +1924,7 @@
     "schoolDrive": 3.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 13,
+   "rank": 12,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2249,7 +2091,7 @@
     "schoolDrive": 6.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 14,
+   "rank": 13,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2416,7 +2258,7 @@
     "schoolDrive": 7.5,
     "singleStoryBonus": 0.0
    },
-   "rank": 15,
+   "rank": 14,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2574,7 +2416,7 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 16,
+   "rank": 15,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2722,7 +2564,7 @@
     "schoolDrive": 0.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 17,
+   "rank": 16,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2740,6 +2582,167 @@
   }
  ],
  "removed": [
+  {
+   "id": "32433403",
+   "street": "18 Red Bluff Ct",
+   "city": "Mansfield",
+   "zip": "76063",
+   "price": 445000,
+   "beds": 4,
+   "baths": 2.5,
+   "sqft": 2886,
+   "lot": 0.28,
+   "story": "Multi",
+   "miles": 10.6,
+   "drive": 22,
+   "openHouse": "",
+   "dom": 82,
+   "status": "Active",
+   "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
+   "lat": 32.5686968,
+   "lng": -97.1311543,
+   "schools": [
+    {
+     "name": "Erma Nash Elementary School",
+     "grades": "Elementary",
+     "rating": 5
+    },
+    {
+     "name": "Rogene Worley Middle School",
+     "grades": "Middle",
+     "rating": 7
+    },
+    {
+     "name": "Mansfield High School",
+     "grades": "High",
+     "rating": 7
+    }
+   ],
+   "schoolAvg": 6.3,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 106,
+    "property": 1191
+   },
+   "isNew": false,
+   "prevPrice": null,
+   "redfinUrl": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403",
+   "mls": "21361306",
+   "crimeBasis": "city",
+   "crimeLocal": {
+    "covered": false,
+    "source": "no point data",
+    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+   },
+   "crimePass": true,
+   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+   "commute": {
+    "southlake": 47,
+    "lasColinas": 43,
+    "galleria": 51
+   },
+   "weeklyDrive": {
+    "schoolMin": 177,
+    "workMin": 233,
+    "totalMin": 410,
+    "ifGalleriaWorkMin": 255,
+    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+   },
+   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+   "area": {
+    "name": "Red Bluff Parc Add (Mansfield 76063)",
+    "improving": false,
+    "note": "Not in the approved improving-area list."
+   },
+   "afterSchool": {
+    "counts": {
+     "library": 1,
+     "recCenter": 2,
+     "ymca": 1,
+     "swim": 0,
+     "park": 13,
+     "sportsFields": 0,
+     "music": 2,
+     "martialArts": 4,
+     "dance": 3,
+     "stem": 1,
+     "tutoring": 2
+    },
+    "nearest": [
+     {
+      "name": "Walnut Creek Linear Park",
+      "category": "park",
+      "miles": 0.3
+     },
+     {
+      "name": "Mansfield Activities Center (city rec center)",
+      "category": "recCenter",
+      "miles": 0.5
+     },
+     {
+      "name": "Red Tiger Karate (at the Activities Center)",
+      "category": "martialArts",
+      "miles": 0.5
+     },
+     {
+      "name": "Mansfield Public Library",
+      "category": "library",
+      "miles": 0.5
+     },
+     {
+      "name": "Dance Academy of Mansfield",
+      "category": "dance",
+      "miles": 0.7
+     }
+    ],
+    "score": 9.2,
+    "groupCredit": {
+     "library": 1,
+     "recCenter": 1,
+     "ymcaSwim": 0.75,
+     "parksFields": 1,
+     "music": 1,
+     "martialArts": 1,
+     "dance": 1,
+     "stem": 0.75,
+     "tutoring": 0.75
+    },
+    "radiusMiles": 3,
+    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+   },
+   "afterSchoolScore": 9.2,
+   "matchScore": 59.3,
+   "matchParts": {
+    "afterSchool": 23.0,
+    "schoolAvg": 12.6,
+    "crime": 10.4,
+    "improvingArea": 0.0,
+    "value": 11.1,
+    "schoolDrive": 2.2,
+    "singleStoryBonus": 0.0
+   },
+   "rank": 9,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Mansfield/18-Red-Bluff-Ct-76063/home/32433403"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/18-Red-Bluff-Ct_Mansfield_TX_76063_M74675-22440"
+    }
+   ],
+   "statusChecked": "2026-11-17T15:34:09-06:00",
+   "listingStatus": "Passed (too crowded)",
+   "removedOn": "2026-11-17",
+   "removedReason": "Passed by Gaurav: location too crowded",
+   "passed": true
+  },
   {
    "id": "27211523",
    "street": "510 N Clark Rd",
@@ -2786,7 +2789,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -2818,7 +2821,7 @@
    "story": "Multi",
    "miles": 8.6,
    "drive": 21,
-   "openHouse": "Daily Sun, 10/18–Thu, 10/22, 9 AM–7 PM",
+   "openHouse": "Daily Sun, 10/18\u2013Thu, 10/22, 9 AM\u20137 PM",
    "dom": 9,
    "status": "Pending",
    "url": "https://www.zillow.com/homedetails/908-Heath-Creek-Dr-Desoto-TX-75115/248829998_zpid/",
@@ -2846,7 +2849,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -2911,7 +2914,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Needs check (Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Off market (page status off_market but is_pending flag still true)) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Needs check (Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Off market (page status off_market but is_pending flag still true)) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -2974,7 +2977,7 @@
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Pending (Redfin: Contingent; Realtor.com: Contingent) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Pending (Redfin: Contingent; Realtor.com: Contingent) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3039,7 +3042,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market (Sold November-11-2026) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market (Sold November-11-2026) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3105,7 +3108,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3162,14 +3165,14 @@
    "schoolAvg": 3.3,
    "financing": "none",
    "financingNote": "",
-   "note": "Auction — sold as-is",
+   "note": "Auction \u2014 sold as-is",
    "crime": {
     "violent": 155,
     "property": 1718
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3229,7 +3232,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3260,7 +3263,7 @@
    "story": "Multi",
    "miles": 7.8,
    "drive": 19,
-   "openHouse": "Sun, 10/18 2 PM–4 PM",
+   "openHouse": "Sun, 10/18 2 PM\u20134 PM",
    "dom": 136,
    "status": "Off market",
    "url": "https://www.zillow.com/homedetails/636-Bent-Creek-Dr-Desoto-TX-75115/26980988_zpid/",
@@ -3288,7 +3291,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3349,7 +3352,7 @@
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3408,7 +3411,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Needs check (Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Active) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Needs check (Sources disagree or only one could be read: Redfin: Off market (Not in Redfin active, pending/contingent, or sold-in-last-365-days results); Realtor.com: Active) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3468,7 +3471,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market (Sold November-13-2026) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market (Sold November-13-2026) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3534,7 +3537,7 @@
    },
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Pending (Redfin: Pending; Realtor.com: Pending) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3566,7 +3569,7 @@
    "story": "Multi",
    "miles": 10.4,
    "drive": 24,
-   "openHouse": "Sun, 10/18 3 PM–4:30 PM",
+   "openHouse": "Sun, 10/18 3 PM\u20134:30 PM",
    "dom": 64,
    "status": "Off market",
    "url": "https://www.zillow.com/homedetails/2811-Crowley-Ct-Arlington-TX-76012/29127002_zpid/",
@@ -3596,7 +3599,7 @@
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3653,11 +3656,11 @@
    "schoolAvg": 3.0,
    "financing": "none",
    "financingNote": "",
-   "note": "Auction — sold as-is",
+   "note": "Auction \u2014 sold as-is",
    "crime": null,
    "isNew": false,
    "prevPrice": null,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-10",
    "removedOn": "2026-11-10",
    "statusSources": [
     {
@@ -3819,7 +3822,7 @@
     "singleStoryBonus": 3.0
    },
    "rank": 2,
-   "removedReason": "Off market — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-17",
+   "removedReason": "Off market \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-17",
    "removedOn": "2026-11-17",
    "statusSources": [
     {
@@ -3980,7 +3983,7 @@
     "singleStoryBonus": 3.0
    },
    "rank": 8,
-   "removedReason": "Off market (Sold November-12-2026) — verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-17",
+   "removedReason": "Off market (Sold November-12-2026) \u2014 verified on Redfin + Realtor.com 2026-11-17; originally removed 2026-11-17",
    "removedOn": "2026-11-17",
    "statusSources": [
     {
@@ -4210,5 +4213,8 @@
   }
  ],
  "statusRule": "A home is listed as available only when at least two of Redfin, Zillow and Realtor.com read Active and none reads Pending, Contingent, Under contract or Sold. Any Pending/Contingent/Under-contract reading -> Pending. Sold or off-market on the sources -> Off market. Only one readable source or disagreement -> Needs check. Zillow blocks automated reads (captcha / no status text), so Redfin + Realtor.com are the two sources checked today.",
- "statusCheckedAt": "2026-11-17T15:39:02-06:00"
+ "statusCheckedAt": "2026-11-17T15:39:02-06:00",
+ "passed": [
+  "32433403"
+ ]
 }
