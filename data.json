@@ -4238,5 +4238,185 @@
  "statusCheckedAt": "2026-11-18T07:04:15-06:00",
  "passed": [
   "32433403"
+ ],
+ "nearMiss": [
+  {
+   "id": "31986598",
+   "street": "714 S Deerfield Cir",
+   "city": "Arlington",
+   "zip": "76015",
+   "price": 359999,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 2281,
+   "lot": 0.57,
+   "story": "Single",
+   "miles": 7.1,
+   "drive": 13,
+   "openHouse": "",
+   "dom": 181,
+   "status": "Active",
+   "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
+   "lat": 32.6858646,
+   "lng": -97.1168663,
+   "schools": [
+    {
+     "name": "Foster Elementary School",
+     "grades": "Elementary",
+     "rating": 5
+    },
+    {
+     "name": "Gunn Junior High School",
+     "grades": "Middle",
+     "rating": 7
+    },
+    {
+     "name": "Arlington High School",
+     "grades": "High",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "incentive",
+   "financingNote": "MOTIVATED SELLER, WILLING TO PAY CLOSINGS COST.",
+   "note": "",
+   "crime": {
+    "violent": 406,
+    "property": 1994
+   },
+   "isNew": false,
+   "prevPrice": 369900,
+   "redfinUrl": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
+   "mls": "21276003",
+   "crimeBasis": "local",
+   "crimeLocal": {
+    "covered": true,
+    "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
+    "radiusMiles": 0.5,
+    "window": "last 12 months",
+    "incidents": 335,
+    "violent": 16,
+    "burglary": 1,
+    "vehicle": 24,
+    "score": 322.5,
+    "cityMedianScore": 74.25,
+    "violentCap": 8,
+    "passes": false,
+    "note": "Layer covers occurrences 2025-11-19 to 2026-11-13 only. Prior 12 months are not in the open data, so a year-over-year trend cannot be computed."
+   },
+   "crimePass": false,
+   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+   "commute": {
+    "southlake": 37,
+    "lasColinas": 33,
+    "galleria": 42
+   },
+   "weeklyDrive": {
+    "schoolMin": 101,
+    "workMin": 187,
+    "totalMin": 288,
+    "ifGalleriaWorkMin": 208,
+    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+   },
+   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+   "area": {
+    "name": "Rolling Meadows Add (Arlington 76015)",
+    "improving": true,
+    "note": "Gaurav flagged this as feeling up-and-coming, with Costco across the street. A Costco warehouse is nearby at 600 W Arbrook Blvd, Arlington, TX 76014 — 0.33 mi straight-line from the house, and about 0.83 mi / 3 minutes' drive (OSRM free-flow). That is close, but not literally across the street (the warehouse sits just south of the home, on the far side of the I-20 frontage). The warehouse opened April 27, 2001, so it is long-established, not a new store (https://www.costco.com/warehouse-locations/warehouse-668.html; Costco opening announcement: https://investor.costco.com/news/news-details/2001/Costco-Wholesale-Opens-Third-Warehouse-in-Texas-04-17-2001/default.aspx). Other nearby retail: Lowe's at 1000 W Arbrook Blvd (0.44 mi straight-line, OpenStreetMap); Arlington Highlands at I-20 and Matlock (0.64 mi), where phase 1 of a $30 million renovation finished in April 2025 and phase 2 was expected by the end of 2025 (https://www.arlingtontx.gov/News-Articles/2025/April/First-Phase-of-30-Million-Renovation-at-Arlington-Highlands-Complete); and The Parks Mall at Arlington (0.7–0.85 mi, OpenStreetMap). Zillow ZHVI (single-family, as of 2026-09-30, from zhvi_sfr.csv / zhvi_dfw_zips.json): zip 76015 typical value $277,704; 1-year −0.52% (Arlington's 13-zip median −0.48%; median of the 112 DFW-area zips in that file −0.59%); 3-year −3.93% (Arlington −4.07%; DFW-file −3.96%); 5-year +15.46% (Arlington +13.74%; DFW-file +13.82%). 76015 is a lower-priced zip than the Arlington median ($310,983) and has slightly stronger 5-year appreciation, but 1-year and 3-year values are still slightly down. Arlington PD open data within 0.5 mi is a rolling ~12-month layer only (occurrences 2025-11-19 to 2026-11-13, 335 incidents, weighted score 322.5, violent 16 vs cap 8). Prior-year incidents are not in that layer, so a year-over-year crime trend cannot be computed. Zip 76015 and subdivision Rolling Meadows Add are not on the automatic improving-area list; the improving tag here is from Gaurav's flag plus the evidence above."
+   },
+   "afterSchool": {
+    "counts": {
+     "library": 4,
+     "recCenter": 0,
+     "ymca": 0,
+     "swim": 0,
+     "park": 13,
+     "sportsFields": 0,
+     "music": 0,
+     "martialArts": 0,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 0
+    },
+    "nearest": [
+     {
+      "name": "Gateway Park",
+      "category": "park",
+      "miles": 0.2
+     },
+     {
+      "name": "Southeast Branch Library",
+      "category": "library",
+      "miles": 2.6
+     },
+     {
+      "name": "H.A.D. Dunsworth Park",
+      "category": "park",
+      "miles": 0.5
+     },
+     {
+      "name": "Vandergriff Park",
+      "category": "park",
+      "miles": 0.9
+     },
+     {
+      "name": "Harold Patterson Sports Center",
+      "category": "park",
+      "miles": 1.4
+     }
+    ],
+    "score": 1.9,
+    "groupCredit": {
+     "library": 0.75,
+     "recCenter": 0,
+     "ymcaSwim": 0,
+     "parksFields": 1,
+     "music": 0,
+     "martialArts": 0,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 0
+    },
+    "radiusMiles": 3,
+    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+   },
+   "afterSchoolScore": 1.9,
+   "matchScore": 47.4,
+   "matchParts": {
+    "afterSchool": 4.8,
+    "schoolAvg": 10.0,
+    "crime": 0.0,
+    "improvingArea": 10.0,
+    "value": 10.6,
+    "schoolDrive": 9.0,
+    "singleStoryBonus": 3.0
+   },
+   "rank": null,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684"
+    },
+    {
+     "site": "Zillow",
+     "status": "unreachable",
+     "url": "https://www.zillow.com/homedetails/714-S-Deerfield-Cir-Arlington-TX-76015/29084661_zpid/"
+    }
+   ],
+   "statusChecked": "2026-11-18T07:47:06-06:00",
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-18T07:56:09-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
+   "nearMissReason": "Fails crime (violent 16/yr vs cap 8) and schools (avg 5.0)",
+   "userNote": "Gaurav: feels up-and-coming, Costco across the street",
+   "improvingNote": "Gaurav flagged this as feeling up-and-coming, with Costco across the street. A Costco warehouse is nearby at 600 W Arbrook Blvd, Arlington, TX 76014 — 0.33 mi straight-line from the house, and about 0.83 mi / 3 minutes' drive (OSRM free-flow). That is close, but not literally across the street (the warehouse sits just south of the home, on the far side of the I-20 frontage). The warehouse opened April 27, 2001, so it is long-established, not a new store (https://www.costco.com/warehouse-locations/warehouse-668.html; Costco opening announcement: https://investor.costco.com/news/news-details/2001/Costco-Wholesale-Opens-Third-Warehouse-in-Texas-04-17-2001/default.aspx). Other nearby retail: Lowe's at 1000 W Arbrook Blvd (0.44 mi straight-line, OpenStreetMap); Arlington Highlands at I-20 and Matlock (0.64 mi), where phase 1 of a $30 million renovation finished in April 2025 and phase 2 was expected by the end of 2025 (https://www.arlingtontx.gov/News-Articles/2025/April/First-Phase-of-30-Million-Renovation-at-Arlington-Highlands-Complete); and The Parks Mall at Arlington (0.7–0.85 mi, OpenStreetMap). Zillow ZHVI (single-family, as of 2026-09-30, from zhvi_sfr.csv / zhvi_dfw_zips.json): zip 76015 typical value $277,704; 1-year −0.52% (Arlington's 13-zip median −0.48%; median of the 112 DFW-area zips in that file −0.59%); 3-year −3.93% (Arlington −4.07%; DFW-file −3.96%); 5-year +15.46% (Arlington +13.74%; DFW-file +13.82%). 76015 is a lower-priced zip than the Arlington median ($310,983) and has slightly stronger 5-year appreciation, but 1-year and 3-year values are still slightly down. Arlington PD open data within 0.5 mi is a rolling ~12-month layer only (occurrences 2025-11-19 to 2026-11-13, 335 incidents, weighted score 322.5, violent 16 vs cap 8). Prior-year incidents are not in that layer, so a year-over-year crime trend cannot be computed. Zip 76015 and subdivision Rolling Meadows Add are not on the automatic improving-area list; the improving tag here is from Gaurav's flag plus the evidence above."
+  }
  ]
 }

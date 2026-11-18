@@ -71,7 +71,7 @@ aside{display:flex;flex-direction:column;min-height:0;border-left:1px solid var(
 select,input[type=range]{font-family:inherit;font-size:.8rem;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:5px 8px}
 input[type=range]{padding:0;accent-color:var(--accent);flex:1;min-width:120px;border:0;background:transparent}
 .rv{font-family:'JetBrains Mono',monospace;font-size:.78rem;font-weight:700;min-width:58px;text-align:right}
-.count{font-size:.78rem;color:var(--muted);padding:8px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+.count{font-size:.78rem;color:var(--muted);padding:8px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.count #count{flex:1;min-width:0}.count #reset{flex:none;white-space:nowrap}
 .list{overflow-y:auto;padding:10px;display:flex;flex-direction:column;gap:10px;min-height:0}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;cursor:pointer;transition:border-color .2s,box-shadow .2s,transform .15s;position:relative}
 .card:hover{border-color:var(--accent);box-shadow:var(--shadow)}
@@ -147,6 +147,16 @@ aside{position:relative}
 .pin span{transform:rotate(45deg);font-size:12px;font-weight:800;color:#fff;font-family:Inter,sans-serif}
 .pin.oh{outline:3px solid rgba(124,58,237,.6);outline-offset:2px}
 .pin.sel{width:38px;height:38px;outline:3px solid var(--accent);outline-offset:2px}
+.card.nearmiss{border:1px dashed #d97706;background:var(--surface)}
+.card.nearmiss.sel{box-shadow:0 0 0 3px var(--amber-soft),var(--shadow)}
+.nm-reason{font-size:.78rem;color:var(--ink-2);margin-top:6px;line-height:1.45}
+.nm-reason b{color:var(--amber)}
+.pin.nearmiss{background:#fff!important;border:2px dashed #d97706;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.pin.nearmiss span{color:#d97706}
+:root[data-theme="dark"] .pin.nearmiss,.pin.nearmiss.dark{background:var(--surface)!important}
+:root[data-theme="dark"] .pin.nearmiss{background:#111a2e!important}
+.legend i.nm{background:#fff;border:2px dashed #d97706;border-radius:50%;box-sizing:border-box}
+
 .school-pin{width:34px;height:34px;border-radius:10px;background:var(--grad);display:grid;place-items:center;color:#fff;font-size:17px;border:2px solid #fff;box-shadow:0 3px 10px rgba(0,0,0,.35)}
 .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--surface);color:var(--ink)}
 .leaflet-popup-content{margin:10px 12px;font-family:Inter,sans-serif}
@@ -248,7 +258,7 @@ function loadFavs(){try{const a=JSON.parse(localStorage.getItem(FAV_KEY)||'[]');
 const favs=loadFavs();
 function saveFavs(){try{localStorage.setItem(FAV_KEY,JSON.stringify([...favs]));}catch(e){}}
 function favOn(id){return favs.has(String(id));}
-function favCount(){const ids=new Set();(D.all||D.homes||[]).forEach(h=>ids.add(String(h.id)));(D.hold||[]).forEach(h=>ids.add(String(h.id)));(D.removed||[]).forEach(h=>ids.add(String(h.id)));let n=0;favs.forEach(id=>{if(ids.has(String(id)))n++;});return n;}
+function favCount(){const ids=new Set();(D.all||D.homes||[]).forEach(h=>ids.add(String(h.id)));(D.nearMiss||[]).forEach(h=>ids.add(String(h.id)));(D.hold||[]).forEach(h=>ids.add(String(h.id)));(D.removed||[]).forEach(h=>ids.add(String(h.id)));let n=0;favs.forEach(id=>{if(ids.has(String(id)))n++;});return n;}
 function favBtn(id){const on=favOn(id);return `<button type="button" class="favbtn${on?' on':''}" data-id="${id}" aria-pressed="${on}" aria-label="${on?'Remove from favorites':'Add to favorites'}" onclick="toggleFav('${id}',event)">${on?'❤️':'♡'}</button>`;}
 function toggleFav(id,ev){if(ev){ev.preventDefault();ev.stopPropagation();}id=String(id);if(favs.has(id))favs.delete(id);else favs.add(id);saveFavs();render();if($('#detail').classList.contains('open')&&st.sel)openDetail(st.sel,{fly:false});}
 const TIER={assumable:{c:'#d97706',l:'Assumable'},incentive:{c:'#059669',l:'Incentive'},none:{c:'#2563eb',l:''}};
@@ -256,6 +266,9 @@ const rc=r=>r==null?'#94a3b8':r>=7?'#059669':r>=5?'#65a30d':r>=4?'#d97706':'#dc2
 const isMans=h=>h.schools.some(s=>/Mansfield|Summit|Timberview|Legacy|Worley|Wester|Coble|Howard|Icenhower|Tipps|Ponder|Nash|Orr|Anderson/.test(s.name));
 function crimeTag(h){if(!h.crime)return null;const v=h.crime.violent/D.texasAvg.violent;return v<.6?['Low crime','green']:v<.9?['Below-avg crime','green']:v<1.1?['Avg crime','amber']:['Higher crime','red'];}
 const isAvail=h=>h.listingStatus==='Active'&&(h.statusSources||[]).filter(s=>s.status==='Active').length>=2&&!(h.statusSources||[]).some(s=>/Pending|Contingent|Under contract|Sold/i.test(s.status));
+const isNM=h=>h&&(D.nearMiss||[]).some(x=>String(x.id)===String(h.id));
+function findHome(id){id=String(id);return (D.homes||[]).find(x=>String(x.id)===id)||(D.nearMiss||[]).find(x=>String(x.id)===id)||(D.hold||[]).find(x=>String(x.id)===id)||(D.removed||[]).find(x=>String(x.id)===id);}
+function addMarker(h){if(markers[h.id])return;const m=L.marker([h.lat,h.lng],{icon:icon(h,false),riseOnHover:true}).addTo(map);m.bindPopup(popup(h),{closeButton:true});m.on('click',()=>select(h.id,false));markers[h.id]=m;}
 const SCOL={Active:'green',Pending:'amber',Contingent:'amber','Under contract':'amber',Sold:'red','Off market':'red','Needs check':'violet',unreachable:''};
 const ct=t=>t?new Date(t).toLocaleString('en-US',{timeZone:'America/Chicago',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' CT':'';
 function srcLine(h){const S=h.statusSources||[];if(!S.length)return '<div class="srcs">Status not verified.</div>';
@@ -265,6 +278,16 @@ function statusTag(h){const l=h.listingStatus||'Needs check';const n=(h.statusSo
 function xcard(h){return `<div class="xcard${favOn(h.id)?' isfav':''}" data-id="${h.id}"><div class="c-top"><span class="price">${fmt(h.price)}</span><span class="tag ${SCOL[h.listingStatus]||'violet'}">${h.listingStatus||'Needs check'}</span></div>${favBtn(h.id)}
   <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}${h.beds?` · ${h.beds} bd / ${h.baths} ba · ${(h.sqft||0).toLocaleString()} sf`:''}</div>
   ${h.statusDetail?`<div class="srcs">${h.statusDetail}</div>`:''}${srcLine(h)}</div>`;}
+function nearMissCard(h){return `<div class="card nearmiss t-${h.financing}${st.sel===h.id?' sel':''}${favOn(h.id)?' isfav':''}" data-id="${h.id}" tabindex="0">
+    ${favBtn(h.id)}<div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
+    <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>${youDistLine(h)}
+    <div class="facts"><span><b>${h.beds}</b> bd</span><span><b>${h.baths}</b> ba</span><span><b>${h.sqft.toLocaleString()}</b> sf</span><span><b>${h.lot}</b> ac</span>${h.dom!=null?`<span><b>${h.dom}</b> days</span>`:''}</div>
+    <div class="tags"><span class="tag amber">Near miss</span>${statusTag(h)}${tags(h)}</div>
+    ${h.nearMissReason?`<div class="nm-reason"><b>Near miss:</b> ${h.nearMissReason}</div>`:''}
+    ${h.userNote?`<div class="nm-reason">${h.userNote}</div>`:''}
+    ${srcLine(h)}</div>`;}
+function nearMissSec(){let N=D.nearMiss||[];if(st.favsOnly)N=N.filter(h=>favOn(h.id));if(!N.length)return '';
+  return `<div class="xsec" id="nearmiss"><h2>Near misses · you flagged these (${N.length})</h2><p>Homes you want to keep watching that do not pass every rule. Not counted in the available list above.</p>${N.map(nearMissCard).join('')}</div>`;}
 function others(){let P=D.hold||[],R=D.removed||[];if(st.favsOnly){P=P.filter(h=>favOn(h.id));R=R.filter(h=>favOn(h.id));}let o='';
   if(P.length)o+=`<div class="xsec"><h2>Not available · Pending or needs check (${P.length})</h2><p>Under contract on at least one site, or the sites disagree. Not counted in the list above.</p>${P.map(xcard).join('')}</div>`;
   if(R.length)o+=`<div class="xsec"><h2>No longer on the list (${R.length})</h2><p>Earlier matches, with today's status from the listing sites.</p>${R.map(xcard).join('')}</div>`;
@@ -348,7 +371,7 @@ function load(){
 }
 function tileUrl(){return 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';}
 function init(){
-  D.all=D.homes;D.homes=D.all.filter(isAvail);D.hold=(D.pending||[]).concat(D.all.filter(h=>!isAvail(h)));
+  D.nearMiss=D.nearMiss||[];D.all=D.homes;D.homes=D.all.filter(isAvail);D.hold=(D.pending||[]).concat(D.all.filter(h=>!isAvail(h)));
   $('#crit').textContent=D.criteria;
   $('#upd').innerHTML='Updated<br><b class="mono">'+D.updated+'</b>';
   map=L.map('map',{zoomControl:true}).setView([D.flint.lat,D.flint.lng],11);
@@ -356,17 +379,14 @@ function init(){
   L.marker([D.flint.lat,D.flint.lng],{icon:L.divIcon({className:'',html:'<div class="school-pin" title="Flint Academy">🎓</div>',iconSize:[34,34],iconAnchor:[17,17]}),zIndexOffset:1000}).addTo(map)
     .bindPopup('<div class="pp"><b style="font-family:Inter">Flint Academy</b><br>'+D.flint.addr+'</div>');
   [5,10].forEach(mi=>L.circle([D.flint.lat,D.flint.lng],{radius:mi*1609.34,color:'#8b5cf6',weight:1,dashArray:'4 6',fill:false,interactive:false}).addTo(map));
-  const lg=L.control({position:'bottomleft'});lg.onAdd=()=>{const d=L.DomUtil.create('div','legend');d.innerHTML='<div><i style="background:#d97706"></i>Assumable loan</div><div><i style="background:#059669"></i>Seller / lender incentive</div><div><i style="background:#2563eb"></i>Standard</div><div><i style="background:#fff;outline:2px solid #7c3aed"></i>Open house</div><div><i style="background:#e11d48"></i>Favorite</div><div>🎓 Flint Academy · rings 5 &amp; 10 mi</div>';return d;};lg.addTo(map);
+  const lg=L.control({position:'bottomleft'});lg.onAdd=()=>{const d=L.DomUtil.create('div','legend');d.innerHTML='<div><i style="background:#d97706"></i>Assumable loan</div><div><i style="background:#059669"></i>Seller / lender incentive</div><div><i style="background:#2563eb"></i>Standard</div><div><i class="nm"></i>Near miss</div><div><i style="background:#fff;outline:2px solid #7c3aed"></i>Open house</div><div><i style="background:#e11d48"></i>Favorite</div><div>🎓 Flint Academy · rings 5 &amp; 10 mi</div>';return d;};lg.addTo(map);
   addLocControl();
-  D.homes.forEach(h=>{
-    const m=L.marker([h.lat,h.lng],{icon:icon(h,false),riseOnHover:true}).addTo(map);
-    m.bindPopup(popup(h),{closeButton:true});m.on('click',()=>select(h.id,false));markers[h.id]=m;
-  });
+  D.homes.forEach(addMarker);(D.nearMiss||[]).forEach(addMarker);
   bind();render();
 }
-function icon(h,sel){const t=TIER[h.financing];const fav=favOn(h.id);
-  return L.divIcon({className:'hm-icon',html:`<div class="pinwrap"><div class="pin${h.openHouse?' oh':''}${sel?' sel':''}${fav?' fav':''}" style="background:${t.c}"><span>${h.story==='Single'?'1':'2'}</span></div>${fav?'<span class="pin-heart" aria-hidden="true">❤️</span>':''}</div>`,iconSize:sel?[38,38]:[30,30],iconAnchor:sel?[19,38]:[15,30],popupAnchor:[0,-30]});}
-function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${mePos?'<br>'+fmtMi(youDist(h))+' from you · straight-line':''}${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<div class="pp-actions"><span class="pp-links"><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Listing ↗</a></span>${favBtn(h.id)}</div></div>`;}
+function icon(h,sel){const t=TIER[h.financing]||TIER.none;const fav=favOn(h.id);const nm=isNM(h);
+  return L.divIcon({className:'hm-icon',html:`<div class="pinwrap"><div class="pin${h.openHouse?' oh':''}${sel?' sel':''}${fav?' fav':''}${nm?' nearmiss':''}" style="background:${nm?'transparent':t.c}"><span>${h.story==='Single'?'1':'2'}</span></div>${fav?'<span class="pin-heart" aria-hidden="true">❤️</span>':''}</div>`,iconSize:sel?[38,38]:[30,30],iconAnchor:sel?[19,38]:[15,30],popupAnchor:[0,-30]});}
+function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${mePos?'<br>'+fmtMi(youDist(h))+' from you · straight-line':''}${isNM(h)?'<br><span style="color:#d97706;font-weight:700">Near miss</span>':''}${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<div class="pp-actions"><span class="pp-links"><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Listing ↗</a></span>${favBtn(h.id)}</div></div>`;}
 function filtered(){
   let a=D.homes.filter(h=>(st.story==='all'||h.story===st.story)&&(st.fin==='all'||(st.fin==='assumable'?h.financing==='assumable':h.financing!=='none'))&&(!st.oh||h.openHouse)&&(!st.mans||isMans(h))&&(!st.noauction||h.price)&&((h.price||0)<=st.maxp)&&((h.schoolAvg||0)>=st.mins)&&(!st.favsOnly||favOn(h.id)));
   const o={assumable:0,incentive:1,none:2};
@@ -383,19 +403,22 @@ function tags(h){const t=[];
   const c=crimeTag(h);if(c)t.push(c);
   if(!h.price)t.push(['Auction','red']);
   return t.map(([l,c])=>`<span class="tag ${c}">${l}</span>`).join('');}
+function syncMarker(h, visible){const m=markers[h.id];if(!m)return;if(visible){if(!map.hasLayer(m))m.addTo(map);}else if(map.hasLayer(m))m.remove();m.setIcon(icon(h,st.sel===h.id));m.setPopupContent(popup(h));m.setZIndexOffset(st.sel===h.id?800:favOn(h.id)?400:0);}
 function render(){
   const a=filtered();const ids=new Set(a.map(h=>h.id));
-  D.homes.forEach(h=>{const m=markers[h.id];if(!m)return;if(ids.has(h.id)){if(!map.hasLayer(m))m.addTo(map);}else if(map.hasLayer(m))m.remove();m.setIcon(icon(h,st.sel===h.id));m.setPopupContent(popup(h));m.setZIndexOffset(st.sel===h.id?800:favOn(h.id)?400:0);});
+  D.homes.forEach(h=>syncMarker(h,ids.has(h.id)));
+  (D.nearMiss||[]).forEach(h=>syncMarker(h,!st.favsOnly||favOn(h.id)));
   const fc=favCount();const chip=$('#favchip');if(chip)chip.textContent='❤️ Favorites ('+fc+')';
-  $('#count').textContent=(st.favsOnly?a.length+' favorite'+(a.length===1?'':'s')+' shown · ':'')+a.length+' of '+D.homes.length+' verified-active homes'+((D.hold||[]).length?' · '+D.hold.length+' pending/needs check':'');
+  const nm=(D.nearMiss||[]).length;
+  $('#count').textContent=(st.favsOnly?a.length+' favorite'+(a.length===1?'':'s')+' shown · ':'')+a.length+' of '+D.homes.length+' verified-active homes'+((D.hold||[]).length?' · '+D.hold.length+' pending/needs check':'')+(nm?' · '+nm+' near miss'+(nm===1?'':'es'):'');
   $('#maxpv').textContent='$'+Math.round(st.maxp/1000)+'K';$('#minsv').textContent=st.mins?st.mins+'+ avg':'Any';
-  const empty=st.favsOnly?'No favorites match these filters. Hearts stay filled on pending or removed homes below.':'No homes match these filters.';
+  const empty=st.favsOnly?'No favorites match these filters. Hearts stay filled on pending, near-miss, or removed homes below.':'No homes match these filters.';
   $('#list').innerHTML=a.length?a.map(h=>`<div class="card t-${h.financing}${st.sel===h.id?' sel':''}${favOn(h.id)?' isfav':''}" data-id="${h.id}" tabindex="0">
     ${favBtn(h.id)}<div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
     <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>${youDistLine(h)}
     <div class="facts"><span><b>${h.beds}</b> bd</span><span><b>${h.baths}</b> ba</span><span><b>${h.sqft.toLocaleString()}</b> sf</span><span><b>${h.lot}</b> ac</span>${h.dom!=null?`<span><b>${h.dom}</b> days</span>`:''}</div>
     <div class="tags">${statusTag(h)}${tags(h)}</div>${srcLine(h)}</div>`).join(''):'<div class="empty">'+empty+'</div>';
-  $('#list').innerHTML+=others();
+  $('#list').innerHTML+=nearMissSec()+others();
   stats();
 }
 function stats(){
@@ -405,8 +428,8 @@ function stats(){
 }
 function syncChips(){document.querySelectorAll('.chip[data-f]').forEach(b=>b.classList.toggle('on',st[b.dataset.f]===b.dataset.v));document.querySelectorAll('.chip[data-t]').forEach(b=>b.classList.toggle('on',st[b.dataset.t]));$('#maxp').value=st.maxp;$('#mins').value=st.mins;$('#sort').value=st.sort;}
 function select(id,fly=true){
-  if(st.sel&&markers[st.sel]){const p=D.homes.find(x=>x.id===st.sel);markers[st.sel].setIcon(icon(p,false));}
-  st.sel=id;const h=D.homes.find(x=>x.id===id);if(!h)return;
+  if(st.sel&&markers[st.sel]){const p=findHome(st.sel);if(p)markers[st.sel].setIcon(icon(p,false));}
+  st.sel=id;const h=findHome(id);if(!h||!markers[id])return;
   markers[id].setIcon(icon(h,true));
   if(fly){map.flyTo([h.lat,h.lng],Math.max(map.getZoom(),13),{duration:.6});markers[id].openPopup();}
   document.querySelectorAll('.card').forEach(c=>c.classList.toggle('sel',c.dataset.id===id));
@@ -414,11 +437,13 @@ function select(id,fly=true){
 }
 function openDetail(id,opts){
   const fly=!opts||opts.fly!==false;
-  const h=D.homes.find(x=>x.id===id);if(!h)return;select(id,fly);
-  const t=TIER[h.financing];const c=h.crime;
+  const h=findHome(id);if(!h)return;if(markers[id])select(id,fly);
+  const t=TIER[h.financing]||TIER.none;const c=h.crime;
+  const nmBanner=isNM(h)?('<div class="note" style="margin-top:10px"><b>Near miss:</b> '+(h.nearMissReason||'')+(h.userNote?'<br>'+h.userNote:'')+'</div>'+((h.improvingNote||(h.area&&h.area.note))?'<div class="note green" style="margin-top:8px">'+(h.improvingNote||h.area.note)+'</div>':'')):'';
   const crime=c?`<div class="grid2"><div class="kv"><small>Violent crime / 100K (city)</small><b>${c.violent}</b><div class="bar"><i style="width:${Math.min(100,c.violent/D.texasAvg.violent*50)}%;background:${c.violent<D.texasAvg.violent?'var(--green)':'var(--red)'}"></i></div></div><div class="kv"><small>Property crime / 100K (city)</small><b>${c.property.toLocaleString()}</b><div class="bar"><i style="width:${Math.min(100,c.property/D.texasAvg.property*50)}%;background:${c.property<D.texasAvg.property?'var(--green)':'var(--red)'}"></i></div></div></div><div class="src">Bar midpoint = Texas average (${D.texasAvg.violent} violent · ${D.texasAvg.property.toLocaleString()} property per 100K). City-level FBI data, ${D.crimeYear||''} — neighborhoods vary.</div>`:'<div class="src">City crime data pending for '+h.city+'.</div>';
   $('#detail').innerHTML=`<button class="back" onclick="closeDetail()">← Back to list</button>
-   <div class="tags" style="margin-bottom:8px">${statusTag(h)}${tags(h)}</div>
+   <div class="tags" style="margin-bottom:8px">${isNM(h)?'<span class="tag amber">Near miss</span>':''}${statusTag(h)}${tags(h)}</div>
+   ${nmBanner}
    <div class="d-head"><div><div class="d-price">${fmt(h.price)}</div><div class="d-addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div></div>${favBtn(h.id)}</div>
    <div class="sec"><h3>Listing status · ${h.listingStatus||'Not verified'}</h3>${(h.statusSources||[]).map(s=>`<div class="srow"><span>${s.url?`<a href="${s.url}" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;text-decoration:none">${s.site} ↗</a>`:s.site}</span><span class="tag ${SCOL[s.status]||''}">${s.status}</span></div>`).join('')}<div class="src">Checked ${ct(h.statusChecked)}. Shown as available only when 2+ sites say Active and none says pending, contingent, under contract or sold.</div></div>
    ${h.financingNote?`<div class="sec"><h3>Financing</h3><div class="note${h.financing==='incentive'?' green':''}"><b style="color:${t.c}">${t.l}:</b> ${h.financingNote}</div></div>`:''}
