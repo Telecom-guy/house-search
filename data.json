@@ -176,7 +176,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:33:21-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:45:35-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604"
   },
   {
    "id": "32353921",
@@ -339,7 +341,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:33:27-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:45:41-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314"
   },
   {
    "id": "32419600",
@@ -497,7 +501,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:33:33-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:45:47-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769"
   },
   {
    "id": "32350992",
@@ -660,7 +666,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:33:39-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:45:53-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012"
   },
   {
    "id": "32351125",
@@ -818,7 +826,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:33:45-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:45:59-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060"
   },
   {
    "id": "32378064",
@@ -981,7 +991,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:33:51-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:05-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135"
   },
   {
    "id": "32379981",
@@ -1139,7 +1151,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:33:57-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:11-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244"
   },
   {
    "id": "30986567",
@@ -1297,7 +1311,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:03-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:17-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499"
   },
   {
    "id": "58525051",
@@ -1336,8 +1352,8 @@
     }
    ],
    "schoolAvg": 6.3,
-   "financing": "none",
-   "financingNote": "",
+   "financing": "assumable",
+   "financingNote": "Qualifying veterans have the opportunity to assume the existing low-interest VA loan, subject to lender approval. Preferred interest rate available if buyer uses the preferred lender. Seller to cover loan origination when using preferred lender, inquire for current rates.",
    "note": "",
    "crime": {
     "violent": 106,
@@ -1455,7 +1471,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:15-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:24-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589"
   },
   {
    "id": "144042570",
@@ -1494,8 +1512,8 @@
     }
    ],
    "schoolAvg": 6.3,
-   "financing": "none",
-   "financingNote": "",
+   "financing": "incentive",
+   "financingNote": "Discounted rate options and no lender fee future refinancing may be available for qualified buyers of this home.",
    "note": "",
    "crime": {
     "violent": 106,
@@ -1613,7 +1631,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:21-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:29-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606"
   },
   {
    "id": "31372052",
@@ -1780,7 +1800,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:28-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:36-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823"
   },
   {
    "id": "193196175",
@@ -1938,7 +1960,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:34-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:42-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/2123-Pennywell-Dr_Mansfield_TX_76084_M97505-19195"
   },
   {
    "id": "31079607",
@@ -2105,7 +2129,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:40-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:48-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350"
   },
   {
    "id": "32391407",
@@ -2272,7 +2298,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:46-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:54-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725"
   },
   {
    "id": "113468332",
@@ -2311,8 +2339,8 @@
     }
    ],
    "schoolAvg": 7.7,
-   "financing": "none",
-   "financingNote": "",
+   "financing": "assumable",
+   "financingNote": "ASSUMABLE VA LOAN AT 2.25% INTEREST RATE! Qualified buyers may have the opportunity to assume the seller's existing loan at an incredible 2.25% interest rate, subject to lender approval, buyer qualification and applicable loan requirements.",
    "note": "",
    "crime": {
     "violent": 106,
@@ -2430,7 +2458,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:52-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:46:59-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885"
   },
   {
    "id": "176763617",
@@ -2578,7 +2608,9 @@
     }
    ],
    "statusChecked": "2026-11-17T15:34:58-06:00",
-   "listingStatus": "Active"
+   "listingStatus": "Active",
+   "financingChecked": "2026-11-17T20:47:05-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843"
   }
  ],
  "removed": [
@@ -4209,7 +4241,9 @@
    "statusChecked": "2026-11-17T15:35:10-06:00",
    "listingStatus": "Pending",
    "statusDetail": "Redfin: Contingent; Realtor.com: Contingent",
-   "pendingSince": "2026-11-17"
+   "pendingSince": "2026-11-17",
+   "financingChecked": "2026-11-17T20:47:12-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/5-Scramble-Ct_Mansfield_TX_76063_M70865-39228"
   }
  ],
  "statusRule": "A home is listed as available only when at least two of Redfin, Zillow and Realtor.com read Active and none reads Pending, Contingent, Under contract or Sold. Any Pending/Contingent/Under-contract reading -> Pending. Sold or off-market on the sources -> Off market. Only one readable source or disagreement -> Needs check. Zillow blocks automated reads (captcha / no status text), so Redfin + Realtor.com are the two sources checked today.",
