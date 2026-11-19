@@ -73,7 +73,7 @@ input[type=range]{padding:0;accent-color:var(--accent);flex:1;min-width:120px;bo
 .rv{font-family:'JetBrains Mono',monospace;font-size:.78rem;font-weight:700;min-width:58px;text-align:right}
 .count{font-size:.78rem;color:var(--muted);padding:8px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.count #count{flex:1;min-width:0}.count #reset{flex:none;white-space:nowrap}
 .list{overflow-y:auto;padding:10px;display:flex;flex-direction:column;gap:10px;min-height:0}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;cursor:pointer;transition:border-color .2s,box-shadow .2s,transform .15s;position:relative}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:0 0 12px;cursor:pointer;transition:border-color .2s,box-shadow .2s,transform .15s;position:relative}
 .card:hover{border-color:var(--accent);box-shadow:var(--shadow)}
 .card.sel{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft),var(--shadow)}
 .card.t-assumable{border-left:4px solid var(--amber)}
@@ -94,8 +94,24 @@ input[type=range]{padding:0;accent-color:var(--accent);flex:1;min-width:120px;bo
 .favbtn{border:0;background:transparent;color:var(--muted);width:44px;height:44px;min-width:44px;min-height:44px;border-radius:12px;cursor:pointer;display:grid;place-items:center;font-size:1.3rem;line-height:1;padding:0;margin:0;-webkit-tap-highlight-color:transparent;touch-action:manipulation;-webkit-user-select:none;user-select:none}
 .favbtn:hover,.favbtn:focus-visible{background:var(--red-soft);color:var(--red);outline:none}
 .favbtn.on{color:#e11d48}
-.card,.xcard{padding-right:52px}
-.card .favbtn,.xcard .favbtn{position:absolute;top:4px;right:2px;z-index:2}
+.xcard{padding-right:12px}
+.card .favbtn,.xcard .favbtn,.thumbwrap .favbtn{position:absolute;top:8px;right:8px;z-index:3}
+.card .favbtn,.xcard .favbtn,.thumbwrap .favbtn{background:rgba(255,255,255,.9);box-shadow:0 1px 6px rgba(15,23,42,.2)}
+:root[data-theme="dark"] .card .favbtn,:root[data-theme="dark"] .xcard .favbtn,:root[data-theme="dark"] .thumbwrap .favbtn{background:rgba(17,26,46,.88);color:var(--ink-2)}
+.card .favbtn.on,.xcard .favbtn.on,.thumbwrap .favbtn.on,:root[data-theme="dark"] .card .favbtn.on,:root[data-theme="dark"] .xcard .favbtn.on,:root[data-theme="dark"] .thumbwrap .favbtn.on{color:#e11d48}
+.card-body{padding:10px 14px 0}
+.thumbwrap{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface-2);overflow:hidden;flex:none}
+.card>.thumbwrap{border-radius:15px 15px 0 0}
+.thumbwrap img.thumb{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block;background:var(--surface-2)}
+.thumb-ph{position:absolute;inset:0;z-index:0;display:grid;place-items:center;color:var(--muted);background:linear-gradient(180deg,var(--surface-2),var(--line));pointer-events:none}
+.thumb-ph svg{width:42px;height:42px;opacity:.55}
+.xcard{display:flex;gap:10px;align-items:flex-start}
+.xcard .thumbwrap{width:92px;min-width:92px;aspect-ratio:4/3;border-radius:8px}
+.xcard .thumbwrap .favbtn{width:36px;height:36px;min-width:36px;min-height:36px;top:4px;right:4px;font-size:1.15rem;border-radius:10px}
+.xcard .xbody{min-width:0;flex:1}
+.pp .thumbwrap{width:240px;height:150px;aspect-ratio:16/10;border-radius:8px;margin:0 0 8px;overflow:hidden;flex:none}
+.d-photo{margin:0 -16px 12px}
+.d-photo .thumbwrap{aspect-ratio:16/10;border-radius:0}
 .card.isfav,.xcard.isfav{box-shadow:inset 3px 0 0 #e11d48}
 .pp{position:relative}
 .pp-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px;flex-wrap:wrap}
@@ -110,7 +126,7 @@ input[type=range]{padding:0;accent-color:var(--accent);flex:1;min-width:120px;bo
 .xsec{margin-top:18px}
 .xsec h2{font-size:.78rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:0 0 4px}
 .xsec p{font-size:.74rem;color:var(--muted);margin:0 0 8px}
-.xcard{background:var(--surface-2);border:1px dashed var(--line);border-radius:var(--radius);padding:10px 52px 10px 12px;margin-bottom:8px;font-size:.82rem;position:relative}
+.xcard{background:var(--surface-2);border:1px dashed var(--line);border-radius:var(--radius);padding:10px 12px;margin-bottom:8px;font-size:.82rem;position:relative}
 .xcard .addr{font-size:.9rem}
 .srcs{font-size:.72rem;color:var(--muted);margin-top:6px;line-height:1.5}
 .srcs a{color:var(--accent);text-decoration:none;font-weight:600}
@@ -260,6 +276,13 @@ function saveFavs(){try{localStorage.setItem(FAV_KEY,JSON.stringify([...favs]));
 function favOn(id){return favs.has(String(id));}
 function favCount(){const ids=new Set();(D.all||D.homes||[]).forEach(h=>ids.add(String(h.id)));(D.nearMiss||[]).forEach(h=>ids.add(String(h.id)));(D.hold||[]).forEach(h=>ids.add(String(h.id)));(D.removed||[]).forEach(h=>ids.add(String(h.id)));let n=0;favs.forEach(id=>{if(ids.has(String(id)))n++;});return n;}
 function favBtn(id){const on=favOn(id);return `<button type="button" class="favbtn${on?' on':''}" data-id="${id}" aria-pressed="${on}" aria-label="${on?'Remove from favorites':'Add to favorites'}" onclick="toggleFav('${id}',event)">${on?'❤️':'♡'}</button>`;}
+const THUMB_PH='<div class="thumb-ph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></div>';
+function escAttr(s){return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function thumb(h,opts){const src=(h&&h.photo||'').trim();
+  const fav=(opts&&opts.fav)?favBtn(h.id):'';
+  if(!src) return `<div class="thumbwrap">${THUMB_PH}${fav}</div>`;
+  return `<div class="thumbwrap"><img class="thumb" src="${escAttr(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="thumbErr(this)">${THUMB_PH}${fav}</div>`;}
+function thumbErr(img){if(!img)return;img.style.display='none';const ph=img.parentNode&&img.parentNode.querySelector('.thumb-ph');if(ph)ph.style.opacity='1';}
 function toggleFav(id,ev){if(ev){ev.preventDefault();ev.stopPropagation();}id=String(id);if(favs.has(id))favs.delete(id);else favs.add(id);saveFavs();render();if($('#detail').classList.contains('open')&&st.sel)openDetail(st.sel,{fly:false});}
 const TIER={assumable:{c:'#d97706',l:'Assumable'},incentive:{c:'#059669',l:'Incentive'},none:{c:'#2563eb',l:''}};
 const rc=r=>r==null?'#94a3b8':r>=7?'#059669':r>=5?'#65a30d':r>=4?'#d97706':'#dc2626';
@@ -268,24 +291,24 @@ function crimeTag(h){if(!h.crime)return null;const v=h.crime.violent/D.texasAvg.
 const isAvail=h=>h.listingStatus==='Active'&&(h.statusSources||[]).filter(s=>s.status==='Active').length>=2&&!(h.statusSources||[]).some(s=>/Pending|Contingent|Under contract|Sold/i.test(s.status));
 const isNM=h=>h&&(D.nearMiss||[]).some(x=>String(x.id)===String(h.id));
 function findHome(id){id=String(id);return (D.homes||[]).find(x=>String(x.id)===id)||(D.nearMiss||[]).find(x=>String(x.id)===id)||(D.hold||[]).find(x=>String(x.id)===id)||(D.removed||[]).find(x=>String(x.id)===id);}
-function addMarker(h){if(markers[h.id])return;const m=L.marker([h.lat,h.lng],{icon:icon(h,false),riseOnHover:true}).addTo(map);m.bindPopup(popup(h),{closeButton:true});m.on('click',()=>select(h.id,false));markers[h.id]=m;}
+function addMarker(h){if(markers[h.id])return;const m=L.marker([h.lat,h.lng],{icon:icon(h,false),riseOnHover:true}).addTo(map);m.bindPopup(popup(h),{closeButton:true,maxWidth:280,minWidth:240});m.on('click',()=>select(h.id,false));markers[h.id]=m;}
 const SCOL={Active:'green',Pending:'amber',Contingent:'amber','Under contract':'amber',Sold:'red','Off market':'red','Needs check':'violet',unreachable:''};
 const ct=t=>t?new Date(t).toLocaleString('en-US',{timeZone:'America/Chicago',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' CT':'';
 function srcLine(h){const S=h.statusSources||[];if(!S.length)return '<div class="srcs">Status not verified.</div>';
   return '<div class="srcs">Checked '+S.map(s=>(s.url?`<a href="${s.url}" target="_blank" rel="noopener">${s.site}</a>`:s.site)+': '+s.status).join(' · ')+(h.statusChecked?' · '+ct(h.statusChecked):'')+'</div>';}
 function statusTag(h){const l=h.listingStatus||'Needs check';const n=(h.statusSources||[]).filter(s=>s.status==='Active').length;
   return `<span class="tag ${SCOL[l]||'violet'}">${l==='Active'?'✓ Active · '+n+' sources':l}</span>`;}
-function xcard(h){return `<div class="xcard${favOn(h.id)?' isfav':''}" data-id="${h.id}"><div class="c-top"><span class="price">${fmt(h.price)}</span><span class="tag ${SCOL[h.listingStatus]||'violet'}">${h.listingStatus||'Needs check'}</span></div>${favBtn(h.id)}
+function xcard(h){return `<div class="xcard${favOn(h.id)?' isfav':''}" data-id="${h.id}">${thumb(h,{fav:true})}<div class="xbody"><div class="c-top"><span class="price">${fmt(h.price)}</span><span class="tag ${SCOL[h.listingStatus]||'violet'}">${h.listingStatus||'Needs check'}</span></div>
   <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}${h.beds?` · ${h.beds} bd / ${h.baths} ba · ${(h.sqft||0).toLocaleString()} sf`:''}</div>
-  ${h.statusDetail?`<div class="srcs">${h.statusDetail}</div>`:''}${srcLine(h)}</div>`;}
+  ${h.statusDetail?`<div class="srcs">${h.statusDetail}</div>`:''}${srcLine(h)}</div></div>`;}
 function nearMissCard(h){return `<div class="card nearmiss t-${h.financing}${st.sel===h.id?' sel':''}${favOn(h.id)?' isfav':''}" data-id="${h.id}" tabindex="0">
-    ${favBtn(h.id)}<div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
+    ${favBtn(h.id)}${thumb(h)}<div class="card-body"><div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
     <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>${youDistLine(h)}
     <div class="facts"><span><b>${h.beds}</b> bd</span><span><b>${h.baths}</b> ba</span><span><b>${h.sqft.toLocaleString()}</b> sf</span><span><b>${h.lot}</b> ac</span>${h.dom!=null?`<span><b>${h.dom}</b> days</span>`:''}</div>
     <div class="tags"><span class="tag amber">Near miss</span>${statusTag(h)}${tags(h)}</div>
     ${h.nearMissReason?`<div class="nm-reason"><b>Near miss:</b> ${h.nearMissReason}</div>`:''}
     ${h.userNote?`<div class="nm-reason">${h.userNote}</div>`:''}
-    ${srcLine(h)}</div>`;}
+    ${srcLine(h)}</div></div>`;}
 function nearMissSec(){let N=D.nearMiss||[];if(st.favsOnly)N=N.filter(h=>favOn(h.id));if(!N.length)return '';
   return `<div class="xsec" id="nearmiss"><h2>Near misses · you flagged these (${N.length})</h2><p>Homes you want to keep watching that do not pass every rule. Not counted in the available list above.</p>${N.map(nearMissCard).join('')}</div>`;}
 function others(){let P=D.hold||[],R=D.removed||[];if(st.favsOnly){P=P.filter(h=>favOn(h.id));R=R.filter(h=>favOn(h.id));}let o='';
@@ -386,7 +409,7 @@ function init(){
 }
 function icon(h,sel){const t=TIER[h.financing]||TIER.none;const fav=favOn(h.id);const nm=isNM(h);
   return L.divIcon({className:'hm-icon',html:`<div class="pinwrap"><div class="pin${h.openHouse?' oh':''}${sel?' sel':''}${fav?' fav':''}${nm?' nearmiss':''}" style="background:${nm?'transparent':t.c}"><span>${h.story==='Single'?'1':'2'}</span></div>${fav?'<span class="pin-heart" aria-hidden="true">❤️</span>':''}</div>`,iconSize:sel?[38,38]:[30,30],iconAnchor:sel?[19,38]:[15,30],popupAnchor:[0,-30]});}
-function popup(h){return `<div class="pp"><b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${mePos?'<br>'+fmtMi(youDist(h))+' from you · straight-line':''}${isNM(h)?'<br><span style="color:#d97706;font-weight:700">Near miss</span>':''}${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<div class="pp-actions"><span class="pp-links"><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Listing ↗</a></span>${favBtn(h.id)}</div></div>`;}
+function popup(h){return `<div class="pp">${thumb(h)}<b>${fmt(h.price)}</b> · ${h.beds}bd/${h.baths}ba · ${h.sqft.toLocaleString()} sf<br><span style="font-weight:700">${h.street}</span>, ${h.city}<br>${h.miles} mi to Flint · ~${h.drive} min${mePos?'<br>'+fmtMi(youDist(h))+' from you · straight-line':''}${isNM(h)?'<br><span style="color:#d97706;font-weight:700">Near miss</span>':''}${h.financing!=='none'?'<br><span style="color:'+TIER[h.financing].c+';font-weight:700">'+TIER[h.financing].l+'</span>':''}<div class="pp-actions"><span class="pp-links"><a onclick="openDetail('${h.id}')">Details</a> · <a href="${h.url}" target="_blank" rel="noopener">Listing ↗</a></span>${favBtn(h.id)}</div></div>`;}
 function filtered(){
   let a=D.homes.filter(h=>(st.story==='all'||h.story===st.story)&&(st.fin==='all'||(st.fin==='assumable'?h.financing==='assumable':h.financing!=='none'))&&(!st.oh||h.openHouse)&&(!st.mans||isMans(h))&&(!st.noauction||h.price)&&((h.price||0)<=st.maxp)&&((h.schoolAvg||0)>=st.mins)&&(!st.favsOnly||favOn(h.id)));
   const o={assumable:0,incentive:1,none:2};
@@ -414,10 +437,10 @@ function render(){
   $('#maxpv').textContent='$'+Math.round(st.maxp/1000)+'K';$('#minsv').textContent=st.mins?st.mins+'+ avg':'Any';
   const empty=st.favsOnly?'No favorites match these filters. Hearts stay filled on pending, near-miss, or removed homes below.':'No homes match these filters.';
   $('#list').innerHTML=a.length?a.map(h=>`<div class="card t-${h.financing}${st.sel===h.id?' sel':''}${favOn(h.id)?' isfav':''}" data-id="${h.id}" tabindex="0">
-    ${favBtn(h.id)}<div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
+    ${favBtn(h.id)}${thumb(h)}<div class="card-body"><div class="c-top"><span class="price">${fmt(h.price)}</span><span class="mono" style="font-size:.78rem;color:var(--muted)">${h.miles} mi · ~${h.drive} min</span></div>
     <div class="addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div>${youDistLine(h)}
     <div class="facts"><span><b>${h.beds}</b> bd</span><span><b>${h.baths}</b> ba</span><span><b>${h.sqft.toLocaleString()}</b> sf</span><span><b>${h.lot}</b> ac</span>${h.dom!=null?`<span><b>${h.dom}</b> days</span>`:''}</div>
-    <div class="tags">${statusTag(h)}${tags(h)}</div>${srcLine(h)}</div>`).join(''):'<div class="empty">'+empty+'</div>';
+    <div class="tags">${statusTag(h)}${tags(h)}</div>${srcLine(h)}</div></div>`).join(''):'<div class="empty">'+empty+'</div>';
   $('#list').innerHTML+=nearMissSec()+others();
   stats();
 }
@@ -442,6 +465,7 @@ function openDetail(id,opts){
   const nmBanner=isNM(h)?('<div class="note" style="margin-top:10px"><b>Near miss:</b> '+(h.nearMissReason||'')+(h.userNote?'<br>'+h.userNote:'')+'</div>'+((h.improvingNote||(h.area&&h.area.note))?'<div class="note green" style="margin-top:8px">'+(h.improvingNote||h.area.note)+'</div>':'')):'';
   const crime=c?`<div class="grid2"><div class="kv"><small>Violent crime / 100K (city)</small><b>${c.violent}</b><div class="bar"><i style="width:${Math.min(100,c.violent/D.texasAvg.violent*50)}%;background:${c.violent<D.texasAvg.violent?'var(--green)':'var(--red)'}"></i></div></div><div class="kv"><small>Property crime / 100K (city)</small><b>${c.property.toLocaleString()}</b><div class="bar"><i style="width:${Math.min(100,c.property/D.texasAvg.property*50)}%;background:${c.property<D.texasAvg.property?'var(--green)':'var(--red)'}"></i></div></div></div><div class="src">Bar midpoint = Texas average (${D.texasAvg.violent} violent · ${D.texasAvg.property.toLocaleString()} property per 100K). City-level FBI data, ${D.crimeYear||''} — neighborhoods vary.</div>`:'<div class="src">City crime data pending for '+h.city+'.</div>';
   $('#detail').innerHTML=`<button class="back" onclick="closeDetail()">← Back to list</button>
+   <div class="d-photo">${thumb(h)}</div>
    <div class="tags" style="margin-bottom:8px">${isNM(h)?'<span class="tag amber">Near miss</span>':''}${statusTag(h)}${tags(h)}</div>
    ${nmBanner}
    <div class="d-head"><div><div class="d-price">${fmt(h.price)}</div><div class="d-addr">${h.street}</div><div class="city">${h.city}, TX ${h.zip}</div></div>${favBtn(h.id)}</div>
