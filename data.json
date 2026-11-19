@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "flint": {
   "name": "Flint Academy",
   "addr": "801 E I-20, Grand Prairie, TX 75052",
@@ -28,7 +28,7 @@
    "miles": 9.1,
    "drive": 20,
    "openHouse": "",
-   "dom": 161,
+   "dom": 162,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
    "lat": 32.5938244,
@@ -169,7 +169,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604"
     }
    ],
-   "statusChecked": "2026-11-18T07:02:39-06:00",
+   "statusChecked": "2026-11-19T07:00:52-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:35-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604",
@@ -191,7 +191,7 @@
    "miles": 8.9,
    "drive": 19,
    "openHouse": "",
-   "dom": 153,
+   "dom": 154,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
    "lat": 32.5972779,
@@ -337,7 +337,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314"
     }
    ],
-   "statusChecked": "2026-11-18T07:02:45-06:00",
+   "statusChecked": "2026-11-19T07:00:55-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:41-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314",
@@ -359,7 +359,7 @@
    "miles": 9.6,
    "drive": 20,
    "openHouse": "",
-   "dom": 63,
+   "dom": 64,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
    "lat": 32.5812537,
@@ -500,7 +500,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769"
     }
    ],
-   "statusChecked": "2026-11-18T07:02:51-06:00",
+   "statusChecked": "2026-11-19T07:01:02-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:47-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769",
@@ -522,7 +522,7 @@
    "miles": 10.1,
    "drive": 22,
    "openHouse": "",
-   "dom": 1,
+   "dom": 2,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/7-Kim-Ct-76063/home/32350992",
    "lat": 32.6081758,
@@ -668,7 +668,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012"
     }
    ],
-   "statusChecked": "2026-11-18T07:02:57-06:00",
+   "statusChecked": "2026-11-19T07:01:07-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:53-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012",
@@ -690,7 +690,7 @@
    "miles": 9.8,
    "drive": 23,
    "openHouse": "",
-   "dom": 91,
+   "dom": 92,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
    "lat": 32.6080652,
@@ -831,7 +831,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:03-06:00",
+   "statusChecked": "2026-11-19T07:01:13-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060",
@@ -853,7 +853,7 @@
    "miles": 8.9,
    "drive": 19,
    "openHouse": "",
-   "dom": 29,
+   "dom": 30,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
    "lat": 32.5893832,
@@ -999,7 +999,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:09-06:00",
+   "statusChecked": "2026-11-19T07:01:19-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135",
@@ -1021,7 +1021,7 @@
    "miles": 9.8,
    "drive": 21,
    "openHouse": "",
-   "dom": 6,
+   "dom": 7,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1426-Holley-Creek-Ln-76063/home/32379981",
    "lat": 32.5933769,
@@ -1162,7 +1162,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:15-06:00",
+   "statusChecked": "2026-11-19T07:01:26-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:11-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244",
@@ -1184,7 +1184,7 @@
    "miles": 9.6,
    "drive": 20,
    "openHouse": "",
-   "dom": 83,
+   "dom": 84,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
    "lat": 32.5998141,
@@ -1325,7 +1325,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:21-06:00",
+   "statusChecked": "2026-11-19T07:01:32-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:17-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499",
@@ -1347,7 +1347,7 @@
    "miles": 10.9,
    "drive": 23,
    "openHouse": "",
-   "dom": 54,
+   "dom": 55,
    "status": "Active",
    "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
    "lat": 32.5721225,
@@ -1488,7 +1488,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:27-06:00",
+   "statusChecked": "2026-11-19T07:01:38-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:24-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589",
@@ -1510,7 +1510,7 @@
    "miles": 7.6,
    "drive": 17,
    "openHouse": "",
-   "dom": 119,
+   "dom": 120,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
    "lat": 32.6111829,
@@ -1651,7 +1651,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:33-06:00",
+   "statusChecked": "2026-11-19T07:01:44-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:29-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606",
@@ -1673,7 +1673,7 @@
    "miles": 11.8,
    "drive": 20,
    "openHouse": "",
-   "dom": 61,
+   "dom": 62,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
    "lat": 32.6995318,
@@ -1823,7 +1823,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:39-06:00",
+   "statusChecked": "2026-11-19T07:01:50-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:36-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823",
@@ -1844,8 +1844,8 @@
    "story": "Multi",
    "miles": 11.4,
    "drive": 21,
-   "openHouse": "November-21-2026 10:00 AM – 03:00 PM",
-   "dom": 67,
+   "openHouse": "November-21-2026 10:00 AM – November-21-2026 03:00 PM",
+   "dom": 68,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
    "lat": 32.534676,
@@ -1986,7 +1986,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2123-Pennywell-Dr_Mansfield_TX_76084_M97505-19195"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:45-06:00",
+   "statusChecked": "2026-11-19T07:01:56-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:42-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2123-Pennywell-Dr_Mansfield_TX_76084_M97505-19195",
@@ -2008,7 +2008,7 @@
    "miles": 6.3,
    "drive": 17,
    "openHouse": "",
-   "dom": 44,
+   "dom": 45,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
    "lat": 32.59302,
@@ -2158,7 +2158,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:51-06:00",
+   "statusChecked": "2026-11-19T07:02:02-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:48-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350",
@@ -2180,7 +2180,7 @@
    "miles": 10.5,
    "drive": 15,
    "openHouse": "",
-   "dom": 280,
+   "dom": 281,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
    "lat": 32.670411,
@@ -2330,7 +2330,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725"
     }
    ],
-   "statusChecked": "2026-11-18T07:03:57-06:00",
+   "statusChecked": "2026-11-19T07:02:08-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:54-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725",
@@ -2351,8 +2351,8 @@
    "story": "Multi",
    "miles": 8.4,
    "drive": 20,
-   "openHouse": "",
-   "dom": 64,
+   "openHouse": "November-22-2026 12:00 PM – November-22-2026 02:00 PM",
+   "dom": 65,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
    "lat": 32.559897,
@@ -2493,7 +2493,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885"
     }
    ],
-   "statusChecked": "2026-11-18T07:04:03-06:00",
+   "statusChecked": "2026-11-19T07:02:14-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885",
@@ -2515,7 +2515,7 @@
    "miles": 12.7,
    "drive": 24,
    "openHouse": "",
-   "dom": 124,
+   "dom": 125,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
    "lat": 32.5013923,
@@ -2646,7 +2646,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843"
     }
    ],
-   "statusChecked": "2026-11-18T07:04:09-06:00",
+   "statusChecked": "2026-11-19T07:02:20-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:47:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843",
@@ -4328,7 +4328,7 @@
      "detail": "is_contingent=true (\"Active Under Contract\")"
     }
    ],
-   "statusChecked": "2026-11-18T07:04:15-06:00",
+   "statusChecked": "2026-11-19T07:02:26-06:00",
    "listingStatus": "Pending",
    "statusDetail": "Redfin: Contingent; Realtor.com: Contingent",
    "pendingSince": "2026-11-17",
@@ -4340,7 +4340,7 @@
   }
  ],
  "statusRule": "A home is listed as available only when at least two of Redfin, Zillow and Realtor.com read Active and none reads Pending, Contingent, Under contract or Sold. Any Pending/Contingent/Under-contract reading -> Pending. Sold or off-market on the sources -> Off market. Only one readable source or disagreement -> Needs check. Zillow blocks automated reads (captcha / no status text), so Redfin + Realtor.com are the two sources checked today.",
- "statusCheckedAt": "2026-11-18T07:04:15-06:00",
+ "statusCheckedAt": "2026-11-19T07:02:26-06:00",
  "passed": [
   "32433403"
  ],
@@ -4359,7 +4359,7 @@
    "miles": 7.1,
    "drive": 13,
    "openHouse": "",
-   "dom": 181,
+   "dom": 182,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
    "lat": 32.6858646,
@@ -4508,14 +4508,9 @@
      "site": "Realtor.com",
      "status": "Active",
      "url": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684"
-    },
-    {
-     "site": "Zillow",
-     "status": "unreachable",
-     "url": "https://www.zillow.com/homedetails/714-S-Deerfield-Cir-Arlington-TX-76015/29084661_zpid/"
     }
    ],
-   "statusChecked": "2026-11-18T07:47:06-06:00",
+   "statusChecked": "2026-11-19T07:02:32-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-18T07:56:09-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
