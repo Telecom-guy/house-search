@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "flint": {
   "name": "Flint Academy",
   "addr": "801 E I-20, Grand Prairie, TX 75052",
@@ -28,7 +28,7 @@
    "miles": 9.1,
    "drive": 20,
    "openHouse": "",
-   "dom": 162,
+   "dom": 163,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
    "lat": 32.5938244,
@@ -169,180 +169,12 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604"
     }
    ],
-   "statusChecked": "2026-11-19T07:00:52-06:00",
+   "statusChecked": "2026-11-20T06:59:02-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:35-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604",
    "photo": "https://ap.rdcpix.com/808db60fe0f786773bb65dcf3edc7bf7l-m1142834883xd.jpg",
    "photoSource": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604",
-   "photoChecked": "2026-11-18T20:45:24-06:00"
-  },
-  {
-   "id": "32353921",
-   "street": "1416 Spyglass Dr",
-   "city": "Mansfield",
-   "zip": "76063",
-   "price": 474500,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 2807,
-   "lot": 0.3,
-   "story": "Single",
-   "miles": 8.9,
-   "drive": 19,
-   "openHouse": "",
-   "dom": 154,
-   "status": "Active",
-   "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
-   "lat": 32.5972779,
-   "lng": -97.1196475,
-   "schools": [
-    {
-     "name": "J L Boren Elementary School",
-     "grades": "Elementary",
-     "rating": 9
-    },
-    {
-     "name": "Brooks Wester Middle School",
-     "grades": "Middle",
-     "rating": 9
-    },
-    {
-     "name": "Asa E Low Jr Intermediate School",
-     "grades": "Middle",
-     "rating": 8
-    },
-    {
-     "name": "Mansfield High School",
-     "grades": "High",
-     "rating": 7
-    }
-   ],
-   "schoolAvg": 8.2,
-   "financing": "none",
-   "financingNote": "",
-   "note": "",
-   "crime": {
-    "violent": 106,
-    "property": 1191
-   },
-   "isNew": false,
-   "prevPrice": 499000,
-   "redfinUrl": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
-   "mls": "21281146",
-   "crimeBasis": "city",
-   "crimeLocal": {
-    "covered": false,
-    "source": "no point data",
-    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
-   },
-   "crimePass": true,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 43,
-    "lasColinas": 40,
-    "galleria": 48
-   },
-   "weeklyDrive": {
-    "schoolMin": 152,
-    "workMin": 217,
-    "totalMin": 369,
-    "ifGalleriaWorkMin": 239,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Walnut Creek Valley Add (Mansfield 76063)",
-    "improving": true,
-    "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 1,
-     "recCenter": 2,
-     "ymca": 1,
-     "swim": 0,
-     "park": 19,
-     "sportsFields": 0,
-     "music": 2,
-     "martialArts": 3,
-     "dance": 3,
-     "stem": 1,
-     "tutoring": 2
-    },
-    "nearest": [
-     {
-      "name": "Chandler Park",
-      "category": "park",
-      "miles": 0.5
-     },
-     {
-      "name": "Code Ninjas Mansfield",
-      "category": "stem",
-      "miles": 0.7
-     },
-     {
-      "name": "Kumon Math and Reading Center of Mansfield - North",
-      "category": "tutoring",
-      "miles": 0.7
-     },
-     {
-      "name": "TX Black Belt Academy (karate)",
-      "category": "martialArts",
-      "miles": 1.5
-     },
-     {
-      "name": "Mansfield Activities Center (city rec center)",
-      "category": "recCenter",
-      "miles": 2.3
-     }
-    ],
-    "score": 8.6,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0.75,
-     "ymcaSwim": 0.75,
-     "parksFields": 1,
-     "music": 0.75,
-     "martialArts": 1,
-     "dance": 0.75,
-     "stem": 1,
-     "tutoring": 1
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 8.6,
-   "matchScore": 75.2,
-   "matchParts": {
-    "afterSchool": 21.5,
-    "schoolAvg": 16.4,
-    "crime": 10.4,
-    "improvingArea": 10.0,
-    "value": 9.3,
-    "schoolDrive": 4.5,
-    "singleStoryBonus": 3.0
-   },
-   "rank": 2,
-   "statusSources": [
-    {
-     "site": "Redfin",
-     "status": "Active",
-     "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921"
-    },
-    {
-     "site": "Realtor.com",
-     "status": "Active",
-     "url": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314"
-    }
-   ],
-   "statusChecked": "2026-11-19T07:00:55-06:00",
-   "listingStatus": "Active",
-   "financingChecked": "2026-11-17T20:45:41-06:00",
-   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314",
-   "photo": "https://ap.rdcpix.com/fc0940ee77a7948e6902dad98050b5f0l-m1303670683xd.jpg",
-   "photoSource": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314",
    "photoChecked": "2026-11-18T20:45:24-06:00"
   },
   {
@@ -359,7 +191,7 @@
    "miles": 9.6,
    "drive": 20,
    "openHouse": "",
-   "dom": 64,
+   "dom": 65,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
    "lat": 32.5812537,
@@ -487,7 +319,7 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 3.0
    },
-   "rank": 3,
+   "rank": 2,
    "statusSources": [
     {
      "site": "Redfin",
@@ -500,7 +332,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:02-06:00",
+   "statusChecked": "2026-11-20T06:59:11-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:47-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769",
@@ -522,7 +354,7 @@
    "miles": 10.1,
    "drive": 22,
    "openHouse": "",
-   "dom": 2,
+   "dom": 3,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/7-Kim-Ct-76063/home/32350992",
    "lat": 32.6081758,
@@ -655,7 +487,7 @@
     "schoolDrive": 2.2,
     "singleStoryBonus": 3.0
    },
-   "rank": 4,
+   "rank": 3,
    "statusSources": [
     {
      "site": "Redfin",
@@ -668,7 +500,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:07-06:00",
+   "statusChecked": "2026-11-20T06:59:17-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:53-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012",
@@ -690,7 +522,7 @@
    "miles": 9.8,
    "drive": 23,
    "openHouse": "",
-   "dom": 92,
+   "dom": 93,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
    "lat": 32.6080652,
@@ -818,7 +650,7 @@
     "schoolDrive": 1.5,
     "singleStoryBonus": 3.0
    },
-   "rank": 5,
+   "rank": 4,
    "statusSources": [
     {
      "site": "Redfin",
@@ -831,7 +663,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:13-06:00",
+   "statusChecked": "2026-11-20T06:59:23-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060",
@@ -853,7 +685,7 @@
    "miles": 8.9,
    "drive": 19,
    "openHouse": "",
-   "dom": 30,
+   "dom": 31,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
    "lat": 32.5893832,
@@ -986,7 +818,7 @@
     "schoolDrive": 4.5,
     "singleStoryBonus": 3.0
    },
-   "rank": 6,
+   "rank": 5,
    "statusSources": [
     {
      "site": "Redfin",
@@ -999,7 +831,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:19-06:00",
+   "statusChecked": "2026-11-20T06:59:29-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135",
@@ -1021,7 +853,7 @@
    "miles": 9.8,
    "drive": 21,
    "openHouse": "",
-   "dom": 7,
+   "dom": 8,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1426-Holley-Creek-Ln-76063/home/32379981",
    "lat": 32.5933769,
@@ -1149,7 +981,7 @@
     "schoolDrive": 3.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 7,
+   "rank": 6,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1162,7 +994,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:26-06:00",
+   "statusChecked": "2026-11-20T06:59:35-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:11-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244",
@@ -1184,7 +1016,7 @@
    "miles": 9.6,
    "drive": 20,
    "openHouse": "",
-   "dom": 84,
+   "dom": 85,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
    "lat": 32.5998141,
@@ -1312,7 +1144,7 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 8,
+   "rank": 7,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1325,7 +1157,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:32-06:00",
+   "statusChecked": "2026-11-20T06:59:41-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:17-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499",
@@ -1347,7 +1179,7 @@
    "miles": 10.9,
    "drive": 23,
    "openHouse": "",
-   "dom": 55,
+   "dom": 56,
    "status": "Active",
    "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
    "lat": 32.5721225,
@@ -1475,7 +1307,7 @@
     "schoolDrive": 1.5,
     "singleStoryBonus": 0.0
    },
-   "rank": 9,
+   "rank": 8,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1488,7 +1320,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:38-06:00",
+   "statusChecked": "2026-11-20T06:59:47-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:24-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589",
@@ -1510,7 +1342,7 @@
    "miles": 7.6,
    "drive": 17,
    "openHouse": "",
-   "dom": 120,
+   "dom": 121,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
    "lat": 32.6111829,
@@ -1638,7 +1470,7 @@
     "schoolDrive": 6.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 10,
+   "rank": 9,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1651,7 +1483,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:44-06:00",
+   "statusChecked": "2026-11-20T06:59:53-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:29-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606",
@@ -1673,7 +1505,7 @@
    "miles": 11.8,
    "drive": 20,
    "openHouse": "",
-   "dom": 62,
+   "dom": 63,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
    "lat": 32.6995318,
@@ -1810,7 +1642,7 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 3.0
    },
-   "rank": 11,
+   "rank": 10,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1823,7 +1655,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:50-06:00",
+   "statusChecked": "2026-11-20T06:59:59-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:36-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823",
@@ -1845,7 +1677,7 @@
    "miles": 11.4,
    "drive": 21,
    "openHouse": "November-21-2026 10:00 AM – November-21-2026 03:00 PM",
-   "dom": 68,
+   "dom": 69,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175",
    "lat": 32.534676,
@@ -1973,12 +1805,12 @@
     "schoolDrive": 3.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 12,
+   "rank": 11,
    "statusSources": [
     {
      "site": "Redfin",
      "status": "Active",
-     "url": "https://www.redfin.com/TX/Venus/2123-Pennywell-Dr-76084/home/193196175"
+     "url": "https://www.redfin.com/TX/Mansfiel/2123-Pennywell-Dr-76084/home/193196175"
     },
     {
      "site": "Realtor.com",
@@ -1986,7 +1818,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2123-Pennywell-Dr_Mansfield_TX_76084_M97505-19195"
     }
    ],
-   "statusChecked": "2026-11-19T07:01:56-06:00",
+   "statusChecked": "2026-11-20T07:00:05-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:42-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2123-Pennywell-Dr_Mansfield_TX_76084_M97505-19195",
@@ -2008,7 +1840,7 @@
    "miles": 6.3,
    "drive": 17,
    "openHouse": "",
-   "dom": 45,
+   "dom": 46,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
    "lat": 32.59302,
@@ -2145,7 +1977,7 @@
     "schoolDrive": 6.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 13,
+   "rank": 12,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2158,7 +1990,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350"
     }
    ],
-   "statusChecked": "2026-11-19T07:02:02-06:00",
+   "statusChecked": "2026-11-20T07:00:11-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:48-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350",
@@ -2180,7 +2012,7 @@
    "miles": 10.5,
    "drive": 15,
    "openHouse": "",
-   "dom": 281,
+   "dom": 282,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
    "lat": 32.670411,
@@ -2317,7 +2149,7 @@
     "schoolDrive": 7.5,
     "singleStoryBonus": 0.0
    },
-   "rank": 14,
+   "rank": 13,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2330,7 +2162,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725"
     }
    ],
-   "statusChecked": "2026-11-19T07:02:08-06:00",
+   "statusChecked": "2026-11-20T07:00:17-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:54-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725",
@@ -2352,7 +2184,7 @@
    "miles": 8.4,
    "drive": 20,
    "openHouse": "November-22-2026 12:00 PM – November-22-2026 02:00 PM",
-   "dom": 65,
+   "dom": 66,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
    "lat": 32.559897,
@@ -2480,7 +2312,7 @@
     "schoolDrive": 3.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 15,
+   "rank": 14,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2493,7 +2325,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885"
     }
    ],
-   "statusChecked": "2026-11-19T07:02:14-06:00",
+   "statusChecked": "2026-11-20T07:00:22-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885",
@@ -2515,7 +2347,7 @@
    "miles": 12.7,
    "drive": 24,
    "openHouse": "",
-   "dom": 125,
+   "dom": 126,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
    "lat": 32.5013923,
@@ -2633,7 +2465,7 @@
     "schoolDrive": 0.8,
     "singleStoryBonus": 0.0
    },
-   "rank": 16,
+   "rank": 15,
    "statusSources": [
     {
      "site": "Redfin",
@@ -2646,7 +2478,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843"
     }
    ],
-   "statusChecked": "2026-11-19T07:02:20-06:00",
+   "statusChecked": "2026-11-20T07:00:28-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:47:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843",
@@ -2656,6 +2488,177 @@
   }
  ],
  "removed": [
+  {
+   "id": "32353921",
+   "street": "1416 Spyglass Dr",
+   "city": "Mansfield",
+   "zip": "76063",
+   "price": 474500,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 2807,
+   "lot": 0.3,
+   "story": "Single",
+   "miles": 8.9,
+   "drive": 19,
+   "openHouse": "",
+   "dom": 154,
+   "status": "Off market",
+   "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
+   "lat": 32.5972779,
+   "lng": -97.1196475,
+   "schools": [
+    {
+     "name": "J L Boren Elementary School",
+     "grades": "Elementary",
+     "rating": 9
+    },
+    {
+     "name": "Brooks Wester Middle School",
+     "grades": "Middle",
+     "rating": 9
+    },
+    {
+     "name": "Asa E Low Jr Intermediate School",
+     "grades": "Middle",
+     "rating": 8
+    },
+    {
+     "name": "Mansfield High School",
+     "grades": "High",
+     "rating": 7
+    }
+   ],
+   "schoolAvg": 8.2,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 106,
+    "property": 1191
+   },
+   "isNew": false,
+   "prevPrice": 499000,
+   "redfinUrl": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921",
+   "mls": "21281146",
+   "crimeBasis": "city",
+   "crimeLocal": {
+    "covered": false,
+    "source": "no point data",
+    "note": "Mansfield has no open point-level crime data; city FBI rate vs Texas average used."
+   },
+   "crimePass": true,
+   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+   "commute": {
+    "southlake": 43,
+    "lasColinas": 40,
+    "galleria": 48
+   },
+   "weeklyDrive": {
+    "schoolMin": 152,
+    "workMin": 217,
+    "totalMin": 369,
+    "ifGalleriaWorkMin": 239,
+    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+   },
+   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+   "area": {
+    "name": "Walnut Creek Valley Add (Mansfield 76063)",
+    "improving": true,
+    "note": "Matches the approved improving-area list (subdivision name \"walnut creek\"); matched by zip/subdivision name only, no boundary polygons."
+   },
+   "afterSchool": {
+    "counts": {
+     "library": 1,
+     "recCenter": 2,
+     "ymca": 1,
+     "swim": 0,
+     "park": 19,
+     "sportsFields": 0,
+     "music": 2,
+     "martialArts": 3,
+     "dance": 3,
+     "stem": 1,
+     "tutoring": 2
+    },
+    "nearest": [
+     {
+      "name": "Chandler Park",
+      "category": "park",
+      "miles": 0.5
+     },
+     {
+      "name": "Code Ninjas Mansfield",
+      "category": "stem",
+      "miles": 0.7
+     },
+     {
+      "name": "Kumon Math and Reading Center of Mansfield - North",
+      "category": "tutoring",
+      "miles": 0.7
+     },
+     {
+      "name": "TX Black Belt Academy (karate)",
+      "category": "martialArts",
+      "miles": 1.5
+     },
+     {
+      "name": "Mansfield Activities Center (city rec center)",
+      "category": "recCenter",
+      "miles": 2.3
+     }
+    ],
+    "score": 8.6,
+    "groupCredit": {
+     "library": 0.75,
+     "recCenter": 0.75,
+     "ymcaSwim": 0.75,
+     "parksFields": 1,
+     "music": 0.75,
+     "martialArts": 1,
+     "dance": 0.75,
+     "stem": 1,
+     "tutoring": 1
+    },
+    "radiusMiles": 3,
+    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+   },
+   "afterSchoolScore": 8.6,
+   "matchScore": 75.2,
+   "matchParts": {
+    "afterSchool": 21.5,
+    "schoolAvg": 16.4,
+    "crime": 10.4,
+    "improvingArea": 10.0,
+    "value": 9.3,
+    "schoolDrive": 4.5,
+    "singleStoryBonus": 3.0
+   },
+   "rank": 2,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Off market",
+     "detail": "Not in Redfin active, pending/contingent, or sold-in-last-60/365-days results",
+     "url": "https://www.redfin.com/TX/Mansfield/1416-Spyglass-Dr-76063/home/32353921"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Off market",
+     "url": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314"
+    }
+   ],
+   "statusChecked": "2026-11-20T06:59:05-06:00",
+   "listingStatus": "Off market",
+   "financingChecked": "2026-11-17T20:45:41-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314",
+   "photo": "https://ap.rdcpix.com/fc0940ee77a7948e6902dad98050b5f0l-m1303670683xd.jpg",
+   "photoSource": "https://www.realtor.com/realestateandhomes-detail/1416-Spyglass-Dr_Mansfield_TX_76063_M82931-19314",
+   "photoChecked": "2026-11-18T20:45:24-06:00",
+   "removedOn": "2026-11-20",
+   "removedReason": "Off market — verified on Redfin (not in active, pending or sold results) + Realtor.com (off_market) 2026-11-20"
+  },
   {
    "id": "32433403",
    "street": "18 Red Bluff Ct",
@@ -4328,7 +4331,7 @@
      "detail": "is_contingent=true (\"Active Under Contract\")"
     }
    ],
-   "statusChecked": "2026-11-19T07:02:26-06:00",
+   "statusChecked": "2026-11-20T07:00:34-06:00",
    "listingStatus": "Pending",
    "statusDetail": "Redfin: Contingent; Realtor.com: Contingent",
    "pendingSince": "2026-11-17",
@@ -4340,7 +4343,7 @@
   }
  ],
  "statusRule": "A home is listed as available only when at least two of Redfin, Zillow and Realtor.com read Active and none reads Pending, Contingent, Under contract or Sold. Any Pending/Contingent/Under-contract reading -> Pending. Sold or off-market on the sources -> Off market. Only one readable source or disagreement -> Needs check. Zillow blocks automated reads (captcha / no status text), so Redfin + Realtor.com are the two sources checked today.",
- "statusCheckedAt": "2026-11-19T07:02:26-06:00",
+ "statusCheckedAt": "2026-11-20T07:00:34-06:00",
  "passed": [
   "32433403"
  ],
@@ -4359,7 +4362,7 @@
    "miles": 7.1,
    "drive": 13,
    "openHouse": "",
-   "dom": 182,
+   "dom": 183,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
    "lat": 32.6858646,
@@ -4510,7 +4513,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684"
     }
    ],
-   "statusChecked": "2026-11-19T07:02:32-06:00",
+   "statusChecked": "2026-11-20T07:00:40-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-18T07:56:09-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
