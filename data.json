@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "flint": {
   "name": "Flint Academy",
   "addr": "801 E I-20, Grand Prairie, TX 75052",
@@ -28,7 +28,7 @@
    "miles": 9.1,
    "drive": 20,
    "openHouse": "",
-   "dom": 164,
+   "dom": 166,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
    "lat": 32.5938244,
@@ -169,7 +169,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:17-06:00",
+   "statusChecked": "2026-11-23T07:02:20-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:35-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604",
@@ -191,7 +191,7 @@
    "miles": 9.6,
    "drive": 20,
    "openHouse": "",
-   "dom": 66,
+   "dom": 68,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
    "lat": 32.5812537,
@@ -332,7 +332,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:21-06:00",
+   "statusChecked": "2026-11-23T07:02:24-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:47-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769",
@@ -354,7 +354,7 @@
    "miles": 10.1,
    "drive": 22,
    "openHouse": "",
-   "dom": 4,
+   "dom": 6,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/7-Kim-Ct-76063/home/32350992",
    "lat": 32.6081758,
@@ -500,7 +500,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:24-06:00",
+   "statusChecked": "2026-11-23T07:02:29-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:53-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012",
@@ -522,7 +522,7 @@
    "miles": 9.8,
    "drive": 23,
    "openHouse": "",
-   "dom": 94,
+   "dom": 96,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
    "lat": 32.6080652,
@@ -663,7 +663,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:27-06:00",
+   "statusChecked": "2026-11-23T07:02:35-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060",
@@ -685,7 +685,7 @@
    "miles": 8.9,
    "drive": 19,
    "openHouse": "",
-   "dom": 32,
+   "dom": 34,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
    "lat": 32.5893832,
@@ -831,7 +831,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:30-06:00",
+   "statusChecked": "2026-11-23T07:02:41-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135",
@@ -853,7 +853,7 @@
    "miles": 9.8,
    "drive": 21,
    "openHouse": "",
-   "dom": 9,
+   "dom": 11,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1426-Holley-Creek-Ln-76063/home/32379981",
    "lat": 32.5933769,
@@ -994,7 +994,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:33-06:00",
+   "statusChecked": "2026-11-23T07:02:47-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:11-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244",
@@ -1016,7 +1016,7 @@
    "miles": 9.6,
    "drive": 20,
    "openHouse": "",
-   "dom": 86,
+   "dom": 88,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
    "lat": 32.5998141,
@@ -1157,7 +1157,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:37-06:00",
+   "statusChecked": "2026-11-23T07:02:53-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:17-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499",
@@ -1179,7 +1179,7 @@
    "miles": 10.9,
    "drive": 23,
    "openHouse": "",
-   "dom": 57,
+   "dom": 59,
    "status": "Active",
    "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
    "lat": 32.5721225,
@@ -1320,7 +1320,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:40-06:00",
+   "statusChecked": "2026-11-23T07:02:59-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:24-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589",
@@ -1342,7 +1342,7 @@
    "miles": 7.6,
    "drive": 17,
    "openHouse": "",
-   "dom": 122,
+   "dom": 124,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
    "lat": 32.6111829,
@@ -1483,7 +1483,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:43-06:00",
+   "statusChecked": "2026-11-23T07:03:05-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:29-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606",
@@ -1505,7 +1505,7 @@
    "miles": 11.8,
    "drive": 20,
    "openHouse": "",
-   "dom": 64,
+   "dom": 66,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
    "lat": 32.6995318,
@@ -1655,7 +1655,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:46-06:00",
+   "statusChecked": "2026-11-23T07:03:11-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:36-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823",
@@ -1677,7 +1677,7 @@
    "miles": 6.3,
    "drive": 17,
    "openHouse": "",
-   "dom": 47,
+   "dom": 49,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
    "lat": 32.59302,
@@ -1827,7 +1827,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:53-06:00",
+   "statusChecked": "2026-11-23T07:03:17-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:48-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350",
@@ -1849,7 +1849,7 @@
    "miles": 10.5,
    "drive": 15,
    "openHouse": "",
-   "dom": 283,
+   "dom": 285,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
    "lat": 32.670411,
@@ -1999,7 +1999,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:56-06:00",
+   "statusChecked": "2026-11-23T07:03:23-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:54-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725",
@@ -2020,8 +2020,8 @@
    "story": "Multi",
    "miles": 8.4,
    "drive": 20,
-   "openHouse": "November-22-2026 12:00 PM – November-22-2026 02:00 PM",
-   "dom": 67,
+   "openHouse": "",
+   "dom": 69,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
    "lat": 32.559897,
@@ -2162,7 +2162,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885"
     }
    ],
-   "statusChecked": "2026-11-22T07:03:59-06:00",
+   "statusChecked": "2026-11-23T07:03:29-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885",
@@ -2184,7 +2184,7 @@
    "miles": 12.7,
    "drive": 24,
    "openHouse": "",
-   "dom": 127,
+   "dom": 129,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
    "lat": 32.5013923,
@@ -2315,7 +2315,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843"
     }
    ],
-   "statusChecked": "2026-11-22T07:04:02-06:00",
+   "statusChecked": "2026-11-23T07:03:35-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:47:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843",
@@ -4142,6 +4142,186 @@
    "photoChecked": "2026-11-18T20:45:27-06:00",
    "removedOn": "2026-11-22",
    "removedReason": "Off market — Redfin + Realtor.com both show no active listing, verified 2026-11-22"
+  },
+  {
+   "id": "31986598",
+   "street": "714 S Deerfield Cir",
+   "city": "Arlington",
+   "zip": "76015",
+   "price": 359999,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 2281,
+   "lot": 0.57,
+   "story": "Single",
+   "miles": 7.1,
+   "drive": 13,
+   "openHouse": "",
+   "dom": 183,
+   "status": "Pending",
+   "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
+   "lat": 32.6858646,
+   "lng": -97.1168663,
+   "schools": [
+    {
+     "name": "Foster Elementary School",
+     "grades": "Elementary",
+     "rating": 5
+    },
+    {
+     "name": "Gunn Junior High School",
+     "grades": "Middle",
+     "rating": 7
+    },
+    {
+     "name": "Arlington High School",
+     "grades": "High",
+     "rating": 3
+    }
+   ],
+   "schoolAvg": 5.0,
+   "financing": "incentive",
+   "financingNote": "MOTIVATED SELLER, WILLING TO PAY CLOSINGS COST.",
+   "note": "",
+   "crime": {
+    "violent": 406,
+    "property": 1994
+   },
+   "isNew": false,
+   "prevPrice": 369900,
+   "redfinUrl": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
+   "mls": "21276003",
+   "crimeBasis": "local",
+   "crimeLocal": {
+    "covered": true,
+    "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
+    "radiusMiles": 0.5,
+    "window": "last 12 months",
+    "incidents": 335,
+    "violent": 16,
+    "burglary": 1,
+    "vehicle": 24,
+    "score": 322.5,
+    "cityMedianScore": 74.25,
+    "violentCap": 8,
+    "passes": false,
+    "note": "Layer covers occurrences 2025-11-19 to 2026-11-13 only. Prior 12 months are not in the open data, so a year-over-year trend cannot be computed."
+   },
+   "crimePass": false,
+   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+   "commute": {
+    "southlake": 37,
+    "lasColinas": 33,
+    "galleria": 42
+   },
+   "weeklyDrive": {
+    "schoolMin": 101,
+    "workMin": 187,
+    "totalMin": 288,
+    "ifGalleriaWorkMin": 208,
+    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+   },
+   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+   "area": {
+    "name": "Rolling Meadows Add (Arlington 76015)",
+    "improving": true,
+    "note": "Gaurav flagged this as feeling up-and-coming, with Costco across the street. A Costco warehouse is nearby at 600 W Arbrook Blvd, Arlington, TX 76014 — 0.33 mi straight-line from the house, and about 0.83 mi / 3 minutes' drive (OSRM free-flow). That is close, but not literally across the street (the warehouse sits just south of the home, on the far side of the I-20 frontage). The warehouse opened April 27, 2001, so it is long-established, not a new store (https://www.costco.com/warehouse-locations/warehouse-668.html; Costco opening announcement: https://investor.costco.com/news/news-details/2001/Costco-Wholesale-Opens-Third-Warehouse-in-Texas-04-17-2001/default.aspx). Other nearby retail: Lowe's at 1000 W Arbrook Blvd (0.44 mi straight-line, OpenStreetMap); Arlington Highlands at I-20 and Matlock (0.64 mi), where phase 1 of a $30 million renovation finished in April 2025 and phase 2 was expected by the end of 2025 (https://www.arlingtontx.gov/News-Articles/2025/April/First-Phase-of-30-Million-Renovation-at-Arlington-Highlands-Complete); and The Parks Mall at Arlington (0.7–0.85 mi, OpenStreetMap). Zillow ZHVI (single-family, as of 2026-09-30, from zhvi_sfr.csv / zhvi_dfw_zips.json): zip 76015 typical value $277,704; 1-year −0.52% (Arlington's 13-zip median −0.48%; median of the 112 DFW-area zips in that file −0.59%); 3-year −3.93% (Arlington −4.07%; DFW-file −3.96%); 5-year +15.46% (Arlington +13.74%; DFW-file +13.82%). 76015 is a lower-priced zip than the Arlington median ($310,983) and has slightly stronger 5-year appreciation, but 1-year and 3-year values are still slightly down. Arlington PD open data within 0.5 mi is a rolling ~12-month layer only (occurrences 2025-11-19 to 2026-11-13, 335 incidents, weighted score 322.5, violent 16 vs cap 8). Prior-year incidents are not in that layer, so a year-over-year crime trend cannot be computed. Zip 76015 and subdivision Rolling Meadows Add are not on the automatic improving-area list; the improving tag here is from Gaurav's flag plus the evidence above."
+   },
+   "afterSchool": {
+    "counts": {
+     "library": 4,
+     "recCenter": 0,
+     "ymca": 0,
+     "swim": 0,
+     "park": 13,
+     "sportsFields": 0,
+     "music": 0,
+     "martialArts": 0,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 0
+    },
+    "nearest": [
+     {
+      "name": "Gateway Park",
+      "category": "park",
+      "miles": 0.2
+     },
+     {
+      "name": "Southeast Branch Library",
+      "category": "library",
+      "miles": 2.6
+     },
+     {
+      "name": "H.A.D. Dunsworth Park",
+      "category": "park",
+      "miles": 0.5
+     },
+     {
+      "name": "Vandergriff Park",
+      "category": "park",
+      "miles": 0.9
+     },
+     {
+      "name": "Harold Patterson Sports Center",
+      "category": "park",
+      "miles": 1.4
+     }
+    ],
+    "score": 1.9,
+    "groupCredit": {
+     "library": 0.75,
+     "recCenter": 0,
+     "ymcaSwim": 0,
+     "parksFields": 1,
+     "music": 0,
+     "martialArts": 0,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 0
+    },
+    "radiusMiles": 3,
+    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+   },
+   "afterSchoolScore": 1.9,
+   "matchScore": 47.4,
+   "matchParts": {
+    "afterSchool": 4.8,
+    "schoolAvg": 10.0,
+    "crime": 0.0,
+    "improvingArea": 10.0,
+    "value": 10.6,
+    "schoolDrive": 9.0,
+    "singleStoryBonus": 3.0
+   },
+   "rank": null,
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Pending",
+     "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Pending",
+     "url": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
+     "detail": "is_pending=true"
+    }
+   ],
+   "statusChecked": "2026-11-23T07:03:47-06:00",
+   "listingStatus": "Pending",
+   "financingChecked": "2026-11-18T07:56:09-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
+   "nearMissReason": "Fails crime (violent 16/yr vs cap 8) and schools (avg 5.0)",
+   "userNote": "Gaurav: feels up-and-coming, Costco across the street",
+   "improvingNote": "Gaurav flagged this as feeling up-and-coming, with Costco across the street. A Costco warehouse is nearby at 600 W Arbrook Blvd, Arlington, TX 76014 — 0.33 mi straight-line from the house, and about 0.83 mi / 3 minutes' drive (OSRM free-flow). That is close, but not literally across the street (the warehouse sits just south of the home, on the far side of the I-20 frontage). The warehouse opened April 27, 2001, so it is long-established, not a new store (https://www.costco.com/warehouse-locations/warehouse-668.html; Costco opening announcement: https://investor.costco.com/news/news-details/2001/Costco-Wholesale-Opens-Third-Warehouse-in-Texas-04-17-2001/default.aspx). Other nearby retail: Lowe's at 1000 W Arbrook Blvd (0.44 mi straight-line, OpenStreetMap); Arlington Highlands at I-20 and Matlock (0.64 mi), where phase 1 of a $30 million renovation finished in April 2025 and phase 2 was expected by the end of 2025 (https://www.arlingtontx.gov/News-Articles/2025/April/First-Phase-of-30-Million-Renovation-at-Arlington-Highlands-Complete); and The Parks Mall at Arlington (0.7–0.85 mi, OpenStreetMap). Zillow ZHVI (single-family, as of 2026-09-30, from zhvi_sfr.csv / zhvi_dfw_zips.json): zip 76015 typical value $277,704; 1-year −0.52% (Arlington's 13-zip median −0.48%; median of the 112 DFW-area zips in that file −0.59%); 3-year −3.93% (Arlington −4.07%; DFW-file −3.96%); 5-year +15.46% (Arlington +13.74%; DFW-file +13.82%). 76015 is a lower-priced zip than the Arlington median ($310,983) and has slightly stronger 5-year appreciation, but 1-year and 3-year values are still slightly down. Arlington PD open data within 0.5 mi is a rolling ~12-month layer only (occurrences 2025-11-19 to 2026-11-13, 335 incidents, weighted score 322.5, violent 16 vs cap 8). Prior-year incidents are not in that layer, so a year-over-year crime trend cannot be computed. Zip 76015 and subdivision Rolling Meadows Add are not on the automatic improving-area list; the improving tag here is from Gaurav's flag plus the evidence above.",
+   "photo": "https://ap.rdcpix.com/638c4553bab9b73b42d7b2ddf0069baal-m1753290229xd.jpg",
+   "photoSource": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
+   "photoChecked": "2026-11-18T20:45:29-06:00",
+   "statusDetail": "Redfin: Pending; Realtor.com: Pending",
+   "removedOn": "2026-11-23",
+   "removedReason": "Redfin: Pending; Realtor.com: Pending"
   }
  ],
  "commuteTargets": {
@@ -4334,7 +4514,7 @@
      "detail": "is_contingent=true (\"Active Under Contract\")"
     }
    ],
-   "statusChecked": "2026-11-22T07:04:05-06:00",
+   "statusChecked": "2026-11-23T07:03:41-06:00",
    "listingStatus": "Pending",
    "statusDetail": "Redfin: Contingent; Realtor.com: Contingent",
    "pendingSince": "2026-11-17",
@@ -4346,186 +4526,9 @@
   }
  ],
  "statusRule": "A home is listed as available only when at least two of Redfin, Zillow and Realtor.com read Active and none reads Pending, Contingent, Under contract or Sold. Any Pending/Contingent/Under-contract reading -> Pending. Sold or off-market on the sources -> Off market. Only one readable source or disagreement -> Needs check. Zillow blocks automated reads (captcha / no status text), so Redfin + Realtor.com are the two sources checked today.",
- "statusCheckedAt": "2026-11-22T07:04:05-06:00",
+ "statusCheckedAt": "2026-11-23T07:03:41-06:00",
  "passed": [
   "32433403"
  ],
- "nearMiss": [
-  {
-   "id": "31986598",
-   "street": "714 S Deerfield Cir",
-   "city": "Arlington",
-   "zip": "76015",
-   "price": 359999,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 2281,
-   "lot": 0.57,
-   "story": "Single",
-   "miles": 7.1,
-   "drive": 13,
-   "openHouse": "",
-   "dom": 183,
-   "status": "Active",
-   "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
-   "lat": 32.6858646,
-   "lng": -97.1168663,
-   "schools": [
-    {
-     "name": "Foster Elementary School",
-     "grades": "Elementary",
-     "rating": 5
-    },
-    {
-     "name": "Gunn Junior High School",
-     "grades": "Middle",
-     "rating": 7
-    },
-    {
-     "name": "Arlington High School",
-     "grades": "High",
-     "rating": 3
-    }
-   ],
-   "schoolAvg": 5.0,
-   "financing": "incentive",
-   "financingNote": "MOTIVATED SELLER, WILLING TO PAY CLOSINGS COST.",
-   "note": "",
-   "crime": {
-    "violent": 406,
-    "property": 1994
-   },
-   "isNew": false,
-   "prevPrice": 369900,
-   "redfinUrl": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598",
-   "mls": "21276003",
-   "crimeBasis": "local",
-   "crimeLocal": {
-    "covered": true,
-    "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
-    "radiusMiles": 0.5,
-    "window": "last 12 months",
-    "incidents": 335,
-    "violent": 16,
-    "burglary": 1,
-    "vehicle": 24,
-    "score": 322.5,
-    "cityMedianScore": 74.25,
-    "violentCap": 8,
-    "passes": false,
-    "note": "Layer covers occurrences 2025-11-19 to 2026-11-13 only. Prior 12 months are not in the open data, so a year-over-year trend cannot be computed."
-   },
-   "crimePass": false,
-   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
-   "commute": {
-    "southlake": 37,
-    "lasColinas": 33,
-    "galleria": 42
-   },
-   "weeklyDrive": {
-    "schoolMin": 101,
-    "workMin": 187,
-    "totalMin": 288,
-    "ifGalleriaWorkMin": 208,
-    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
-   },
-   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
-   "area": {
-    "name": "Rolling Meadows Add (Arlington 76015)",
-    "improving": true,
-    "note": "Gaurav flagged this as feeling up-and-coming, with Costco across the street. A Costco warehouse is nearby at 600 W Arbrook Blvd, Arlington, TX 76014 — 0.33 mi straight-line from the house, and about 0.83 mi / 3 minutes' drive (OSRM free-flow). That is close, but not literally across the street (the warehouse sits just south of the home, on the far side of the I-20 frontage). The warehouse opened April 27, 2001, so it is long-established, not a new store (https://www.costco.com/warehouse-locations/warehouse-668.html; Costco opening announcement: https://investor.costco.com/news/news-details/2001/Costco-Wholesale-Opens-Third-Warehouse-in-Texas-04-17-2001/default.aspx). Other nearby retail: Lowe's at 1000 W Arbrook Blvd (0.44 mi straight-line, OpenStreetMap); Arlington Highlands at I-20 and Matlock (0.64 mi), where phase 1 of a $30 million renovation finished in April 2025 and phase 2 was expected by the end of 2025 (https://www.arlingtontx.gov/News-Articles/2025/April/First-Phase-of-30-Million-Renovation-at-Arlington-Highlands-Complete); and The Parks Mall at Arlington (0.7–0.85 mi, OpenStreetMap). Zillow ZHVI (single-family, as of 2026-09-30, from zhvi_sfr.csv / zhvi_dfw_zips.json): zip 76015 typical value $277,704; 1-year −0.52% (Arlington's 13-zip median −0.48%; median of the 112 DFW-area zips in that file −0.59%); 3-year −3.93% (Arlington −4.07%; DFW-file −3.96%); 5-year +15.46% (Arlington +13.74%; DFW-file +13.82%). 76015 is a lower-priced zip than the Arlington median ($310,983) and has slightly stronger 5-year appreciation, but 1-year and 3-year values are still slightly down. Arlington PD open data within 0.5 mi is a rolling ~12-month layer only (occurrences 2025-11-19 to 2026-11-13, 335 incidents, weighted score 322.5, violent 16 vs cap 8). Prior-year incidents are not in that layer, so a year-over-year crime trend cannot be computed. Zip 76015 and subdivision Rolling Meadows Add are not on the automatic improving-area list; the improving tag here is from Gaurav's flag plus the evidence above."
-   },
-   "afterSchool": {
-    "counts": {
-     "library": 4,
-     "recCenter": 0,
-     "ymca": 0,
-     "swim": 0,
-     "park": 13,
-     "sportsFields": 0,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "nearest": [
-     {
-      "name": "Gateway Park",
-      "category": "park",
-      "miles": 0.2
-     },
-     {
-      "name": "Southeast Branch Library",
-      "category": "library",
-      "miles": 2.6
-     },
-     {
-      "name": "H.A.D. Dunsworth Park",
-      "category": "park",
-      "miles": 0.5
-     },
-     {
-      "name": "Vandergriff Park",
-      "category": "park",
-      "miles": 0.9
-     },
-     {
-      "name": "Harold Patterson Sports Center",
-      "category": "park",
-      "miles": 1.4
-     }
-    ],
-    "score": 1.9,
-    "groupCredit": {
-     "library": 0.75,
-     "recCenter": 0,
-     "ymcaSwim": 0,
-     "parksFields": 1,
-     "music": 0,
-     "martialArts": 0,
-     "dance": 0,
-     "stem": 0,
-     "tutoring": 0
-    },
-    "radiusMiles": 3,
-    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
-    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
-   },
-   "afterSchoolScore": 1.9,
-   "matchScore": 47.4,
-   "matchParts": {
-    "afterSchool": 4.8,
-    "schoolAvg": 10.0,
-    "crime": 0.0,
-    "improvingArea": 10.0,
-    "value": 10.6,
-    "schoolDrive": 9.0,
-    "singleStoryBonus": 3.0
-   },
-   "rank": null,
-   "statusSources": [
-    {
-     "site": "Redfin",
-     "status": "Active",
-     "url": "https://www.redfin.com/TX/Arlington/714-S-Deerfield-Cir-76015/home/31986598"
-    },
-    {
-     "site": "Realtor.com",
-     "status": "Active",
-     "url": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684"
-    }
-   ],
-   "statusChecked": "2026-11-22T07:04:09-06:00",
-   "listingStatus": "Active",
-   "financingChecked": "2026-11-18T07:56:09-06:00",
-   "financingSource": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
-   "nearMissReason": "Fails crime (violent 16/yr vs cap 8) and schools (avg 5.0)",
-   "userNote": "Gaurav: feels up-and-coming, Costco across the street",
-   "improvingNote": "Gaurav flagged this as feeling up-and-coming, with Costco across the street. A Costco warehouse is nearby at 600 W Arbrook Blvd, Arlington, TX 76014 — 0.33 mi straight-line from the house, and about 0.83 mi / 3 minutes' drive (OSRM free-flow). That is close, but not literally across the street (the warehouse sits just south of the home, on the far side of the I-20 frontage). The warehouse opened April 27, 2001, so it is long-established, not a new store (https://www.costco.com/warehouse-locations/warehouse-668.html; Costco opening announcement: https://investor.costco.com/news/news-details/2001/Costco-Wholesale-Opens-Third-Warehouse-in-Texas-04-17-2001/default.aspx). Other nearby retail: Lowe's at 1000 W Arbrook Blvd (0.44 mi straight-line, OpenStreetMap); Arlington Highlands at I-20 and Matlock (0.64 mi), where phase 1 of a $30 million renovation finished in April 2025 and phase 2 was expected by the end of 2025 (https://www.arlingtontx.gov/News-Articles/2025/April/First-Phase-of-30-Million-Renovation-at-Arlington-Highlands-Complete); and The Parks Mall at Arlington (0.7–0.85 mi, OpenStreetMap). Zillow ZHVI (single-family, as of 2026-09-30, from zhvi_sfr.csv / zhvi_dfw_zips.json): zip 76015 typical value $277,704; 1-year −0.52% (Arlington's 13-zip median −0.48%; median of the 112 DFW-area zips in that file −0.59%); 3-year −3.93% (Arlington −4.07%; DFW-file −3.96%); 5-year +15.46% (Arlington +13.74%; DFW-file +13.82%). 76015 is a lower-priced zip than the Arlington median ($310,983) and has slightly stronger 5-year appreciation, but 1-year and 3-year values are still slightly down. Arlington PD open data within 0.5 mi is a rolling ~12-month layer only (occurrences 2025-11-19 to 2026-11-13, 335 incidents, weighted score 322.5, violent 16 vs cap 8). Prior-year incidents are not in that layer, so a year-over-year crime trend cannot be computed. Zip 76015 and subdivision Rolling Meadows Add are not on the automatic improving-area list; the improving tag here is from Gaurav's flag plus the evidence above.",
-   "photo": "https://ap.rdcpix.com/638c4553bab9b73b42d7b2ddf0069baal-m1753290229xd.jpg",
-   "photoSource": "https://www.realtor.com/realestateandhomes-detail/714-S-Deerfield-Cir_Arlington_TX_76015_M89097-86684",
-   "photoChecked": "2026-11-18T20:45:29-06:00"
-  }
- ]
+ "nearMiss": []
 }
