@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "flint": {
   "name": "Flint Academy",
   "addr": "801 E I-20, Grand Prairie, TX 75052",
@@ -27,8 +27,8 @@
    "story": "Single",
    "miles": 9.1,
    "drive": 20,
-   "openHouse": null,
-   "dom": 169,
+   "openHouse": "",
+   "dom": 170,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1525-Inverness-Rd-76063/home/32290852",
    "lat": 32.5938244,
@@ -169,7 +169,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604"
     }
    ],
-   "statusChecked": "2026-11-26T07:06:50-06:00",
+   "statusChecked": "2026-11-27T07:09:21-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:35-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1525-Inverness-Rd_Mansfield_TX_76063_M78616-65604",
@@ -190,8 +190,8 @@
    "story": "Single",
    "miles": 9.6,
    "drive": 20,
-   "openHouse": null,
-   "dom": 71,
+   "openHouse": "",
+   "dom": 72,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1005-Saint-Andrews-Dr-76063/home/32419600",
    "lat": 32.5812537,
@@ -332,7 +332,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769"
     }
    ],
-   "statusChecked": "2026-11-26T07:06:56-06:00",
+   "statusChecked": "2026-11-27T07:09:25-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:47-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1005-Saint-Andrews-Dr_Mansfield_TX_76063_M89340-10769",
@@ -353,8 +353,8 @@
    "story": "Single",
    "miles": 10.1,
    "drive": 22,
-   "openHouse": null,
-   "dom": 9,
+   "openHouse": "",
+   "dom": 10,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/7-Kim-Ct-76063/home/32350992",
    "lat": 32.6081758,
@@ -500,7 +500,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:02-06:00",
+   "statusChecked": "2026-11-27T07:09:31-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:53-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/7-Kim-Ct_Mansfield_TX_76063_M78523-75012",
@@ -521,8 +521,8 @@
    "story": "Single",
    "miles": 9.8,
    "drive": 23,
-   "openHouse": null,
-   "dom": 99,
+   "openHouse": "",
+   "dom": 100,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1123-Shady-Oak-Trl-76063/home/32351125",
    "lat": 32.6080652,
@@ -663,7 +663,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:08-06:00",
+   "statusChecked": "2026-11-27T07:09:37-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:45:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1123-Shady-Oak-Trl_Mansfield_TX_76063_M85486-10060",
@@ -684,8 +684,8 @@
    "story": "Single",
    "miles": 8.9,
    "drive": 19,
-   "openHouse": null,
-   "dom": 37,
+   "openHouse": "",
+   "dom": 38,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1415-Fairhaven-Dr-76063/home/32378064",
    "lat": 32.5893832,
@@ -831,7 +831,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:14-06:00",
+   "statusChecked": "2026-11-27T07:09:42-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1415-Fairhaven-Dr_Mansfield_TX_76063_M83683-25135",
@@ -852,8 +852,8 @@
    "story": "Multi",
    "miles": 9.8,
    "drive": 21,
-   "openHouse": null,
-   "dom": 14,
+   "openHouse": "",
+   "dom": 15,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/1426-Holley-Creek-Ln-76063/home/32379981",
    "lat": 32.5933769,
@@ -994,7 +994,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:20-06:00",
+   "statusChecked": "2026-11-27T07:09:48-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:11-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/1426-Holley-Creek-Ln_Mansfield_TX_76063_M80696-87244",
@@ -1015,8 +1015,8 @@
    "story": "Multi",
    "miles": 9.6,
    "drive": 20,
-   "openHouse": null,
-   "dom": 91,
+   "openHouse": "",
+   "dom": 92,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/2420-Bent-Trl-76063/home/30986567",
    "lat": 32.5998141,
@@ -1157,7 +1157,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:26-06:00",
+   "statusChecked": "2026-11-27T07:09:54-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:17-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2420-Bent-Trl_Mansfield_TX_76063_M72813-53499",
@@ -1178,8 +1178,8 @@
    "story": "Multi",
    "miles": 10.9,
    "drive": 23,
-   "openHouse": null,
-   "dom": 62,
+   "openHouse": "",
+   "dom": 63,
    "status": "Active",
    "url": "https://www.zillow.com/homedetails/607-Biscayne-Dr-Mansfield-TX-76063/58525051_zpid/",
    "lat": 32.5721225,
@@ -1320,7 +1320,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:33-06:00",
+   "statusChecked": "2026-11-27T07:10:00-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:24-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/607-Biscayne-Dr_Mansfield_TX_76063_M87853-18589",
@@ -1341,8 +1341,8 @@
    "story": "Multi",
    "miles": 7.6,
    "drive": 17,
-   "openHouse": null,
-   "dom": 127,
+   "openHouse": "",
+   "dom": 128,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/3403-Willow-Brook-Dr-76063/home/144042570",
    "lat": 32.6111829,
@@ -1483,7 +1483,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:39-06:00",
+   "statusChecked": "2026-11-27T07:10:06-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:29-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/3403-Willow-Brook-Dr_Mansfield_TX_76063_M85586-42606",
@@ -1504,8 +1504,8 @@
    "story": "Single",
    "miles": 11.8,
    "drive": 20,
-   "openHouse": null,
-   "dom": 69,
+   "openHouse": "",
+   "dom": 70,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/5816-Gatewood-Dr-76016/home/31372052",
    "lat": 32.6995318,
@@ -1655,7 +1655,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:45-06:00",
+   "statusChecked": "2026-11-27T07:10:12-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:36-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5816-Gatewood-Dr_Arlington_TX_76016_M74717-36823",
@@ -1676,8 +1676,8 @@
    "story": "Multi",
    "miles": 6.3,
    "drive": 17,
-   "openHouse": null,
-   "dom": 52,
+   "openHouse": "",
+   "dom": 53,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Grand-Prairie/2808-N-Camino-Lagos-75054/home/31079607",
    "lat": 32.59302,
@@ -1814,7 +1814,7 @@
     "schoolDrive": 6.0,
     "singleStoryBonus": 0.0
    },
-   "rank": 12,
+   "rank": 11,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1827,7 +1827,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:51-06:00",
+   "statusChecked": "2026-11-27T07:10:18-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:48-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/2808-N-Camino-Lagos_Grand-Prairie_TX_75054_M83093-87350",
@@ -1848,8 +1848,8 @@
    "story": "Multi",
    "miles": 10.5,
    "drive": 15,
-   "openHouse": null,
-   "dom": 288,
+   "openHouse": "",
+   "dom": 289,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Arlington/4303-Solitude-Ct-76017/home/32391407",
    "lat": 32.670411,
@@ -1986,7 +1986,7 @@
     "schoolDrive": 7.5,
     "singleStoryBonus": 0.0
    },
-   "rank": 13,
+   "rank": 12,
    "statusSources": [
     {
      "site": "Redfin",
@@ -1999,13 +1999,185 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725"
     }
    ],
-   "statusChecked": "2026-11-26T07:07:57-06:00",
+   "statusChecked": "2026-11-27T07:10:24-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:54-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725",
    "photo": "https://ap.rdcpix.com/3a7fa0610c98d61db557aa250dab7ea7l-m298832230xd.jpg",
    "photoSource": "https://www.realtor.com/realestateandhomes-detail/4303-Solitude-Ct_Arlington_TX_76017_M80075-11725",
    "photoChecked": "2026-11-18T20:45:28-06:00"
+  },
+  {
+   "id": "31723117",
+   "street": "5901 Earle St",
+   "city": "Arlington",
+   "zip": "76016",
+   "price": 440000,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 2431,
+   "lot": 0.5,
+   "story": "Single",
+   "miles": 11.9,
+   "drive": 20,
+   "openHouse": "",
+   "dom": 1,
+   "status": "Active",
+   "url": "https://www.redfin.com/TX/Arlington/5901-Earle-St-76016/home/31723117",
+   "lat": 32.7024106,
+   "lng": -97.1970779,
+   "schools": [
+    {
+     "name": "Ditto Elementary School",
+     "grades": "Elementary",
+     "rating": 8
+    },
+    {
+     "name": "Young Junior High School",
+     "grades": "Middle",
+     "rating": 6
+    },
+    {
+     "name": "Martin High School",
+     "grades": "High",
+     "rating": 6
+    }
+   ],
+   "schoolAvg": 6.7,
+   "financing": "none",
+   "financingNote": "",
+   "note": "",
+   "crime": {
+    "violent": 406,
+    "property": 1994
+   },
+   "isNew": true,
+   "prevPrice": 440000,
+   "redfinUrl": "https://www.redfin.com/TX/Arlington/5901-Earle-St-76016/home/31723117",
+   "mls": "21443551",
+   "crimeBasis": "local",
+   "crimeLocal": {
+    "covered": true,
+    "source": "Arlington PD open data (ArcGIS, rolling 12 mo)",
+    "radiusMiles": 0.5,
+    "window": "last 12 months",
+    "incidents": 34,
+    "violent": 3,
+    "burglary": 1,
+    "vehicle": 3,
+    "score": 39.5,
+    "cityMedianScore": 74.3,
+    "violentCap": 8,
+    "passes": true
+   },
+   "crimePass": true,
+   "schoolsSource": "MLS assigned school names (Realtor.com) x GreatSchools ratings",
+   "commute": {
+    "southlake": 40,
+    "lasColinas": 37,
+    "galleria": 46
+   },
+   "weeklyDrive": {
+    "schoolMin": 159,
+    "workMin": 201,
+    "totalMin": 360,
+    "ifGalleriaWorkMin": 228,
+    "note": "Free-flow OSRM minutes, no traffic. School 4x/wk round trip; work 2.5x/wk round trip using the longer of Southlake/Las Colinas. Informational only."
+   },
+   "commuteNote": "Free-flow driving minutes (OSRM, no rush-hour traffic) to Southlake Town Square, Las Colinas Urban Center, Galleria Dallas.",
+   "area": {
+    "name": "Laguna Vista Estates Add (Arlington 76016)",
+    "improving": false,
+    "note": "Not in the approved improving-area list."
+   },
+   "afterSchool": {
+    "counts": {
+     "library": 2,
+     "recCenter": 5,
+     "ymca": 0,
+     "swim": 1,
+     "park": 11,
+     "sportsFields": 0,
+     "music": 0,
+     "martialArts": 0,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 0
+    },
+    "nearest": [
+     {
+      "name": "Richard Simpson Park",
+      "category": "park",
+      "miles": 0.8
+     },
+     {
+      "name": "Arlington Public Library",
+      "category": "library",
+      "miles": 1.3
+     },
+     {
+      "name": "Cliff Nelson Recreation Center",
+      "category": "recCenter",
+      "miles": 2.5
+     },
+     {
+      "name": "Dottie Lynn Recreation Center Swimming Pool",
+      "category": "swim",
+      "miles": 2.6
+     },
+     {
+      "name": "Thora Hart Park",
+      "category": "park",
+      "miles": 0.9
+     }
+    ],
+    "score": 3.9,
+    "groupCredit": {
+     "library": 1,
+     "recCenter": 0.75,
+     "ymcaSwim": 0.75,
+     "parksFields": 1,
+     "music": 0,
+     "martialArts": 0,
+     "dance": 0,
+     "stem": 0,
+     "tutoring": 0
+    },
+    "radiusMiles": 3,
+    "source": "OpenStreetMap via Nominatim viewbox searches (straight-line miles; Overpass API unreachable on 2026-11-10) plus web-searched Mansfield providers geocoded with Nominatim",
+    "caveat": "Private classes are thinly mapped in OSM, so counts are a lower bound (Mansfield has extra web-sourced providers, other cities are OSM-only); verify finalists on Google Maps."
+   },
+   "afterSchoolScore": 3.9,
+   "matchScore": 48.9,
+   "matchParts": {
+    "afterSchool": 9.8,
+    "schoolAvg": 13.4,
+    "crime": 11.0,
+    "improvingArea": 0.0,
+    "value": 8.0,
+    "schoolDrive": 3.8,
+    "singleStoryBonus": 3.0
+   },
+   "statusSources": [
+    {
+     "site": "Redfin",
+     "status": "Active",
+     "url": "https://www.redfin.com/TX/Arlington/5901-Earle-St-76016/home/31723117"
+    },
+    {
+     "site": "Realtor.com",
+     "status": "Active",
+     "url": "https://www.realtor.com/realestateandhomes-detail/5901-Earle-St_Arlington_TX_76016_M81852-81826"
+    }
+   ],
+   "statusChecked": "2026-11-27T07:10:42-06:00",
+   "listingStatus": "Active",
+   "rank": 13,
+   "financingChecked": "2026-11-27T07:11:03-06:00",
+   "financingSource": "https://www.realtor.com/realestateandhomes-detail/5901-Earle-St_Arlington_TX_76016_M81852-81826",
+   "photo": "https://ap.rdcpix.com/a56ae8c6208a78e759eb0285189e6793l-m1741966703xd.jpg",
+   "photoSource": "https://www.realtor.com/realestateandhomes-detail/5901-Earle-St_Arlington_TX_76016_M81852-81826",
+   "photoChecked": "2026-11-27T07:11:14-06:00"
   },
   {
    "id": "113468332",
@@ -2020,8 +2192,8 @@
    "story": "Multi",
    "miles": 8.4,
    "drive": 20,
-   "openHouse": null,
-   "dom": 72,
+   "openHouse": "",
+   "dom": 73,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Mansfield/5205-Shelter-Point-Ct-76063/home/113468332",
    "lat": 32.559897,
@@ -2162,7 +2334,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885"
     }
    ],
-   "statusChecked": "2026-11-26T07:08:03-06:00",
+   "statusChecked": "2026-11-27T07:10:30-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:46:59-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/5205-Shelter-Point-Ct_Mansfield_TX_76063_M85271-52885",
@@ -2183,8 +2355,8 @@
    "story": "Multi",
    "miles": 12.7,
    "drive": 24,
-   "openHouse": null,
-   "dom": 132,
+   "openHouse": "",
+   "dom": 133,
    "status": "Active",
    "url": "https://www.redfin.com/TX/Venus/6717-Aster-Dr-76084/home/176763617",
    "lat": 32.5013923,
@@ -2315,7 +2487,7 @@
      "url": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843"
     }
    ],
-   "statusChecked": "2026-11-26T07:08:09-06:00",
+   "statusChecked": "2026-11-27T07:10:36-06:00",
    "listingStatus": "Active",
    "financingChecked": "2026-11-17T20:47:05-06:00",
    "financingSource": "https://www.realtor.com/realestateandhomes-detail/6717-Aster-Dr_Venus_TX_76084_M93370-36843",
@@ -4514,7 +4686,7 @@
      "detail": "is_contingent=true (\"Active Under Contract\")"
     }
    ],
-   "statusChecked": "2026-11-26T07:08:15-06:00",
+   "statusChecked": "2026-11-27T07:10:48-06:00",
    "listingStatus": "Pending",
    "statusDetail": "Redfin: Contingent; Realtor.com: Contingent",
    "pendingSince": "2026-11-17",
@@ -4526,7 +4698,7 @@
   }
  ],
  "statusRule": "A home is listed as available only when at least two of Redfin, Zillow and Realtor.com read Active and none reads Pending, Contingent, Under contract or Sold. Any Pending/Contingent/Under-contract reading -> Pending. Sold or off-market on the sources -> Off market. Only one readable source or disagreement -> Needs check. Zillow blocks automated reads (captcha / no status text), so Redfin + Realtor.com are the two sources checked today.",
- "statusCheckedAt": "2026-11-26T07:08:15-06:00",
+ "statusCheckedAt": "2026-11-27T07:10:48-06:00",
  "passed": [
   "32433403"
  ],
